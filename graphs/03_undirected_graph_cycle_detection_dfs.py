@@ -19,15 +19,12 @@ class Solution:
 		return adj_list
 		    
     def _has_cycle_dfs(self, adj_list, node, parent, visited):
-        if visited[node]:
-            return True
         visited[node] = True
         for neighbour in adj_list[node]:
             if neighbour == parent:
                 continue
-            if self._has_cycle_dfs(adj_list, neighbour, node, visited):
+			if visited[neighbour]:
+            	return True
+            if not visited[neighbour] and self._has_cycle_dfs(adj_list, neighbour, node, visited):
                 return True
         return False
-        
-        
-		   
