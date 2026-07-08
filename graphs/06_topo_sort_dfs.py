@@ -1,3 +1,4 @@
+# If this is run on a non acyclic then it will still resturn a list of nodes but it might not be valid topo sort
 class Solution:
     def topoSort(self, V, edges):
         adj = [[] for _ in range(V)]
