@@ -92,18 +92,21 @@
 
 ## Questions
 ### Concepts Set 1 (Do in order)
-1. BFS - [GFG Link](https://www.geeksforgeeks.org/problems/bfs-traversal-of-graph/1) [My Solution](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/01_bfs.py)
-2. DFS - [GFG Link](https://www.geeksforgeeks.org/problems/depth-first-traversal-for-a-graph/1) [My Solution](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/02_dfs.py)
-3. Detect Cycle in Undirected Graph using DFS (Amazon, Microsoft, Flipkart) [GFG Link](https://www.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1) [My Solution](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/03_undirected_graph_cycle_detection_dfs.py)
-4. Detect Cycle in Undirected Graph using BFS (Amazon, Microsoft, Flipkart) [GFG Link](https://www.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1) [My Solution](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/04_undirected_graph_cycle_detection_bfs.py)
-5. Detect Cycle in Directed Graph using DFS (Amazon, Microsoft, Flipkart) [GFG Link](https://www.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1) [My Solution](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/05_directed_graph_cycle_detection_dfs.py)
-6. Topological Sort using DFS [GFG Link](https://www.geeksforgeeks.org/problems/topological-sort/1) [My Solution](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/06_topo_sort_dfs.py)
-7. Topological Sort using BFS  [GFG Link](https://www.geeksforgeeks.org/problems/topological-sort/1) [My Solution](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/07_topo_sort_bfs_kahns.py)
-8. Detect Cycle in Directed Graph using BFS (Amazon, Microsoft, Flipkart) [GFG Link](https://www.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1) [My Solution](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/08_undirected_graph_cycle_detection_bfs.py)
+| # | Problem | Companies | GFG | Solution |
+|---|---------|-----------|-----|----------|
+| 1 | BFS | - | [Link](https://www.geeksforgeeks.org/problems/bfs-traversal-of-graph/1) | [Python](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/01_bfs.py) |
+| 2 | DFS | - | [Link](https://www.geeksforgeeks.org/problems/depth-first-traversal-for-a-graph/1) | [Python](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/02_dfs.py) |
+| 3 | Detect Cycle in Undirected Graph (DFS) | Amazon, Microsoft, Flipkart | [Link](https://www.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1) | [Python](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/03_undirected_graph_cycle_detection_dfs.py) |
+| 4 | Detect Cycle in Undirected Graph (BFS) | Amazon, Microsoft, Flipkart | [Link](https://www.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1) | [Python](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/04_undirected_graph_cycle_detection_bfs.py) |
+| 5 | Detect Cycle in Directed Graph (DFS) | Amazon, Microsoft, Flipkart | [Link](https://www.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1) | [Python](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/05_directed_graph_cycle_detection_dfs.py) |
+| 6 | Topological Sort (DFS) | - | [Link](https://www.geeksforgeeks.org/problems/topological-sort/1) | [Python](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/06_topo_sort_dfs.py) |
+| 7 | Topological Sort (BFS / Kahn's Algorithm) | - | [Link](https://www.geeksforgeeks.org/problems/topological-sort/1) | [Python](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/07_topo_sort_bfs_kahns.py) |
+| 8 | Detect Cycle in Directed Graph (BFS / Kahn's Algorithm) | Amazon, Microsoft, Flipkart | [Link](https://www.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1) | [Python](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/08_directed_graph_cycle_detection_bfs_kahns.py) |
 
 ### Practice
-1. Number of proviences (Google, Amazon, Microsoft) [GFG Link](https://www.geeksforgeeks.org/problems/number-of-provinces/1) [Leetcode Link](https://leetcode.com/problems/number-of-provinces/) [My Solution](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/09_number_of_provience.py)
-
+| # | Problem | Companies | GFG | Solution |
+|---|---------|-----------|-----|----------|
+| 1 | Number of proviences | Google, Amazon, Microsoft | [Link](https://www.geeksforgeeks.org/problems/number-of-provinces/1) | [Python](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/09_number_of_provience.py) |
 
 
 ## Important Points
