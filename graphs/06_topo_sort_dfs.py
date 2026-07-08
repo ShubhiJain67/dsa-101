@@ -12,10 +12,10 @@ class Solution:
         return topo
         
     def _topo_dfs(self, adj, node, visited, topo):
-        if visited[node]:
-            return
         visited[node] = True
         for child in adj[node]:
+            if visited[node]:
+                continue
             self._topo_dfs(adj, child, visited, topo)
         topo.append(node)
         
