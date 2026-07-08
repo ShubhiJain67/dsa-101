@@ -1,7 +1,6 @@
 class Solution:
     def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:
         topo_sort = self.get_topo_bfs(numCourses, prerequisites)
-        topo_sort.reverse()
         if len(topo_sort) != numCourses:
             return []
         return topo_sort
@@ -10,7 +9,7 @@ class Solution:
         visited = [False] * numCourses
         indegree = [0] * numCourses
         adj = [[] for i in range(numCourses)]
-        for source, dest in prerequisites:
+        for dest, source in prerequisites:
             indegree[dest] += 1
             adj[source].append(dest)
         topo_sort = []
