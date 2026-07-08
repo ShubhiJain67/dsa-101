@@ -79,19 +79,30 @@
     }
   ```
 
+## Algorithms
+### Topo Sort
+- Only in Directed Acyclic Graph (DAG)
+- because i undirected graph you cannot tell which node will come first as there is no dorection (1 -> 2 : here we know 1 should come before 2)
+- cannot be done in cyclic directed graph because for 1 -> 2 and 2 -> 1 : how will you understand which will ocme first?
+- [Kahn's Algo](https://www.geeksforgeeks.org/dsa/topological-sorting-indegree-based-solution/)
+- PUT KIDS FIRST AND THE PARENT [Topological Sort using DFS](https://www.geeksforgeeks.org/dsa/topological-sort-using-dfs/)
+- There could be multiple topo sort for 1 DAG (0-> 1 2-> 1) 0,2,1 or 2,1,0 both are correct
+- Indegree with 0 should ocme first
+- If topo sort is not possible hence There is A CYCLE IN THE DIRECTED GRAPH
+
 ## Questions
-### Concepts Set 1
-1. BFS - [GFG Link](https://www.geeksforgeeks.org/problems/bfs-traversal-of-graph/1)
-2. DFS - [GFG Link](https://www.geeksforgeeks.org/problems/depth-first-traversal-for-a-graph/1)
-3. Detect Cycle in Undirected Graph using BFS (Amazon, Microsoft, Flipkart) [GFG Link](https://www.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1)
-4. Detect Cycle in Undirected Graph using DFS (Amazon, Microsoft, Flipkart) [GFG Link](https://www.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1)
-5. Detect Cycle in Directed Graph using DFS (Amazon, Microsoft, Flipkart) [GFG Link](https://www.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1)
-6. Detect Cycle in Directed Graph using BFS (Amazon, Microsoft, Flipkart) [GFG Link](https://www.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1)
-7. Topological Sort using BFS [Khans Algo](https://www.geeksforgeeks.org/dsa/topological-sorting-indegree-based-solution/) [GFG Link](https://www.geeksforgeeks.org/problems/topological-sort/1)
-8. [Topological Sort using DFS](https://www.geeksforgeeks.org/dsa/topological-sort-using-dfs/) [GFG Link](https://www.geeksforgeeks.org/problems/topological-sort/1)
+### Concepts Set 1 (Do in order)
+1. BFS - [GFG Link](https://www.geeksforgeeks.org/problems/bfs-traversal-of-graph/1) [My Solution](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/01_bfs.py)
+2. DFS - [GFG Link](https://www.geeksforgeeks.org/problems/depth-first-traversal-for-a-graph/1) [My Solution](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/02_dfs.py)
+3. Detect Cycle in Undirected Graph using DFS (Amazon, Microsoft, Flipkart) [GFG Link](https://www.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1) [My Solution](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/03_undirected_graph_cycle_detection_dfs.py)
+4. Detect Cycle in Undirected Graph using BFS (Amazon, Microsoft, Flipkart) [GFG Link](https://www.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1) [My Solution](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/04_undirected_graph_cycle_detection_bfs.py)
+5. Detect Cycle in Directed Graph using DFS (Amazon, Microsoft, Flipkart) [GFG Link](https://www.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1) [My Solution](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/05_directed_graph_cycle_detection_dfs.py)
+6. Topological Sort using DFS [GFG Link](https://www.geeksforgeeks.org/problems/topological-sort/1) [My Solution](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/06_topo_sort_dfs.py)
+7. Topological Sort using BFS  [GFG Link](https://www.geeksforgeeks.org/problems/topological-sort/1) [My Solution](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/07_topo_sort_bfs_kahns.py)
+8. Detect Cycle in Directed Graph using BFS (Amazon, Microsoft, Flipkart) [GFG Link](https://www.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1) [My Solution](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/08_undirected_graph_cycle_detection_bfs.py)
 
 ### Practice
-1. Number of proviences (Google, Amazon, Microsoft) [GFG Link](https://www.geeksforgeeks.org/problems/number-of-provinces/1) [Leetcode Link](https://leetcode.com/problems/number-of-provinces/)
+1. Number of proviences (Google, Amazon, Microsoft) [GFG Link](https://www.geeksforgeeks.org/problems/number-of-provinces/1) [Leetcode Link](https://leetcode.com/problems/number-of-provinces/) [My Solution](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/09_number_of_provience.py)
 
 
 
@@ -99,3 +110,5 @@
 - Tree os a graph with no cycle
 - Tree has a parent child fixed hierarchy
 - Graph can either have a cycle or not
+- Parent doesn't work for directed graphs because a cycle can return to any ancestor, not just the immediate parent; there is no symmetric "back-to-parent" edge to ignore. ( 0 -> 1 <- 2)
+- PathVisited alone doesn't work for undirected graphs because every edge appears in both directions, so the edge back to the parent is always on the current DFS path and would be falsely detected as a cycle. ( 0 - 1 )
