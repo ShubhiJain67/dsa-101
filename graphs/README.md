@@ -108,6 +108,10 @@
 |---|---------|-----------|-----|----------|
 | 1 | Number of proviences (DFS) | Google, Amazon, Microsoft | [Link](https://www.geeksforgeeks.org/problems/number-of-provinces/1) | [Python](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/09_number_of_provience_dfs.py) |
 | 2 | Number of proviences (BFS) | Google, Amazon, Microsoft | [Link](https://www.geeksforgeeks.org/problems/number-of-provinces/1) | [Python](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/10_number_of_provience_bfs.py) 
+| 3 | Course Schedule (BFS) | Apple, Amazon, Meta, Microsoft, Twitter | [Link](https://leetcode.com/problems/course-schedule/description/) | [Python](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/11_course_schedule_bfs.py)
+| 4 | Course Schedule 2 (BFS) | Apple, Amazon, Meta, Microsoft, Twitter | [Link](https://leetcode.com/problems/course-schedule-ii/) | [Python](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/12_course_schedule_ii_bfs.py) 
+| 5 | Course Schedule (DFS) | Apple, Amazon, Meta, Microsoft, Twitter | [Link](https://leetcode.com/problems/course-schedule/description/) | [Python](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/13_course_schedule_dfs.py)
+| 6 | Course Schedule 2 (DFS) | Apple, Amazon, Meta, Microsoft, Twitter | [Link](https://leetcode.com/problems/course-schedule-ii/) | [Python](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/14_course_schedule_ii_dfs.py) 
 
 
 ## Important Points
