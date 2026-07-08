@@ -88,7 +88,9 @@
 - PUT KIDS FIRST AND THE PARENT [Topological Sort using DFS](https://www.geeksforgeeks.org/dsa/topological-sort-using-dfs/)
 - There could be multiple topo sort for 1 DAG (0-> 1 2-> 1) 0,2,1 or 2,1,0 both are correct
 - Indegree with 0 should ocme first
-- If topo sort is not possible hence There is A CYCLE IN THE DIRECTED GRAPH
+- If topo sort is not possible hence There is A CYCLE IN THE DIRECTED GRAPH   
+   - In BFS the len(topo sort) != number of nodes
+   - In DFS you will not be able to tell if it is cyclic or not, DFS Topo algo will still give a response but it might be invalid
 
 ## Questions
 ### Concepts Set 1 (Do in order)
