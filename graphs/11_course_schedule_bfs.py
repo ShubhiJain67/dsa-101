@@ -3,6 +3,8 @@ from collections import deque
 class Solution:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
         topo_sort = self.get_topo_bfs(numCourses, prerequisites)
+        #  Here the result topo sort is in reverse order
+        # topo_sort.reverse()
         return len(topo_sort) == numCourses
 
     def get_topo_bfs(self, numCourses: int, prerequisites: List[List[int]]):
