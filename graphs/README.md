@@ -107,7 +107,7 @@
 | # | Problem | Companies | GFG | Solution |
 |---|---------|-----------|-----|----------|
 | 1 | Number of proviences (DFS) | Google, Amazon, Microsoft | [Link](https://www.geeksforgeeks.org/problems/number-of-provinces/1) | [Python](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/09_number_of_provience_dfs.py) |
-| 2 | Number of proviences (BFS) | Google, Amazon, Microsoft | [Link](https://www.geeksforgeeks.org/problems/number-of-provinces/1) | [Python](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/09_number_of_provience_bfs.py) 
+| 2 | Number of proviences (BFS) | Google, Amazon, Microsoft | [Link](https://www.geeksforgeeks.org/problems/number-of-provinces/1) | [Python](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/10_number_of_provience_bfs.py) 
 
 
 ## Important Points
