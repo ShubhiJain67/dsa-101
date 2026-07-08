@@ -20,9 +20,9 @@ class Solution:
         path_visited[node] = True
 
         for neighbour in adj_list[node]:
-            if not visited[neighbour] and self._has_cycle_dfs(adj_list, neighbour, visited, path_visited):
+            if visited[neighbour] and path_visited[neighbour]:
                 return True
-            if path_visited[neighbour]:
+            if not visited[neighbour] and self._has_cycle_dfs(adj_list, neighbour, visited, path_visited):
                 return True
 
         path_visited[node] = False
