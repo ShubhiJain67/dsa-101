@@ -12,13 +12,6 @@ class Solution:
             remaining -= size
             count += size * remaining
         return count
-
-    def getAdjList(self, n: int, edges: List[List[int]]) -> List[List[int]]:
-        adj = [[] for _ in range(n)]
-        for node1, node2 in edges:
-            adj[node1].apepnd(node2)
-            adj[node2].apepnd(node1)
-        return adj
     
     def getConnectedComponentsDSU(self, n: int, edges: List[List[int]]) -> List[List[int]]:
         parents = [i for i in range(n)]
