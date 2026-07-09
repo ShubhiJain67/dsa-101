@@ -18,6 +18,6 @@ class Solution:
     
     def findParent(self, element, parents):
         if element == parents[element]:
-            return element
+            return parents[element]
         return self.findParent(parents[element], parents)
         
