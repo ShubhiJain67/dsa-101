@@ -91,6 +91,12 @@
 - If topo sort is not possible hence There is A CYCLE IN THE DIRECTED GRAPH   
    - In BFS the len(topo sort) != number of nodes
    - In DFS you will not be able to tell if it is cyclic or not, DFS Topo algo will still give a response but it might be invalid
+ 
+### Bipartite Graph
+- Graph's node can be coloured from 2 colors with no 2 adjacent nodes with same color
+- If odd length cycle - NOT bipartite otherwise - BIPARTITE
+- **Intiution - Dividing a graph/ grouping nodes**
+- 
 
 ## Questions
 ### Concepts Set 1 (Do in order)
@@ -105,7 +111,7 @@
 | 7 | Topological Sort (BFS / Kahn's Algorithm) | - | [Link](https://www.geeksforgeeks.org/problems/topological-sort/1) | [Python](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/07_topo_sort_bfs_kahns.py) |
 | 8 | Detect Cycle in Directed Graph (BFS / Kahn's Algorithm) | Amazon, Microsoft, Flipkart | [Link](https://www.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1) | [Python](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/08_directed_graph_cycle_detection_bfs_kahns.py) |
 
-### Practice
+### Practice Set 1
 | # | Problem | Companies | GFG | Solution |
 |---|---------|-----------|-----|----------|
 | 1 | Number of proviences (DFS) | Google, Amazon, Microsoft | [Link](https://www.geeksforgeeks.org/problems/number-of-provinces/1) | [Python](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/09_number_of_provience_dfs.py) |
@@ -114,6 +120,13 @@
 | 4 | Course Schedule 2 (BFS) | Apple, Amazon, Meta, Microsoft, Twitter | [Link](https://leetcode.com/problems/course-schedule-ii/) | [Python](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/12_course_schedule_ii_bfs.py) 
 | 5 | Course Schedule (DFS) | Apple, Amazon, Meta, Microsoft, Twitter | [Link](https://leetcode.com/problems/course-schedule/description/) | [Python](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/13_course_schedule_dfs.py)
 | 6 | Course Schedule 2 (DFS) | Apple, Amazon, Meta, Microsoft, Twitter | [Link](https://leetcode.com/problems/course-schedule-ii/) | [Python](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/14_course_schedule_ii_dfs.py) 
+
+
+### Practice Set 2
+| # | Problem | Companies | GFG | Solution |
+|---|---------|-----------|-----|----------|
+| 1 | Bipartite Graph (DFS) | Facebook, Samsung, Microsoft, Flipkart | [Link](https://www.geeksforgeeks.org/problems/bipartite-graph/1) | [Python](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/15_bipartite_graph_dfs.py) |
+| 2 | Bipartite Graph (BFS) | Facebook, Samsung, Microsoft, Flipkart | [Link](https://www.geeksforgeeks.org/problems/bipartite-graph/1) | [Python](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/16_bipartite_graph_bfs.py) |
 
 
 ## Important Points
