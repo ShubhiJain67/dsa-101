@@ -56,7 +56,7 @@
 
 ### BFS
 - Breadth First Search
-- Traverses level wise
+- Traverses level wise (Level order Traversal)
 - Used to find shortest path
 - Using a visited array does not work for shortest path problems on weighted graphs. A node reached once should not be considered finalized, because another path discovered later through a cycle or a different route may have a smaller total weight. The shortest path is determined by edge weights, not by the number of edges traversed. Hence we use DIJAKSTRA's
 - TC - O(V + E)
@@ -82,6 +82,11 @@
     	}
     }
   ```
+
+### Multi source BFS
+- BFS - is from 1 source, ** Multi Sorce BFS ** Has multiple sources/starting point in a graph
+- in BFS -> initally while initialling queue we used to add only 1 source, in mutli we add all. so level 1 of all sources will be processed forst then level 2 and so on..
+
 
 ### Topo Sort
 - Only in Directed Acyclic Graph (DAG)
@@ -128,6 +133,14 @@
    - Source, Dest
    - Shortest Path
    - Weighted Path (if not weighted can be done via BFS as well)
+- ** CANNOT WORK WITH NEGATIVE EDGES ** as this will keep on updating the min path and keep on pushing it in min heap (more the number of times you traverse a negative edge the weight sum keeps on decreasing)
+
+### Bellman Ford Algorithm
+- Works with Negative edges
+- Finds min path weight
+- Only works for Directed Edge (if an undirected graph is given, ** convert it into directed by adding both edges -> and <- **)
+- if you ** RELAX ** all edges (V - 1) times you will get the shortest path (RELAX - when in Dijakstra's algo we used to update the minWeight after poping min heap element)
+- ^ Why? -> 
 
 --------- 
 
@@ -156,7 +169,7 @@
 | 6 | Course Schedule 2 (DFS) | Apple, Amazon, Meta, Microsoft, Twitter | [Link](https://leetcode.com/problems/course-schedule-ii/) | [Python](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/14_course_schedule_ii_dfs.py) 
 | 7 | # Unreachable Pairs of Nodes in an Undirected Graph (DFS) | Microsoft | [Link](https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/description/) | [Python](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/23_unreachable_pairs_of_nodes_undirected_graph_dfs.py) |
 | 8 | # Unreachable Pairs of Nodes in an Undirected Graph (BFS) | Microsoft | [Link](https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/description/) | [Python](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/24_unreachable_pairs_of_nodes_undirected_graph_bfs.py) |
-| 9 | Shortest Path in Binary Matrix (BFS) | Google, Meta, Microsoft, Amazon | [Link](https://leetcode.com/problems/shortest-path-in-binary-matrix/description/) | [Python](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/29_shortest_path_in_binary_matrix_bfs.py) |
+
 
 ---------
 
@@ -183,6 +196,8 @@
 | # | Problem | Companies | GFG | Solution |
 |---|---------|-----------|-----|----------|
 | 1 | Dijkstra's Algorithm using Heaps | Microsoft, Flipkart | [Link](https://www.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1) | [Python](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/25_dijkstras_algorithm_heap.py) |
+| 2 | Bellman Ford Algorithm | Microsoft, Flipkart | [Link](https://www.geeksforgeeks.org/problems/distance-from-the-source-bellman-ford-algorithm/1) | [Python](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/31_bellman_ford_algorithm.py) |
+
 
 ### Practice Set 3
 | # | Problem | Companies | GFG | Solution |
@@ -190,7 +205,10 @@
 | 1 | Shortest Path in an Undirected Graph | Microsoft, Flipkart | [Link](https://www.geeksforgeeks.org/problems/shortest-path-in-weighted-undirected-graph/1) | [Python](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/26_shortest_path_weighted_undirected_path.py) |
 | 2 | Network Delay Time | Google | [Link](https://leetcode.com/problems/network-delay-time/description/) | [Python](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/27_network_delay_time.py) |
 | 3 | Shortest Path in Binary Matrix (Dijkstra's) | Google, Meta, Microsoft, Amazon | [Link](https://leetcode.com/problems/shortest-path-in-binary-matrix/description/) | [Python](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/28_shortest_path_in_binary_matrix_dijkstras.py) |
-| 4 | Path with minimum effort | Google, Meta, Microsoft, Amazon | [Link](https://leetcode.com/problems/path-with-minimum-effort/description/) | [Python](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/30_path_with_min_effort.py) |
+| 4 | Shortest Path in Binary Matrix (BFS) | Google, Meta, Microsoft, Amazon | [Link](https://leetcode.com/problems/shortest-path-in-binary-matrix/description/) | [Python](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/29_shortest_path_in_binary_matrix_bfs.py) |
+| 5 | Path with minimum effort | Google, Meta, Microsoft, Amazon | [Link](https://leetcode.com/problems/path-with-minimum-effort/description/) | [Python](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/30_path_with_min_effort.py) |
+| 6 | Rotten Oranges (Multi BFS) | Google, TickTock, Adobe, Amazon | [Link](https://leetcode.com/problems/rotting-oranges/description/) | [Python](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/32_rotten_oranges_multi_source_bfs.py) |
+| 7 | Map of Highest Peak (Multi BFS) | Google, Microsoft | [Link](https://leetcode.com/problems/map-of-highest-peak/description/) | [Python](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/33_map_of_highest_peak_multi_source_bfs.py) |
 
 
 ---------
