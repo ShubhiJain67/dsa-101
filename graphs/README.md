@@ -23,11 +23,14 @@
     }
     ```
 
+---------
+
 ## [IMP] How to check if it is a graph's questio
 - Entites would be numbered or labeled (example we have n courses labeled distinctly)
 - [OR] Can see relations / paths between entities
 - [OR] Direct -> Cclic or not, Bipartite or not
 
+---------
 
 ## Algorithms
 ### DFS
@@ -55,6 +58,7 @@
 - Breadth First Search
 - Traverses level wise
 - Used to find shortest path
+- Using a visited array does not work for shortest path problems on weighted graphs. A node reached once should not be considered finalized, because another path discovered later through a cycle or a different route may have a smaller total weight. The shortest path is determined by edge weights, not by the number of edges traversed. Hence we use DIJAKSTRA's
 - TC - O(V + E)
   ```
     func bfs(adjList map[int][]int, start int, visited map[int]bool, traversal *[]int) {
@@ -112,6 +116,21 @@
 - **If ranks are same then choose any one and increase the rank of one becoming parent**
 - It is not necessary that with path compression at every point in time parents array will have the topmost parent (ony when after updating find is called teh parents are updated)
 
+### Dijkstra's Algorithm
+- In weighted graph
+- Finds min path wieght
+- Uses min heap to get all beter paths found in journey
+- using min heap so that the paths with less weight is getting prioritised
+- While processing curr Min node, there is a posibility that the weighted path of the node could have gotten updated by some other route.
+- ** In C++ instead of heaps you can use Ordered sets because there you can delete an element form the set (the one which we are ignoring as someother node's processing could have changed the value and made this insignificant) (This can be safely deleted because if the better one was pushed before then the future bigger values would not have made to the min list)
+- In python there are no inbuilt order set hence the timecomplexity would not be improved
+- ** KEYWORDS IN QUESTIONS **
+   - Source, Dest
+   - Shortest Path
+   - Weighted Path (if not weighted can be done via BFS as well)
+
+--------- 
+
 ## Questions
 ### Concepts Set 1 (Do in order)
 | # | Problem | Companies | GFG | Solution |
@@ -137,6 +156,9 @@
 | 6 | Course Schedule 2 (DFS) | Apple, Amazon, Meta, Microsoft, Twitter | [Link](https://leetcode.com/problems/course-schedule-ii/) | [Python](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/14_course_schedule_ii_dfs.py) 
 | 7 | # Unreachable Pairs of Nodes in an Undirected Graph (DFS) | Microsoft | [Link](https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/description/) | [Python](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/23_unreachable_pairs_of_nodes_undirected_graph_dfs.py) |
 | 8 | # Unreachable Pairs of Nodes in an Undirected Graph (BFS) | Microsoft | [Link](https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/description/) | [Python](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/24_unreachable_pairs_of_nodes_undirected_graph_bfs.py) |
+| 9 | Shortest Path in Binary Matrix (BFS) | Google, Meta, Microsoft, Amazon | [Link](https://leetcode.com/problems/shortest-path-in-binary-matrix/description/) | [Python](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/29_shortest_path_in_binary_matrix_bfs.py) |
+
+---------
 
 ### Concepts Set 2 (Do in order)
 | # | Problem | Companies | GFG | Solution |
@@ -144,7 +166,7 @@
 | 1 | Bipartite Graph (DFS) | Facebook, Samsung, Microsoft, Flipkart | [Link](https://www.geeksforgeeks.org/problems/bipartite-graph/1) | [Python](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/15_bipartite_graph_dfs.py) |
 | 2 | Bipartite Graph (BFS) | Facebook, Samsung, Microsoft, Flipkart | [Link](https://www.geeksforgeeks.org/problems/bipartite-graph/1) | [Python](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/16_bipartite_graph_bfs.py) |
 | 3 | Disjoint Set (Union-Find) | Google, Facebook, Apple, Amazon, Netflix, Flipkart | [Link](https://www.geeksforgeeks.org/problems/disjoint-set-union-find/1) | [Python](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/17_dsu.py) |
-| 4 | Disjoint Set (Union-Find) with Raknk and Path COmpression | Google, Facebook, Apple, Amazon, Netflix, Flipkart | - | [Python](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/18_dsu_with_rank_and_path_compression.py) |
+| 4 | Disjoint Set (Union-Find) with Raknk and Path Compression | Google, Facebook, Apple, Amazon, Netflix, Flipkart | - | [Python](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/18_dsu_with_rank_and_path_compression.py) |
 
 
 ### Practice Set 2
@@ -154,6 +176,24 @@
 | 2 | Satisfiability of Equality Equations | Google | [Link](https://leetcode.com/problems/satisfiability-of-equality-equations/) | [Python](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/20_satisfiability_of_equality_equations.py) |
 | 3 | # Operations to Make Network Connected | Amazon | [Link](https://leetcode.com/problems/number-of-operations-to-make-network-connected/) | [Python](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/21_operations_to_make_network_connected.py) |
 | 4 | # Unreachable Pairs of Nodes in an Undirected Graph (DSU) | Microsoft | [Link](https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/description/) | [Python](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/22_unreachable_pairs_of_nodes_undirected_graph_dsu.py) |
+
+---------
+
+### Concepts Set 3 (Do in order)
+| # | Problem | Companies | GFG | Solution |
+|---|---------|-----------|-----|----------|
+| 1 | Dijkstra's Algorithm using Heaps | Microsoft, Flipkart | [Link](https://www.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1) | [Python](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/25_dijkstras_algorithm_heap.py) |
+
+### Practice Set 3
+| # | Problem | Companies | GFG | Solution |
+|---|---------|-----------|-----|----------|
+| 1 | Shortest Path in an Undirected Graph | Microsoft, Flipkart | [Link](https://www.geeksforgeeks.org/problems/shortest-path-in-weighted-undirected-graph/1) | [Python](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/26_shortest_path_weighted_undirected_path.py) |
+| 2 | Network Delay Time | Google | [Link](https://leetcode.com/problems/network-delay-time/description/) | [Python](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/27_network_delay_time.py) |
+| 3 | Shortest Path in Binary Matrix (Dijkstra's) | Google, Meta, Microsoft, Amazon | [Link](https://leetcode.com/problems/shortest-path-in-binary-matrix/description/) | [Python](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/28_shortest_path_in_binary_matrix_dijkstras.py) |
+| 4 | Path with minimum effort | Google, Meta, Microsoft, Amazon | [Link](https://leetcode.com/problems/path-with-minimum-effort/description/) | [Python](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/30_path_with_min_effort.py) |
+
+
+---------
 
 
 ## Important Points
