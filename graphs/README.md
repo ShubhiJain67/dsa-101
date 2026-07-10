@@ -87,6 +87,16 @@
 - BFS - is from 1 source, ** Multi Sorce BFS ** Has multiple sources/starting point in a graph
 - in BFS -> initally while initialling queue we used to add only 1 source, in mutli we add all. so level 1 of all sources will be processed forst then level 2 and so on..
 
+### 0-1 BFS
+- variation of BFS
+- used to find single source shortest path (another is Dijkstra)
+- EITHER all edges have same weight (in Dijakstra every edge can have diff +ve weight) ** becuase if edge weight is same then the path with less nodes will always be the shortest and hence BFS works ** (all can be onsidered 1 and final answer * the weight)
+- OR wieights of the edges are either 0 or 1
+- If we have Dijkstra then why this? **This has less time complexity**
+- **At any point in time we have 2 levels in the queue of BFS**
+- Dijkstra (O(ElogV))
+- DIJKSTRA WITH NO MIN HEAP, BUT A PRIORITY QUEUE
+
 
 ### Topo Sort
 - Only in Directed Acyclic Graph (DAG)
@@ -197,6 +207,7 @@
 |---|---------|-----------|-----|----------|
 | 1 | Dijkstra's Algorithm using Heaps | Microsoft, Flipkart | [Link](https://www.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1) | [Python](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/25_dijkstras_algorithm_heap.py) |
 | 2 | Bellman Ford Algorithm | Microsoft, Flipkart | [Link](https://www.geeksforgeeks.org/problems/distance-from-the-source-bellman-ford-algorithm/1) | [Python](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/31_bellman_ford_algorithm.py) |
+| 3 | 0-1 BFS | - | - | [Python](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/34_01_bfs.py) |
 
 
 ### Practice Set 3
@@ -209,6 +220,8 @@
 | 5 | Path with minimum effort | Google, Meta, Microsoft, Amazon | [Link](https://leetcode.com/problems/path-with-minimum-effort/description/) | [Python](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/30_path_with_min_effort.py) |
 | 6 | Rotten Oranges (Multi BFS) | Google, TickTock, Adobe, Amazon | [Link](https://leetcode.com/problems/rotting-oranges/description/) | [Python](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/32_rotten_oranges_multi_source_bfs.py) |
 | 7 | Map of Highest Peak (Multi BFS) | Google, Microsoft | [Link](https://leetcode.com/problems/map-of-highest-peak/description/) | [Python](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/33_map_of_highest_peak_multi_source_bfs.py) |
+| 8 | Find a Safe Walk Through a Grid (DFS) | - | [Link](https://leetcode.com/problems/find-a-safe-walk-through-a-grid) | [Python](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/35_fiind_a_safe_walk_through_grid_dfs.py) |
+| 9 | Find a Safe Walk Through a Grid ( 01 BFS) | - | [Link](https://leetcode.com/problems/find-a-safe-walk-through-a-grid) | [Python](https://github.com/ShubhiJain67/Data-Structures-algorithms/blob/main/graphs/36_fiind_a_safe_walk_through_grid_01_bfs.py) |
 
 
 ---------
