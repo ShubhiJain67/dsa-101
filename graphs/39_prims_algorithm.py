@@ -9,6 +9,7 @@ class Solution:
         minHeap = []
         heapq.heappush(minHeap, (0, 0, -1))
         vertextVisited = [False]*V
+        # ONLY USED TO RECREATE THE MST AGAIN
         parent = [None]*V
         edgeCount = V
         sumWeight = 0
