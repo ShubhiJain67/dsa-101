@@ -1,35 +1,41 @@
-from typing import List
-
 class Solution:
-    directions = [
-        (-1, 0),
-        (0, -1), (0, 1),
-        (1, 0)
-    ]
-
+    directions = [[-1,0],[1,0],[0,-1],[0,1]]
     def findSafeWalk(self, grid: List[List[int]], health: int) -> bool:
-        m, n = len(grid), len(grid[0])
-        bestHealth = [[-1] * n for _ in range(m)]
-        return self.dfs(grid, 0, 0, health, bestHealth)
-
-    def dfs(self, grid, r, c, health, bestHealth):
-        m, n = len(grid), len(grid[0])
-        if not (0 <= r < m and 0 <= c < n):
-            return False
-        health -= grid[r][c]
-        if health <= 0:
-            return False
-        # "I've already reached this cell before with equal or more remaining health. 
-        # So exploring from here again cannot produce a better answer."
-        if bestHealth[r][c] >= health:
-            return False
-
-        bestHealth[r][c] = health
-        if r == m - 1 and c == n - 1:
+        # visited = [[False]*(len(grid[0])) for _ in range(len(grid))]
+        # return self.walkDFS(grid, health-grid[0][0], 0, 0, len(grid)-1, len(grid[0])-1, visited)
+        bestHealth = [[-1]*(len(grid[0])) for _ in range(len(grid))]
+        return self.walkDFSMemo(grid, health-grid[0][0], 0, 0, len(grid)-1, len(grid[0])-1, bestHealth)
+        
+    # This traverses same path again and again hence Time Limit Exceeds
+    def walkDFS(self, grid: List[List[int]], health: int, sourceI: int, sourceJ: int, taregtI: int, targetJ: int, visited: List[List[bool]]) -> bool:
+        if sourceI == taregtI and sourceJ == targetJ and health >= 1:
             return True
-
-        for dr, dc in self.directions:
-            if self.dfs(grid, r + dr, c + dc, health, bestHealth):
-                return True
-
+        if health < 1:
+            return False
+        if visited[sourceI][sourceJ]:
+            return False
+        visited[sourceI][sourceJ] = True
+        for di, dj in self.directions:
+            ni = sourceI + di
+            nj = sourceJ + dj
+            if 0 <= ni < len(grid) and 0 <= nj < len(grid[0]) and grid[ni][nj] < health:
+                if self.walkDFS(grid, health-grid[ni][nj], ni, nj, taregtI, targetJ, visited):
+                    return True
+        visited[sourceI][sourceJ] = False
         return False
+    
+    def walkDFSMemo(self, grid: List[List[int]], health: int, sourceI: int, sourceJ: int, targetI: int, targetJ: int, bestHealth: List[List[int]]) -> bool:
+            if sourceI == targetI and sourceJ == targetJ and health >= 1:
+                return True
+            if health < 1:
+                return False
+            if bestHealth[sourceI][sourceJ] >= health:
+                return False
+            bestHealth[sourceI][sourceJ] = health
+            for di, dj in self.directions:
+                ni = sourceI + di
+                nj = sourceJ + dj
+                if 0 <= ni < len(grid) and 0 <= nj < len(grid[0]):
+                    if self.walkDFSMemo(grid, health - grid[ni][nj], ni, nj, targetI, targetJ, bestHealth):
+                        return True
+            return False
