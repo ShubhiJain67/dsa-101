@@ -9,6 +9,7 @@ class Solution:
         minHeap = []
         heapq.heappush(minHeap, (0, 0, -1))
         vertextVisited = [False]*V
+        parent = [None]*V
         edgeCount = V
         sumWeight = 0
         while edgeCount>0:
@@ -18,6 +19,7 @@ class Solution:
             sumWeight += weight
             edgeCount -= 1
             vertextVisited[end] = True
+            parent[end] = start
             for n, w in adjList[end]:
                 if not vertextVisited[n]:
                     heapq.heappush(minHeap, (w, n, end))
