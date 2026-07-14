@@ -125,9 +125,13 @@
    - Tell if 2 members belong to same set or not
 - every set has a leader/parent
 - whenever a union is done, all elements of the set will have the same leader/parent (directly or indirectly) now (there will be an election in btw 2 leaders of the inital sets)
-- **Union by Rank and Path Compression** - If we keep on doing union in a way that the tree becomes an unbalanced tree (more towards 1 side) the the time complexity of finding out the parent would increase O(n), so we perform union base don rank and path
-  - Rank: the max depth of the parent
-  - Path Compression: Keep updating the child nodes about their ultimate parent while you are already traversing in (find)
+- **Union by Rank and Path Compression** - If we keep on doing union in a way that the tree becomes an unbalanced tree (more towards 1 side) the the time complexity of finding out the parent would increase O(n), so we perform union base don rank (or size) and path
+  - Rank and Path Comporession
+     - Rank: the max depth of the parent
+     - Path Compression: Keep updating the child nodes about their ultimate parent while you are already traversing in (find)
+  - Size and Path Comporession
+     - Size : number of nodes in the set
+     - Path Compression: Keep updating the child nodes about their ultimate parent while you are already traversing in (find)
 - **Always one element with more rank is elected so that the tree depth does not increase any further.**
 - **If ranks are same then choose any one and increase the rank of one becoming parent**
 - It is not necessary that with path compression at every point in time parents array will have the topmost parent (ony when after updating find is called teh parents are updated)
@@ -209,7 +213,35 @@ graph -       spanning trees -
 - apply DFS on nodes in order of topo sort
 - The number of times DFS runs -> Number of connected components
 
-      
+
+### Eulerian Path and Circuit/Cycle
+- Works for both Directed and Directed Graph
+- A path of edges which visited all the edges in the graph EXACTLY ONCE
+- KEYWORDS (visit full path (each edge once))
+- Not all graphs have a eularian path
+- An eularian Path with Starts and end at the same node -> Eulerian Circuit or Eulerian Cycle
+- If your graph has a eulerian cycle then you can start from any node and reach that node by traversing every edge once
+- If a GRAPH IS NOT A EULAERIAN CIRCUIT
+  - On starting from any node you will not be able to come bac on it
+  - OR you won't be able to cover all edges
+- NON ZERO DEGREE NODE COMPONENTS MUST BELONG TO A SINGLE CONNECTED COMPONENT
+- **AN EULERIAN CIRCUIT will have all nodes with even number of edges (half for going and half for coming back)**
+- **AN EULERIAN PATH will have all nodes with even number of edges EXCEPT FOR START AND END NODE**
+- If a graph has EULER PATH and not a CIRCUIT -> SEMI EULERIAN GRAPH
+- **Not all vertices in the graph need to be connected. Only the vertices that have at least one edge (non-zero degree) must belong to the same connected component.**
+- IF THERE IS NO EDGE -> EULER CIRCUIT
+- - FOR DIRECTED GRAPH (EULAR PATH)
+   - Strat Node : outdegree - indegree = 1 -> THIS SHOULD START THE DFS
+   - End Node : indegree - outdegre = 1
+   - Rest Nodes : indegree = outdegree
+   - IF ALL HAVE indegree = outdegree -> EULER CIRCUIT
+ 
+### Hierholzer's Algorithm
+- For directed graph
+- Apply DFS (and keep on removing the edge that has already been traversed)
+- Ensure you start from the right node
+
+  
 --------- 
 
 ## Questions
@@ -247,7 +279,8 @@ graph -       spanning trees -
 | 1 | Bipartite Graph (DFS) | Facebook, Samsung, Microsoft, Flipkart | [Link](https://www.geeksforgeeks.org/problems/bipartite-graph/1) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/graphs/15_bipartite_graph_dfs.py) |
 | 2 | Bipartite Graph (BFS) | Facebook, Samsung, Microsoft, Flipkart | [Link](https://www.geeksforgeeks.org/problems/bipartite-graph/1) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/graphs/16_bipartite_graph_bfs.py) |
 | 3 | Disjoint Set (Union-Find) | Google, Facebook, Apple, Amazon, Netflix, Flipkart | [Link](https://www.geeksforgeeks.org/problems/disjoint-set-union-find/1) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/graphs/17_dsu.py) |
-| 4 | Disjoint Set (Union-Find) with Raknk and Path Compression | Google, Facebook, Apple, Amazon, Netflix, Flipkart | - | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/graphs/18_dsu_with_rank_and_path_compression.py) |
+| 4 | Disjoint Set (Union-Find) with Rank and Path Compression | Google, Facebook, Apple, Amazon, Netflix, Flipkart | - | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/graphs/18_dsu_with_rank_and_path_compression.py) |
+| 5 | Disjoint Set (Union-Find) with Size and Path Compression | Google, Facebook, Apple, Amazon, Netflix, Flipkart | - | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/graphs/44_dsu_with_size_and_path_compression.py) |
 
 
 ### Practice Set 2
@@ -299,6 +332,25 @@ graph -       spanning trees -
 |---|---------|-----------|-----|----------|
 | 1 | Minimum Cost to connect all points (Prim's Algorithm) | Microsoft, Flipkart | [Link](https://leetcode.com/problems/min-cost-to-connect-all-points/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/graphs/40_min_cost_to_connect_components_prims.py) |
 | 2 | Minimum Cost to connect all points (Kruskal's Algorithm) | Microsoft, Flipkart | [Link](https://leetcode.com/problems/min-cost-to-connect-all-points/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/graphs/42_min_cost_to_connect_components_kruskals.py) |
+
+
+---------
+
+### Concepts Set 5 (Do in order)
+| # | Problem | Companies | GFG | Solution |
+|---|---------|-----------|-----|----------|
+| 1 | Euler Path and Circuit (Undirected Graph)| - | [Link](https://www.geeksforgeeks.org/problems/euler-circuit-and-path/1) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/graphs/45_euler_path_and_circuit.py) |
+| 2 | Euler Path and Circuit (Directed Graph)| - | [Link](https://www.geeksforgeeks.org/problems/euler-circuit-in-a-directed-graph/1) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/graphs/46_euler_path_and_circuit_directed_graph.py) |
+| 3  | Hierholzer's Algorithm | - | [Link]([https://www.geeksforgeeks.org/problems/euler-circuit-in-a-directed-graph/1)](https://leetcode.com/problems/valid-arrangement-of-pairs) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/graphs/47_hierholzers_algorithm.py) |
+
+
+### Practice Set 5
+| # | Problem | Companies | GFG | Solution |
+|---|---------|-----------|-----|----------|
+| 1 | Valid Arrangement of Pairs | - | [Link](https://leetcode.com/problems/valid-arrangement-of-pairs) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/graphs/48_valid_arrangement_of_pairs_euler.py) |
+| 2 | Find Minimum Diameter After Merging Two Trees | - | [Link](https://leetcode.com/problems/find-minimum-diameter-after-merging-two-trees/description/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/graphs/49_minimum_diameter_after_merging_2_trees.py) |
+
+
 
 ---------
 
