@@ -54,10 +54,10 @@ class Solution:
                 else:
                     minCount = math.inf
                     if amount - coins[index] >= 0:
-                        withAndStay, include = self.minCoinChangeRecMemo(coins, amount - coins[index], index, memory)
+                        withAndStay, include = memory[amount - coins[index]][index]
                         if include:
                             minCount = min(minCount, withAndStay+1)
-                    withoutAndContinue, include = self.minCoinChangeRecMemo(coins, amount, index+1, memory)
+                    withoutAndContinue, include = memory[amount][index+1]
                     if include:
                         minCount = min(minCount, withoutAndContinue)
                     memory[amount][index] = (minCount, minCount != math.inf)
