@@ -53,10 +53,10 @@ class Solution:
                     combinations = []
                 else:
                     if target - candidates[index] >= 0:
-                        withAndStayCombinations = self.getAllRecMemo(candidates, target - candidates[index], index, memory)
+                        withAndStayCombinations = memory[target - candidates[index]][index]
                         for c in withAndStayCombinations:
                             combinations.append(c + [candidates[index]])
-                    withoutAndContinueCombinations = self.getAllRecMemo(candidates, target, index+1, memory)
+                    withoutAndContinueCombinations = memory[target][index+1]
                     for c in withoutAndContinueCombinations:
                         combinations.append(c)
                 memory[index][target] = combinations
