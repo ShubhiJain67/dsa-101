@@ -47,9 +47,9 @@ class Solution:
                 else:
                     noOfWays = 0
                     if amount - coins[index] >= 0:
-                        withCurrentAndStay = self.changeRecMemo(amount - coins[index], coins, index, memory)
+                        withCurrentAndStay = memory[amount - coins[index]][index]
                         noOfWays = withCurrentAndStay
-                    withoutCurrentAndContinue = self.changeRecMemo(amount, coins, index+1, memory)
+                    withoutCurrentAndContinue = memory[amount][index+1]
                     noOfWays = noOfWays + withoutCurrentAndContinue
                     memory[amount][index] = noOfWays
         return memory[Amount][0]
