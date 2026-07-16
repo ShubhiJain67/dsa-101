@@ -53,10 +53,10 @@ class Solution:
                     combinations = []
                 else:
                     if target - candidates[index] >= 0:
-                        withAndStayCombinations = memory[target - candidates[index]][index]
+                        withAndStayCombinations = memory[index][target - candidates[index]]
                         for c in withAndStayCombinations:
                             combinations.append(c + [candidates[index]])
-                    withoutAndContinueCombinations = memory[target][index+1]
+                    withoutAndContinueCombinations = memory[index+1][target]
                     for c in withoutAndContinueCombinations:
                         combinations.append(c)
                 memory[index][target] = combinations
