@@ -98,25 +98,25 @@ Item can be choosen fractionally
 ### Concept
 | # | Problem | Companies | GFG/Leetcode | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | Longest Common Subsequence | Amazon, Microsoft, Google | [GFG](https://www.geeksforgeeks.org/problems/longest-common-subsequence-1587115620/1) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/dynamic-programming/09_longest_common_subsequence.py) |
-| 2 | Longest Common Substring | Amazon, Microsoft | [GFG](https://www.geeksforgeeks.org/problems/longest-common-substring1452/1) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/dynamic-programming/10_longest_common_substring.py) |
+| 1 | Longest Common Subsequence | Amazon, Microsoft, Google | [GFG](https://www.geeksforgeeks.org/problems/longest-common-subsequence-1587115620/1) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/dynamic-programming/15_longest_common_subsequence.py) |
+| 2 | Longest Common Substring | Amazon, Microsoft | [GFG](https://www.geeksforgeeks.org/problems/longest-common-substring1452/1) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/dynamic-programming/16_longest_common_substring.py) |
 
 
 
 ### Questions
 | # | Problem | Companies | GFG/Leetcode | Solution |
 |---|---------|-----------|--------------|----------|
-| 1 | Print Longest Common Subsequence | Amazon | [GFG](https://www.geeksforgeeks.org/problems/print-longest-common-subsequence/1) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/dynamic-programming/11_print_longest_common_subsequence.py) |
-| 2 | Shortest Common Supersequence | Amazon, Google | [LeetCode 1092](https://leetcode.com/problems/shortest-common-supersequence/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/dynamic-programming/12_shortest_common_supersequence.py) |
-| 3 | Print Shortest Common Supersequence | Amazon | [GFG](https://www.geeksforgeeks.org/print-shortest-common-supersequence/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/dynamic-programming/13_print_shortest_common_supersequence.py) |
-| 4 | Minimum Insertions & Deletions to Convert String A to B | Amazon | [GFG](https://www.geeksforgeeks.org/problems/minimum-number-of-deletions-and-insertions0209/1) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/dynamic-programming/14_min_insertions_deletions_to_convert_string.py) |
-| 5 | Longest Repeating Subsequence | Microsoft | [GFG](https://www.geeksforgeeks.org/problems/longest-repeating-subsequence2004/1) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/dynamic-programming/15_longest_repeating_subsequence.py) |
-| 6 | Sequence Pattern Matching | Amazon | [GFG](https://www.geeksforgeeks.org/problems/sequence-pattern-matching5525/1) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/dynamic-programming/16_sequence_pattern_matching.py) |
-| 7 | Distinct Subsequences | Google, Meta | [LeetCode 115](https://leetcode.com/problems/distinct-subsequences/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/dynamic-programming/17_distinct_subsequences.py) |
-| 8 | Longest Palindromic Subsequence | Amazon, Microsoft | [LeetCode 516](https://leetcode.com/problems/longest-palindromic-subsequence/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/dynamic-programming/18_longest_palindromic_subsequence.py) |
-| 9 | Longest Palindromic Substring | Amazon, Microsoft | [LeetCode 5](https://leetcode.com/problems/longest-palindromic-substring/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/dynamic-programming/19_longest_palindromic_substring.py) |
-| 10 | Count Palindromic Substrings | Amazon | [LeetCode 647](https://leetcode.com/problems/palindromic-substrings/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/dynamic-programming/20_count_palindromic_substrings.py) |
-| 11 | Minimum Deletions to Make a String Palindrome | Microsoft | [GFG](https://www.geeksforgeeks.org/problems/minimum-deletitions1648/1) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/dynamic-programming/21_min_deletions_to_make_palindrome.py) |
-| 12 | Minimum Insertions to Make a String Palindrome | Google | [LeetCode 1312](https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/dynamic-programming/22_min_insertions_to_make_palindrome.py) |
+| 1 | Print Longest Common Subsequence | Amazon | [GFG](https://www.geeksforgeeks.org/problems/print-longest-common-subsequence/1) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/dynamic-programming/17_print_longest_common_subsequence.py) |
+| 2 | Shortest Common Supersequence | Amazon, Google | [LeetCode 1092](https://leetcode.com/problems/shortest-common-supersequence/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/dynamic-programming/18_shortest_common_supersequence.py) |
+| 3 | Print Shortest Common Supersequence | Amazon | [GFG](https://www.geeksforgeeks.org/print-shortest-common-supersequence/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/dynamic-programming/19_print_shortest_common_supersequence.py) |
+| 4 | Minimum Insertions & Deletions to Convert String A to B | Amazon | [GFG](https://www.geeksforgeeks.org/problems/minimum-number-of-deletions-and-insertions0209/1) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/dynamic-programming/20_min_insertions_deletions_to_convert_string.py) |
+| 5 | Longest Repeating Subsequence | Microsoft | [GFG](https://www.geeksforgeeks.org/problems/longest-repeating-subsequence2004/1) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/dynamic-programming/21_longest_repeating_subsequence.py) |
+| 6 | Sequence Pattern Matching | Amazon | [GFG](https://www.geeksforgeeks.org/problems/sequence-pattern-matching5525/1) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/dynamic-programming/22_sequence_pattern_matching.py) |
+| 7 | Distinct Subsequences | Google, Meta | [LeetCode 115](https://leetcode.com/problems/distinct-subsequences/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/dynamic-programming/23_distinct_subsequences.py) |
+| 8 | Longest Palindromic Subsequence | Amazon, Microsoft | [LeetCode 516](https://leetcode.com/problems/longest-palindromic-subsequence/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/dynamic-programming/24_longest_palindromic_subsequence.py) |
+| 9 | Longest Palindromic Substring | Amazon, Microsoft | [LeetCode 5](https://leetcode.com/problems/longest-palindromic-substring/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/dynamic-programming/25_longest_palindromic_substring.py) |
+| 10 | Count Palindromic Substrings | Amazon | [LeetCode 647](https://leetcode.com/problems/palindromic-substrings/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/dynamic-programming/26_count_palindromic_substrings.py) |
+| 11 | Minimum Deletions to Make a String Palindrome | Microsoft | [GFG](https://www.geeksforgeeks.org/problems/minimum-deletitions1648/1) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/dynamic-programming/27_min_deletions_to_make_palindrome.py) |
+| 12 | Minimum Insertions to Make a String Palindrome | Google | [LeetCode 1312](https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/dynamic-programming/28_min_insertions_to_make_palindrome.py) |
 
 
