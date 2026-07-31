@@ -10,12 +10,12 @@ class Solution:
                 low += 1
                 high -= 1
             elif nums[low] <= nums[mid]:
-                if nums[low] <= target <= nums[mid]:
+                if nums[low] <= target < nums[mid]:
                     high = mid - 1
                 else:
                     low = mid + 1
             else:
-                if nums[mid] <= target <= nums[high]:
+                if nums[mid] < target <= nums[high]:
                     low = mid + 1
                 else:
                     high = mid - 1
