@@ -6,6 +6,10 @@
 
 class Solution:
     def hasCycle(self, head: Optional[ListNode]) -> bool:
+        return self.shiftedFloyd
+
+    # Cannot be used for cycle detection
+    def shiftedFloyd(self, head):
         if not head or not head.next:
             return False
         slow = head
@@ -15,4 +19,19 @@ class Solution:
                 return False
             slow = slow.next
             fast = fast.next.next
+        return True
+    
+    # Good fo cycle detection
+    def floyd(self, head):
+        if not head or not head.next:
+            return None
+        slow = head
+        fast = head
+        while fast and fast.next:
+            slow = slow.next
+            fast = fast.next.next
+            if slow == fast:
+                break
+        else:
+            return None
         return True
