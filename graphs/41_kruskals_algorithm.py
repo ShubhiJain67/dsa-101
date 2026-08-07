@@ -1,3 +1,5 @@
+from typing import List
+import heapq
 class Solution:
     def spanningTree(self, V, edges):
         adjList = self.getAdjList(V, edges)

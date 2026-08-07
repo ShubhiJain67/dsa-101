@@ -1,3 +1,4 @@
+from typing import List
 class Solution:
     def countPairs(self, n: int, edges: List[List[int]]) -> int:
         connectComponents = self.getConnectedComponentsDSU(n, edges)

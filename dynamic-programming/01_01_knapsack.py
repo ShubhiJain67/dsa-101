@@ -1,8 +1,8 @@
 class Solution:
-    def knapsack(self, W, val, wt):
+    def knapsack(self, W, values, weights):
         # return self.knapsackProblemRecursion(W, values, weights, 0)
         
-        # memory = [[None]*(W+1) for _ in range(len(val))]
+        # memory = [[None]*(W+1) for _ in range(len(values))]
         # return self.knapsackProblemMemoisation(W, values, weights, 0, memory)
         
         return self.knapsackProblemDP(W, values, weights)

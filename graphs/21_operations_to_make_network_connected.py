@@ -1,3 +1,4 @@
+from typing import List
 class Solution:
     def makeConnected(self, computerCount: int, connections: List[List[int]]) -> int:
         connectionCount = len(connections)

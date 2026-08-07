@@ -6,7 +6,7 @@
 
 class Solution:
     def hasCycle(self, head: Optional[ListNode]) -> bool:
-        return self.shiftedFloyd
+        return bool(self.floyd(head))
 
     # Cannot be used for cycle detection
     def shiftedFloyd(self, head):

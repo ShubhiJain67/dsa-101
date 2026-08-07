@@ -1,3 +1,4 @@
+from typing import List
 from collections import deque
 class Solution:
     def jump(self, nums: List[int]) -> int:

@@ -1,3 +1,4 @@
+from typing import List
 class Solution:
     def countBits(self, n: int) -> List[int]:
         # return self.countBitsBruteForce(n)

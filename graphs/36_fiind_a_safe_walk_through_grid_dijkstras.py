@@ -1,3 +1,6 @@
+import heapq
+import math
+from typing import List
 class Solution:
     directions = [[-1,0],[1,0],[0,-1],[0,1]]
     def findSafeWalk(self, grid: List[List[int]], health: int) -> bool:

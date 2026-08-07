@@ -1,3 +1,4 @@
+from typing import List
 class Solution:
     directions = [[-1, 0],[1, 0], [0, -1], [0, 1]]
     def exist(self, board: List[List[str]], word: str) -> bool:

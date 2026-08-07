@@ -56,7 +56,7 @@ class Solution(object):
         while i < len(nums):
             currProduct = 1
             j = 0
-            while j < i - 1:
+            while j < i:
                 currProduct *= nums[j]
                 j += 1
             j = i+1
@@ -64,4 +64,5 @@ class Solution(object):
                 currProduct *= nums[j]
                 j += 1
             product[i] = currProduct
+            i += 1
         return product

@@ -1,3 +1,4 @@
+from typing import List
 class Solution:
     def restoreIpAddresses(self, s: str) -> List[str]:
         return self.restore(s, 0, 4)

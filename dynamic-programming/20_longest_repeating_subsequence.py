@@ -1,8 +1,8 @@
 class Solution:
-	def LongestRepeatingSubsequence(self, s):
-	    s1 = s
-	    s2 = s
-		prev = [None]*(len(s2)+1)
+    def LongestRepeatingSubsequence(self, s):
+        s1 = s
+        s2 = s
+        prev = [None]*(len(s2)+1)
         for i1 in range(len(s1), -1, -1):
             curr = [None]*(len(s2)+1)
             for i2 in range(len(s2), -1, -1):
@@ -22,5 +22,5 @@ class Solution:
                 curr[i2] = longestLength
             prev = curr
         return prev[0]
-		        
-		    
+                
+            

@@ -1,3 +1,4 @@
+from typing import List
 class Solution:
     def combine(self, n: int, k: int) -> List[List[int]]:
         # return self.combineRec(n, k)

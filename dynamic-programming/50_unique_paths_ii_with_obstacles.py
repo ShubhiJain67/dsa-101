@@ -1,3 +1,4 @@
+from typing import List
 class Solution:
     directions = [[0,1],[1,0]]
     def uniquePathsWithObstacles(self, grid: List[List[int]]) -> int:

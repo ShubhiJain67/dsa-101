@@ -1,3 +1,4 @@
+from typing import List
 class Solution:
     def countPairs(self, n: int, edges: List[List[int]]) -> int:
         connectComponents = self.getConnectedComponentsDFS(n, edges)
@@ -25,11 +26,11 @@ class Solution:
         visited = [False] * n
         components = []
         for i in range(n):
-            group = []
             if not visited[i]:
+                group = []
                 self.dfs(adj, i, visited, group)
-            components.append(group)
-        return components  
+                components.append(group)
+        return components
     
     def dfs(self, adj, node, visited, group):
         visited[node] = True

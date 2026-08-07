@@ -1,3 +1,4 @@
+from typing import List
 class Solution:
     def solveNQueens(self, n: int) -> List[List[str]]:
         self.leftDiagonals = [False for _ in range(n*2-1)]

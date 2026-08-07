@@ -1,3 +1,4 @@
+from typing import List
 class Solution:
     def rob(self, nums: List[int]) -> int:
         # return self.robRec(nums, 0, 0)

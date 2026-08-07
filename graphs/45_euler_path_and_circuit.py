@@ -10,7 +10,7 @@ class Solution:
         if start == -1:
             return 2
         visited = [False] * V
-        self.dfs(start, visited)
+        self.dfs(start, visited, adj)
 
         for i in range(V):
             if degrees[i] > 0 and not visited[i]:
@@ -28,8 +28,8 @@ class Solution:
         else:
             return 0
     
-    def dfs(self, node, visited):
+    def dfs(self, node, visited, adj):
         visited[node] = True
         for nei in adj[node]:
             if not visited[nei]:
-                self.dfs(nei, visited)
+                self.dfs(nei, visited, adj)

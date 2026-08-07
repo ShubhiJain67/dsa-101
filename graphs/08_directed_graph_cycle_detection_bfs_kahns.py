@@ -1,3 +1,4 @@
+from collections import deque
 class Solution:
     def isCyclic(self, V, edges):
         adj = [[] for _ in range(V)]

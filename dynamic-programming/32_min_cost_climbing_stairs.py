@@ -1,3 +1,5 @@
+from typing import List
+import math
 class Solution:
     stepDist = [1,2]
     def minCostClimbingStairs(self, cost: List[int]) -> int:

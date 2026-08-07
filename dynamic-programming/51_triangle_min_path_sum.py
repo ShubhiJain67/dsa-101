@@ -1,3 +1,5 @@
+from typing import List
+import math
 class Solution:
     directions = [[1, 0], [1, 1]]
     def minimumTotal(self, triangle: List[List[int]]) -> int:

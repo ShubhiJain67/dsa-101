@@ -1,3 +1,4 @@
+from typing import List
 class Solution:
     def findAnagrams(self, s2: str, s1: str) -> List[int]:
         indexes = []

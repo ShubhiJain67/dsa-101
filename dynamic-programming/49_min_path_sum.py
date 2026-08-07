@@ -1,3 +1,5 @@
+from typing import List
+import math
 class Solution:
     directions = [[0,1],[1,0]]
     def minPathSum(self, grid: List[List[int]]) -> int:
