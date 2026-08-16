@@ -180,6 +180,7 @@
 | 3 | Kth Smallest Element in a BST | Amazon, Microsoft, Google | [LeetCode 230](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/trees/09_kth_smallest_in_bst.py) |
 | 4 | Convert BST to Sorted Doubly Linked List | Amazon, Google, Microsoft | [LeetCode 426](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/) | 🔲 TODO - not built yet (10_bst_to_sorted_doubly_linked_list.py) |
 | 5 | Lowest Common Ancestor of a BST | Amazon, Microsoft, Google | [LeetCode 235](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/trees/34_lca_of_bst.py) |
+| 6 | Largest BST in Binary Tree | Amazon, Google, Microsoft | [GFG](https://www.geeksforgeeks.org/problems/largest-bst/1) | 🔲 TODO - not built yet (39_largest_bst_in_binary_tree.py) |
 
 -------
 
@@ -263,6 +264,13 @@
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
 | 1 | Count of Smaller Numbers After Self (Fenwick Tree) | Amazon, Google | [LeetCode 315](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) | 🔲 TODO - not built yet (33_count_of_smaller_numbers_after_self_fenwick.py) |
+
+---------
+
+### Concept Set 9 (Do in order) - Multi-Source BFS on Trees
+| # | Problem | Companies | Question | Solution |
+|---|---------|-----------|-----|----------|
+| 1 | Minimum Time to Burn a Binary Tree from a Given Node | Amazon, Google, Microsoft | [GFG](https://www.geeksforgeeks.org/problems/burning-tree/1) | 🔲 TODO - not built yet (40_minimum_time_to_burn_binary_tree.py) |
 
 ---------
 

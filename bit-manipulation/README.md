@@ -100,6 +100,13 @@
 | 1 | Reverse Bits | Amazon, Microsoft | [LeetCode 190](https://leetcode.com/problems/reverse-bits/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/bit-manipulation/10_reverse_bits.py) |
 | 2 | Bitwise AND of Numbers Range | Amazon, Microsoft | [LeetCode 201](https://leetcode.com/problems/bitwise-and-of-numbers-range/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/bit-manipulation/11_bitwise_and_of_numbers_range.py) |
 
+-------
+
+### Concept Set 4 (Do in order) - Trie-Based Bit Tricks
+| # | Problem | Companies | Question | Solution |
+|---|---------|-----------|-----|----------|
+| 1 | Maximum XOR of Two Numbers in an Array | Amazon, Google, Microsoft | [LeetCode 421](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/) | 🔲 TODO - not built yet (12_maximum_xor_of_two_numbers.py) |
+
 ---------
 
 ## Important Points

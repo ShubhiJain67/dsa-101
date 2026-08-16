@@ -169,6 +169,13 @@
 | 4 | First Missing Positive | Amazon, Microsoft, Google, Meta | [LeetCode 41](https://leetcode.com/problems/first-missing-positive/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/arrays-two-pointers/17_first_missing_positive.py) |
 
 
+-------
+
+### Concept Set 5 (Do in order) - Merge Sort Based Counting
+| # | Problem | Companies | Question | Solution |
+|---|---------|-----------|-----|----------|
+| 1 | Reverse Pairs | Amazon, Google, Microsoft | [LeetCode 493](https://leetcode.com/problems/reverse-pairs/) | 🔲 TODO - not built yet (27_reverse_pairs.py) |
+
 ---------
 
 ## Important Points

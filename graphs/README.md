@@ -135,10 +135,8 @@
 - used to find single source shortest path (another is Dijkstra)
 - EITHER all edges have same weight (in Dijakstra every edge can have diff +ve weight) ** becuase if edge weight is same then the path with less nodes will always be the shortest and hence BFS works ** (all can be onsidered 1 and final answer * the weight)
 - OR wieights of the edges are either 0 or 1
-- If we have Dijkstra then why this? **This has less time complexity**
-- **At any point in time we have 2 levels in the queue of BFS**
-- Dijkstra (O(ElogV))
-- DIJKSTRA WITH NO MIN HEAP, BUT A PRIORITY QUEUE
+- If we have Dijkstra then why this? **0-1 BFS is O(V+E), faster than Dijkstra's O(E log V) - no heap needed, just a deque**
+- **At any point in time we have at most 2 distinct distance-levels in the deque**
 - **THE ACTUAL MECHANIC (missing above if you just remember "it's like BFS")**: use a DEQUE, not a normal queue
   ```
   deque = [start]
@@ -254,11 +252,11 @@
 - KEYWORDS - "a/b = 2, b/c = 3, find a/c" -> Evaluate Division style problems
 
 ### Dijkstra's Algorithm
-- 1 Source and 1 Destination
+- SINGLE SOURCE to ALL other nodes (not "1 source and 1 destination" - it naturally computes shortest distance from the source to EVERY reachable node; if you only care about 1 destination you can early-exit the moment you pop it, but that's an optimization, not what the algorithm fundamentally does)
 - In weighted graph
-- Finds min path wieght
+- Finds min path weight
 - Works on both directed and undirected graphs.
-- Uses min heap to get all beter paths found in journey
+- Uses min heap to get all better paths found in journey
 - using min heap so that the paths with less weight is getting prioritised
 - While processing curr Min node, there is a posibility that the weighted path of the node could have gotten updated by some other route.
 - ** In C++ instead of heaps you can use Ordered sets because there you can delete an element form the set (the one which we are ignoring as someother node's processing could have changed the value and made this insignificant) (This can be safely deleted because if the better one was pushed before then the future bigger values would not have made to the min list)
@@ -267,7 +265,7 @@
    - Source, Dest
    - Shortest Path
    - Weighted Path (if not weighted can be done via BFS as well)
-- ** CANNOT WORK WITH NEGATIVE EDGES ** as this will keep on updating the min path and keep on pushing it in min heap (more the number of times you traverse a negative edge the weight sum keeps on decreasing)
+- ** CANNOT WORK WITH NEGATIVE EDGES ** - the real reason: Dijkstra treats a node's distance as FINAL the moment it's popped from the heap (greedy), assuming no future edge could ever improve it. A negative edge encountered later can still find a shorter path to an already-finalized node, but Dijkstra has already moved on and won't revisit it - so it gives a WRONG (not just slow) answer. (With a negative CYCLE specifically, distances can also shrink without bound, which is the "keeps decreasing" case - but the wrong-answer problem exists even with just one negative edge and no cycle at all.)
 - **The loop skeleton (the "skip stale heap entries" part is what people forget)**:
   ```
   minHeap = [(0, start)]        # (distance, node)
@@ -296,8 +294,8 @@
 - Finds min path weight
 - Only works for Directed Graph (if an undirected graph is given, ** convert it into directed by adding both edges -> and <- **)
 - if you ** RELAX ** all edges (V - 1) times you will get the shortest path (RELAX - when in Dijakstra's algo we used to update the minWeight after poping min heap element)
-- RELAX the edges in the same order as the first iteration. (Order could be anything but all V - 1 relaxations hsould be in same order)
-- ^ Why? -> in every iteration you are technically relaxing the same level and some of other as well (1st iteration of relaxation, all nodes of level 1 nodes get relaxed and some of other can get too)
+- The edge order within each pass does NOT need to be fixed/identical across iterations - correctness only requires that EVERY edge gets relaxed at least once per pass, for V-1 passes total. (Keeping the order consistent just makes it easier to reason about "which level got relaxed when" - it's a mental-model convenience, not a correctness requirement.)
+- Why (V-1) passes is enough -> each pass guarantees the shortest path is found for all nodes at least 1 hop further than the previous pass guaranteed (1st iteration of relaxation, all nodes 1 edge from source get finalized, and some further nodes may get too)
 - Why (V-1) -> if they are lineraly joined then the total number of levels would be V - 1
 - If on relaxing Vth time if any distance gets updated then it means ** THERE IS A NEGATIVE CYCLE **
 
@@ -659,6 +657,14 @@ graph -       spanning trees -
 | 1 | A* Search on Shortest Path in Binary Matrix | Google | [Link](https://leetcode.com/problems/shortest-path-in-binary-matrix/description/) | 🔲 TODO - not built yet (69_a_star_search.py) |
 | 2 | Johnson's Algorithm (All Pairs Shortest Path) | - | [Link](https://www.geeksforgeeks.org/dsa/johnsons-algorithm/) | 🔲 TODO - not built yet (70_johnsons_algorithm.py) |
 | 3 | 2-SAT (Two Sets) | - | [Link](https://codeforces.com/problemset/problem/468/B) | 🔲 TODO - not built yet (71_two_sat.py) |
+
+---------
+
+### Concepts Set 13 (Do in order) - Topo Sort & Constrained Shortest Path
+| # | Problem | Companies | GFG | Solution |
+|---|---------|-----------|-----|----------|
+| 1 | Alien Dictionary | Amazon, Google, Meta | [Link](https://www.geeksforgeeks.org/problems/alien-dictionary/1) | 🔲 TODO - not built yet (72_alien_dictionary.py) |
+| 2 | Cheapest Flights Within K Stops | Amazon, Google, Microsoft | [Link](https://leetcode.com/problems/cheapest-flights-within-k-stops/) | 🔲 TODO - not built yet (73_cheapest_flights_within_k_stops.py) |
 
 ---------
 

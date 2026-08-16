@@ -60,23 +60,6 @@
 | "Can this string be segmented into dictionary words" | Word Break |
 | Minimize worst-case number of trials/attempts | Search Space DP (Egg Drop style) |
 
-## Problem Patterns
-1. 0-1 Knapscak
-2. Unbounded Knapsack
-3. Fibonacci / Linear DP
-4. LCS
-5. LIS
-6. Kadane's Algorithm
-7. Matrix Chain Multiplication / Interval DP
-8. DP on Trees
-9. DP on Grid
-10. Bitmask DP
-11. Digit DP
-12. DP on Stocks (State Machine DP)
-13. String Matching DP (Wildcard/Regex)
-14. Word Break
-15. Search Space DP (Egg Drop style)
-
 ------
 
 ## Knapsack Problems
