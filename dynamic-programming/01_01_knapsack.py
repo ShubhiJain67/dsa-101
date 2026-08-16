@@ -43,4 +43,21 @@ class Solution:
                     withItem = values[index] + memory[index+1][w-weights[index]]
                     memory[index][w] = withoutItem if withoutItem > withItem else withItem
         return memory[0][W]
+
+    def knapsackProblemDPV2(self, W, values, weights):
+            prev = [None]*(W+1)
+            memory = [[None]*(W+1) for _ in range(len(values)+1)]
+            for w in range(W+1):
+                curr = [None]*(W+1)
+                for index in range(len(values), -1, -1):
+                    if index == len(values) or w == 0:
+                        curr[w] = 0
+                    elif weights[index] > w:
+                        curr[w] = prev[w]
+                    else:
+                        withoutItem = prev[w]
+                        withItem = values[index] + prev[w-weights[index]]
+                        curr[w] = withoutItem if withoutItem > withItem else withItem
+                prev = curr
+            return memory[0][W]
                 
