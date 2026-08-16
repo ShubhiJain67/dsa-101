@@ -71,8 +71,8 @@
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
 | 1 | Insert Interval | Amazon, Microsoft, Google, Meta | [LeetCode 57](https://leetcode.com/problems/insert-interval/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/greedy/02_insert_interval.py) |
-| 2 | Meeting Rooms (Can Attend All) | Amazon, Microsoft, Meta | [LeetCode 252](https://leetcode.com/problems/meeting-rooms/) | 🔲 TODO - not built yet (04_meeting_rooms.py) |
-| 3 | Minimum Number of Platforms Required | Amazon, Microsoft, Ola | [GFG](https://www.geeksforgeeks.org/problems/minimum-platforms-1587115620/1) | 🔲 TODO - not built yet (11_minimum_platforms.py) |
+| 2 | Meeting Rooms (Can Attend All) | Amazon, Microsoft, Meta | [LeetCode 252](https://leetcode.com/problems/meeting-rooms/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/greedy/04_meeting_rooms.py) |
+| 3 | Minimum Number of Platforms Required | Amazon, Microsoft, Ola | [GFG](https://www.geeksforgeeks.org/problems/minimum-platforms-1587115620/1) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/greedy/11_minimum_platforms.py) |
 
 -------
 
