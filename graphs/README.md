@@ -22,6 +22,11 @@
       3:[],
     }
     ```
+### Edge List
+  - Simple list of all edges: `[(u1, v1, w1), (u2, v2, w2), ...]`
+  - Space -> O(E)
+  - Used when you need to SORT edges (Kruskal's) or just iterate over every edge once (Bellman-Ford)
+  - Bad for "find neighbors of node X" (needs O(E) scan) - use Adjacency List for that instead
 
 ---------
 
@@ -29,6 +34,43 @@
 - Entites would be numbered or labeled (example we have n courses labeled distinctly)
 - [OR] Can see relations / paths between entities
 - [OR] Direct -> Cclic or not, Bipartite or not
+
+---------
+
+## Keyword → Algorithm Cheat Sheet
+| Keywords in Question | Algorithm |
+|---|---|
+| Traverse all paths / all combinations | DFS |
+| Shortest path, unweighted | BFS |
+| Shortest path, multiple starting points | Multi-source BFS |
+| Shortest path, weights are only 0/1 | 0-1 BFS |
+| Shortest path, huge search space, source AND destination both known | Bidirectional BFS |
+| Graph built implicitly from transformations/states (not given as adjacency list) | BFS on Implicit Graph |
+| Shortest path, weighted, single source, no negative edges | Dijkstra |
+| Shortest path, weighted, negative edges allowed / detect negative cycle | Bellman-Ford |
+| Shortest path, all pairs | Floyd-Warshall |
+| Ordering with dependencies (DAG) | Topological Sort |
+| Shortest/longest path, graph is a DAG (may have negative edges) | Topo Sort + DP relaxation |
+| Cycle detection (directed) | DFS 3-color (white/gray/black) or BFS Kahn's |
+| Cycle detection (undirected) | DFS/BFS with parent tracking, or DSU |
+| Can graph be divided into 2 groups / no 2 adjacent same group | Bipartite Check |
+| Union / grouping / connectivity queries | DSU (Union-Find) |
+| Union with a ratio/relation between nodes ("a/b = 2, find a/c") | Weighted DSU |
+| Minimum cost to connect all nodes | MST (Prim's / Kruskal's) |
+| Node whose removal disconnects the graph | Articulation Point |
+| Edge whose removal disconnects the graph | Bridge |
+| Cluster of strongly related nodes (directed graph) | SCC (Kosaraju's / Tarjan's) |
+| Compress each SCC into 1 node, need it acyclic | Condensation Graph (always a DAG) |
+| Boolean satisfiability, exactly 2 vars per clause | 2-SAT (via SCC) |
+| Visit every EDGE exactly once | Eulerian Path/Circuit |
+| Visit every NODE exactly once | Hamiltonian Path/Cycle (NP-Hard, bitmask DP for small n) |
+| Max data that can flow start->end given capacities | Max Flow (Ford-Fulkerson / Edmonds-Karp) |
+| All pairs shortest path, SPARSE graph, negative edges | Johnson's Algorithm |
+| Shortest path on a grid/map, target node known upfront | A* Search (heuristic-guided Dijkstra) |
+| Grid problems (islands, regions, flood fill) | Grid as Graph (BFS/DFS, 4 or 8-directional) |
+| Longest path between 2 nodes in a TREE | Tree Diameter (2-BFS/DFS trick) |
+| Ancestor queries / distance between 2 nodes in a TREE | LCA (Binary Lifting / Euler Tour + Sparse Table) |
+| Need an answer computed with EVERY node as root | Rerooting Technique |
 
 ---------
 
@@ -97,7 +139,43 @@
 - **At any point in time we have 2 levels in the queue of BFS**
 - Dijkstra (O(ElogV))
 - DIJKSTRA WITH NO MIN HEAP, BUT A PRIORITY QUEUE
+- **THE ACTUAL MECHANIC (missing above if you just remember "it's like BFS")**: use a DEQUE, not a normal queue
+  ```
+  deque = [start]
+  while deque:
+      node = deque.popleft()
+      if visited[node]: continue
+      visited[node] = true
+      for neighbor, weight in adjList[node]:
+          if weight == 0:
+              deque.appendleft(neighbor)   # push FRONT
+          else:
+              deque.append(neighbor)       # push BACK
+  ```
+- Weight-0 edges get processed before anything already queued (pushed to front) - that's the whole trick
 
+### Bidirectional BFS
+- Run 2 BFS simultaneously - one from source, one from destination
+- Stop as soon as the 2 frontiers meet
+- Reduces search space from O(b^d) to O(b^(d/2)) (b = branching factor, d = depth)
+- Only works when BOTH source and destination are known upfront (won't work for single-source-to-all-destinations problems)
+- Alternate expanding whichever frontier is SMALLER each step (keeps both sides balanced, this is what gives the speedup)
+- KEYWORDS - "shortest transformation from A to B", "minimum steps from start to end", word-ladder style problems
+
+### BFS on Implicit Graphs (Build Edges on the Fly)
+- Graph is NOT given as an adjacency list/matrix - nodes are STATES, edges are TRANSFORMATIONS between states
+- Example: Word Ladder (nodes = words, edge exists if 2 words differ by exactly 1 letter)
+- Generate neighbors on the fly instead of looking them up (mutate the state, check if the result is valid/unvisited)
+- Still plain BFS underneath - only the neighbor-generation step is different
+- KEYWORDS - "minimum operations/steps to transform X into Y"
+
+### Grid as Graph
+- Each cell (r, c) is a node, edges connect to 4 (up/down/left/right) or 8 (+ diagonals) neighboring cells
+- ALWAYS check grid boundaries before visiting a neighbor
+- 4-directional -> Number of Islands, Flood Fill, Rotten Oranges, Walls and Gates
+- 8-directional -> only when diagonal movement is explicitly allowed by the problem - **check the problem statement carefully, this is the #1 place people lose marks by assuming the wrong direction set**
+- Direction arrays speed up code: `dirs = [(-1,0),(1,0),(0,-1),(0,1)]` (add the 4 diagonals for 8-directional)
+- Same DFS/BFS/Multi-source-BFS/Dijkstra concepts from above apply directly - cell = node, nothing new algorithmically
 
 ### Topo Sort
 - Only in Directed Acyclic Graph (DAG)
@@ -110,7 +188,24 @@
 - If topo sort is not possible hence There is A CYCLE IN THE DIRECTED GRAPH   
    - In BFS the len(topo sort) != number of nodes
    - In DFS you will not be able to tell if it is cyclic or not, DFS Topo algo will still give a response but it might be invalid
- 
+
+### DAG Shortest/Longest Path (via Topological Sort)
+- Only works on a DAG (no cycles)
+- Get the topo order first, then relax edges in THAT order - 1 pass, no heap needed (unlike Dijkstra)
+- TC - O(V + E), faster than Dijkstra AND works with NEGATIVE EDGES (no cycle exists to make them a problem)
+- For LONGEST path - negate all weights and run the same relaxation, OR just flip min to max in the relaxation step
+- KEYWORDS - "DAG", "shortest/longest path", "critical path", "project scheduling", "minimum/maximum time to complete all tasks"
+
+### Cycle Detection (DFS) - 3 Color Method (White / Gray / Black)
+- Alternative to the visited + pathVisited approach used above, cleaner CLRS-standard naming
+- **WHITE** -> node not visited yet
+- **GRAY** -> node currently in the recursion stack (being processed)
+- **BLACK** -> node fully processed (it and all its descendants are done)
+- While doing DFS, if you hit a **GRAY** node -> CYCLE FOUND
+- If you hit a **BLACK** node -> safe, no cycle (already fully explored, cannot loop back)
+- Works directly for DIRECTED graphs (GRAY = same idea as pathVisited)
+- For UNDIRECTED graphs still need to ignore the immediate parent edge (same trap as before)
+
 ### Bipartite Graph
 - Graph's node can be coloured from 2 colors with no 2 adjacent nodes with same color
 - If odd length cycle - NOT bipartite otherwise - BIPARTITE
@@ -135,6 +230,28 @@
 - **Always one element with more rank is elected so that the tree depth does not increase any further.**
 - **If ranks are same then choose any one and increase the rank of one becoming parent**
 - It is not necessary that with path compression at every point in time parents array will have the topmost parent (ony when after updating find is called teh parents are updated)
+- **Core find/union (missing above if you've only got the theory)**:
+  ```
+  func find(x):
+      if parent[x] != x:
+          parent[x] = find(parent[x])   # path compression - rewires x straight to the root
+      return parent[x]
+
+  func union(x, y):
+      rootX, rootY = find(x), find(y)
+      if rootX == rootY: return
+      if rank[rootX] < rank[rootY]: rootX, rootY = rootY, rootX
+      parent[rootY] = rootX             # smaller rank hangs under bigger rank
+      if rank[rootX] == rank[rootY]: rank[rootX] += 1
+  ```
+
+### DSU with Weights/Ratios (Union-Find with Relations)
+- Normal DSU only tells you IF 2 nodes are connected
+- Weighted DSU also tells you the RELATION/RATIO between 2 connected nodes
+- Store a `weight[]` array alongside `parent[]` -> `weight[x]` = ratio of x to its parent
+- On `find`, accumulate the ratio while doing path compression
+- On `union`, compute the ratio between the 2 leaders using the known ratio on the union edge
+- KEYWORDS - "a/b = 2, b/c = 3, find a/c" -> Evaluate Division style problems
 
 ### Dijkstra's Algorithm
 - 1 Source and 1 Destination
@@ -151,6 +268,28 @@
    - Shortest Path
    - Weighted Path (if not weighted can be done via BFS as well)
 - ** CANNOT WORK WITH NEGATIVE EDGES ** as this will keep on updating the min path and keep on pushing it in min heap (more the number of times you traverse a negative edge the weight sum keeps on decreasing)
+- **The loop skeleton (the "skip stale heap entries" part is what people forget)**:
+  ```
+  minHeap = [(0, start)]        # (distance, node)
+  dist = {start: 0}
+  while minHeap:
+      d, node = heappop(minHeap)
+      if d > dist.get(node, inf): continue   # STALE entry, a better one already got processed
+      for neighbor, weight in adjList[node]:
+          nd = d + weight
+          if nd < dist.get(neighbor, inf):
+              dist[neighbor] = nd
+              heappush(minHeap, (nd, neighbor))
+  ```
+- No separate "visited" set needed if you do the stale-check above - it's what makes revisiting via a better path safe
+
+### A* Search
+- Informed version of Dijkstra - uses a HEURISTIC to guide the search toward the destination faster
+- Priority = actual cost so far (g) + estimated cost to goal (h) -> `f = g + h`
+- Heuristic must be ADMISSIBLE (never overestimates true cost) to guarantee the optimal path - e.g. Manhattan/Euclidean distance on a grid
+- If h = 0 always -> A* degrades to plain Dijkstra
+- Faster than Dijkstra in practice - explores fewer nodes because it prioritizes ones "closer" to the goal
+- KEYWORDS - "shortest path on a grid/map with a KNOWN target", pathfinding-style problems
 
 ### Bellman Ford Algorithm
 - Works with Negative edges
@@ -166,8 +305,35 @@
 - Multiple source and multiple destinations
 - Works with directed graph (for undirected make it directed) then it will work
 - Got to every vertex and for each vertex go via each vertex the minimum of all would be the minimum distance.
+- **LOOP ORDER MATTERS (silent-bug risk if you mix this up)**: `k` (the intermediate vertex) MUST be the outermost loop
+  ```
+  for k in range(V):
+      for i in range(V):
+          for j in range(V):
+              dist[i][j] = min(dist[i][j], dist[i][k] + dist[k][j])
+  ```
+- If `i` or `j` is outermost instead of `k`, you get WRONG answers with no error - it just silently computes garbage, so this is worth memorizing exactly
 - CAN DETECT NEGATIVE CYCLE - HOW?
   dist from 1 node to itself should be 0. SO IF ANY DIAGONAL ELEMENT IS NOT 0 then it has a negative cycle
+
+### Johnson's Algorithm
+- All-pairs shortest path, works with NEGATIVE edges, faster than Floyd-Warshall on SPARSE graphs
+- TC - O(V^2 log V + VE) vs Floyd-Warshall's O(V^3) - better when E << V^2
+- Steps:
+  1. Add a new node connected to every other node with 0-weight edges
+  2. Run Bellman-Ford from that new node to get `h[]` (used to reweight edges and remove negative weights)
+  3. Reweight every edge: `w'(u,v) = w(u,v) + h[u] - h[v]` (guaranteed non-negative now)
+  4. Run Dijkstra from EVERY node on the reweighted graph
+  5. Convert distances back using `h[]`
+- KEYWORDS - "all pairs shortest path", "sparse graph", "negative edges but no negative cycle"
+
+### Max Flow (Ford-Fulkerson / Edmonds-Karp)
+- Given a directed graph with EDGE CAPACITIES, find the max "flow" possible from source to sink
+- **Residual Graph**: for every edge u->v with capacity c and flow f, keep a residual capacity (c - f) forward AND a residual capacity f backward (v->u) - the backward edge lets the algo "undo" a bad earlier choice
+- **Ford-Fulkerson**: repeatedly find ANY augmenting path (source to sink with residual capacity > 0) via DFS, push the bottleneck (min capacity along the path) as flow, update the residual graph, repeat until no path exists
+- **Edmonds-Karp**: same as Ford-Fulkerson but uses BFS to find the augmenting path (shortest path by edge count) - guarantees TC O(V * E^2), avoids Ford-Fulkerson's worst-case slow convergence
+- **Max-Flow Min-Cut Theorem**: max flow = min cut (min total capacity of edges that, if removed, disconnect source from sink)
+- KEYWORDS - "capacities", "max flow", "bottleneck", "min cut", "maximum number of edge-disjoint paths"
 
 ### Spanning Tree
 - Graph should be weighted and connected
@@ -213,11 +379,45 @@ graph -       spanning trees -
 - apply DFS on nodes in order of topo sort
 - The number of times DFS runs -> Number of connected components
 
+### Bridges & Articulation Points (Tarjan's Low-Link Algorithm)
+- Both found using 1 DFS pass with 2 arrays: `tin[]` (time of insertion) and `low[]` (lowest tin reachable from the subtree, including via at most 1 back edge)
+- `low[node] = min(tin[node], tin of back-edge neighbors, low of child neighbors)`
+- **Bridge**: edge (u, v) where v is a child of u in the DFS tree, is a bridge if `low[v] > tin[u]` (child cannot reach u or anything before u WITHOUT this edge)
+- **Articulation Point**:
+  - Root of the DFS tree is an articulation point if it has MORE THAN 1 child in the DFS tree
+  - Any other node u is an articulation point if it has a child v with `low[v] >= tin[u]` (child cannot escape without going through u)
+- Ignore the edge back to the immediate PARENT while computing low[] (same parent-edge trap as cycle detection)
+- TC - O(V + E)
+- KEYWORDS - "critical connections", "removing this edge/node disconnects the graph", single point of failure
+
+### Tarjan's Algorithm (SCC)
+- Alternative to Kosaraju's - finds all SCCs in 1 DFS pass (Kosaraju's needs 2 passes + reversing the graph)
+- Uses the SAME `tin[]` / `low[]` low-link idea as Bridges/Articulation Points above
+- Maintain a stack of nodes currently "in progress" (on the current DFS path and not yet assigned to an SCC)
+- A node `u` is the ROOT of an SCC if `low[u] == tin[u]`
+- When a root is found - pop the stack until `u` itself is popped, everything popped together = 1 SCC
+- TC - O(V + E), Space - O(V) (no need to build a reversed graph like Kosaraju's)
+
+### Condensation Graph (SCC → DAG)
+- Compress each SCC into a single node -> the resulting graph is ALWAYS a DAG (if there were a cycle between SCCs, they'd be 1 SCC by definition)
+- Built after finding SCCs (Kosaraju's or Tarjan's)
+- Once you have this DAG, every DAG technique applies on top (topo sort, DAG shortest/longest path, DP over the DAG)
+- KEYWORDS - "condense/compress strongly connected components", "make the graph acyclic", any problem combining SCC + topo sort/DP
+
+### 2-SAT
+- Solves boolean satisfiability where each clause has EXACTLY 2 variables, e.g. `(x1 OR x2)`
+- Model each variable as 2 nodes: `x` and `NOT x`
+- Each clause `(a OR b)` becomes 2 directed implication edges: `(NOT a -> b)` and `(NOT b -> a)` ("if a is false, b must be true")
+- Find SCCs of this implication graph
+- **UNSATISFIABLE** if any variable `x` and `NOT x` land in the SAME SCC (means x = NOT x, impossible)
+- Otherwise **SATISFIABLE** - assign each variable based on topo order of the condensation graph (whichever of x / NOT x appears LATER in topo order gets TRUE)
+- KEYWORDS - "boolean satisfiability", "exactly 2 choices per constraint", "assign true/false satisfying all conditions"
 
 ### Eulerian Path and Circuit/Cycle
 - Works for both Directed and Directed Graph
 - A path of edges which visited all the edges in the graph EXACTLY ONCE
 - KEYWORDS (visit full path (each edge once))
+- **Handshaking Lemma**: sum of all node degrees = 2 * number of edges (each edge contributes to 2 nodes' degree) - quick sanity check for the degree-based Euler conditions below
 - Not all graphs have a eularian path
 - An eularian Path with Starts and end at the same node -> Eulerian Circuit or Eulerian Cycle
 - If your graph has a eulerian cycle then you can start from any node and reach that node by traversing every edge once
@@ -235,14 +435,51 @@ graph -       spanning trees -
    - End Node : indegree - outdegre = 1
    - Rest Nodes : indegree = outdegree
    - IF ALL HAVE indegree = outdegree -> EULER CIRCUIT
- 
+- Do not confuse with HAMILTONIAN PATH/CYCLE (visits every NODE once, not every edge - see below)
+
 ### Hierholzer's Algorithm
 - For directed graph
 - Apply DFS (and keep on removing the edge that has already been traversed)
 - Ensure you start from the right node
 
-  
---------- 
+### Hamiltonian Path & Cycle
+- Visits every NODE exactly once (Euler = every EDGE exactly once - do not confuse the two)
+- NP-Hard in general - no known polynomial solution
+- For SMALL n (<= ~20), solved via Bitmask DP: `dp[mask][node]` = can we reach this `node` having visited exactly the nodes in `mask`
+- Hamiltonian CYCLE = Hamiltonian path that also returns to the start node
+- TC - O(2^n * n^2) with bitmask DP
+- KEYWORDS - "visit every city/node exactly once", "shortest route visiting all locations" (classic TSP framing)
+
+---------
+
+## Tree-on-Graph Techniques
+(Trees are just acyclic connected graphs - these techniques exploit that structure specifically)
+
+### Tree Diameter
+- Longest path between any 2 nodes in a tree
+- **2-BFS/DFS trick**: BFS/DFS from ANY node -> find the farthest node A -> BFS/DFS from A -> farthest node found from A is the OTHER end of the diameter, and that distance IS the diameter
+- Why it works - in a tree, the farthest node from ANY starting point is always one endpoint of the diameter (known result, not obvious on first look)
+- Alternative - DP on tree: for every node, `diameter = max(height of 2 deepest children) + 2`, take the max over all nodes
+- TC - O(V) either way
+- KEYWORDS - "longest path in a tree", "farthest 2 nodes"
+
+### Lowest Common Ancestor (LCA)
+- Deepest node that is an ancestor of BOTH given nodes
+- **Binary Lifting**: precompute `up[node][j]` = 2^j-th ancestor of node, via `up[node][j] = up[up[node][j-1]][j-1]`
+- To find LCA(u, v) - bring both to the SAME depth first (jump the deeper one up), then binary-jump BOTH up together until they're 1 step from meeting
+- Precompute - O(V log V), Query - O(log V)
+- **Euler Tour + Sparse Table (RMQ)**: flatten the tree via Euler tour, LCA(u,v) = node with min depth between the first occurrences of u and v in the tour -> becomes a Range Minimum Query problem
+- Naive - walk both nodes up to root storing ancestors (or walk one path into a set) - O(V) per query, fine if you only have a few queries
+- KEYWORDS - "common ancestor", "distance between 2 nodes in a tree" (`dist(u,v) = depth[u] + depth[v] - 2*depth[LCA(u,v)]`)
+
+### Rerooting Technique
+- Used when you need an answer computed for EVERY node treated as the root (e.g. sum of distances from each node to all others)
+- Naive - O(V) traversal from every node = O(V^2) total
+- Rerooting - 1 DFS to compute the answer for an arbitrary root, then a 2nd DFS to DERIVE every other node's answer from its parent's answer in O(1) per node (using how the answer changes when the root shifts by exactly 1 edge)
+- TC - O(V) total instead of O(V^2)
+- KEYWORDS - "for every node as root", "sum of distances", any answer that would otherwise need V separate traversals
+
+---------
 
 ## Questions
 ### Concepts Set 1 (Do in order)
@@ -341,16 +578,87 @@ graph -       spanning trees -
 |---|---------|-----------|-----|----------|
 | 1 | Euler Path and Circuit (Undirected Graph)| - | [Link](https://www.geeksforgeeks.org/problems/euler-circuit-and-path/1) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/graphs/45_euler_path_and_circuit.py) |
 | 2 | Euler Path and Circuit (Directed Graph)| - | [Link](https://www.geeksforgeeks.org/problems/euler-circuit-in-a-directed-graph/1) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/graphs/46_euler_path_and_circuit_directed_graph.py) |
-| 3  | Hierholzer's Algorithm | - | [Link]([https://www.geeksforgeeks.org/problems/euler-circuit-in-a-directed-graph/1)](https://leetcode.com/problems/valid-arrangement-of-pairs) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/graphs/47_hierholzers_algorithm.py) |
+| 3  | Hierholzer's Algorithm | - | [Link](https://leetcode.com/problems/valid-arrangement-of-pairs) | 🔲 TODO - not built yet (47_hierholzers_algorithm.py) |
 
 
 ### Practice Set 5
 | # | Problem | Companies | GFG | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | Valid Arrangement of Pairs | - | [Link](https://leetcode.com/problems/valid-arrangement-of-pairs) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/graphs/48_valid_arrangement_of_pairs_euler.py) |
-| 2 | Find Minimum Diameter After Merging Two Trees | - | [Link](https://leetcode.com/problems/find-minimum-diameter-after-merging-two-trees/description/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/graphs/49_minimum_diameter_after_merging_2_trees.py) |
+| 1 | Valid Arrangement of Pairs | - | [Link](https://leetcode.com/problems/valid-arrangement-of-pairs) | 🔲 TODO - not built yet (48_valid_arrangement_of_pairs_euler.py) |
+| 2 | Find Minimum Diameter After Merging Two Trees | - | [Link](https://leetcode.com/problems/find-minimum-diameter-after-merging-two-trees/description/) | 🔲 TODO - not built yet (49_minimum_diameter_after_merging_2_trees.py) |
 
+---------
 
+### Concepts Set 6 (Do in order) - Bridges, Articulation Points, Tarjan's SCC
+| # | Problem | Companies | GFG | Solution |
+|---|---------|-----------|-----|----------|
+| 1 | Bridges in Graph | Google, Amazon | [Link](https://www.geeksforgeeks.org/problems/bridge-edge-in-graph/1) | 🔲 TODO - not built yet (50_bridges_in_graph.py) |
+| 2 | Articulation Points | Google, Amazon, Microsoft | [Link](https://www.geeksforgeeks.org/problems/articulation-point-1/1) | 🔲 TODO - not built yet (51_articulation_points.py) |
+| 3 | Strongly Connected Components (Tarjan's Algorithm) | Google, Amazon | [Link](https://www.geeksforgeeks.org/problems/strongly-connected-components-kosarajus-algo/1) | 🔲 TODO - not built yet (52_scc_tarjans_algorithm.py) |
+
+### Practice Set 6
+| # | Problem | Companies | GFG | Solution |
+|---|---------|-----------|-----|----------|
+| 1 | Critical Connections in a Network | Google, Amazon, Meta | [Link](https://leetcode.com/problems/critical-connections-in-a-network/) | 🔲 TODO - not built yet (53_critical_connections_in_a_network.py) |
+
+---------
+
+### Concepts Set 7 (Do in order) - Bidirectional BFS, Implicit Graph BFS, Weighted DSU
+| # | Problem | Companies | GFG | Solution |
+|---|---------|-----------|-----|----------|
+| 1 | Word Ladder (BFS) | Amazon, Google, Meta | [Link](https://leetcode.com/problems/word-ladder/) | 🔲 TODO - not built yet (54_word_ladder_bfs.py) |
+| 2 | Word Ladder (Bidirectional BFS) | Amazon, Google, Meta | [Link](https://leetcode.com/problems/word-ladder/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/graphs/55_word_ladder_bidirectional_bfs.py) |
+| 3 | Evaluate Division (Weighted DSU) | Google, Amazon | [Link](https://leetcode.com/problems/evaluate-division/) | 🔲 TODO - not built yet (56_evaluate_division_weighted_dsu.py) |
+
+---------
+
+### Concepts Set 8 (Do in order) - Max Flow
+| # | Problem | Companies | GFG | Solution |
+|---|---------|-----------|-----|----------|
+| 1 | Max Flow - Ford Fulkerson | Google, Amazon | [Link](https://www.geeksforgeeks.org/problems/find-the-maximum-flow2126/1) | 🔲 TODO - not built yet (57_max_flow_ford_fulkerson.py) |
+| 2 | Max Flow - Edmonds Karp (BFS) | Google, Amazon | [Link](https://www.geeksforgeeks.org/problems/find-the-maximum-flow2126/1) | 🔲 TODO - not built yet (58_max_flow_edmonds_karp.py) |
+
+### Practice Set 8
+| # | Problem | Companies | GFG | Solution |
+|---|---------|-----------|-----|----------|
+| 1 | Maximum Bipartite Matching | Google | [Link](https://www.geeksforgeeks.org/problems/maximum-bipartite-matching/1) | 🔲 TODO - not built yet (59_maximum_bipartite_matching.py) |
+
+---------
+
+### Concepts Set 9 (Do in order) - Hamiltonian Path/Cycle
+| # | Problem | Companies | GFG | Solution |
+|---|---------|-----------|-----|----------|
+| 1 | Traveling Salesman Problem (Bitmask DP) | Amazon, Google | [Link](https://www.geeksforgeeks.org/problems/tsp-problem/1) | 🔲 TODO - not built yet (60_tsp_bitmask_dp.py) |
+
+---------
+
+### Concepts Set 10 (Do in order) - DAG Shortest/Longest Path, Condensation Graph
+| # | Problem | Companies | GFG | Solution |
+|---|---------|-----------|-----|----------|
+| 1 | Shortest Path in Directed Acyclic Graph | Amazon, Microsoft | [Link](https://www.geeksforgeeks.org/problems/shortest-path-in-undirected-graph/1) | 🔲 TODO - not built yet (61_shortest_path_in_dag.py) |
+| 2 | Parallel Courses III (Longest Path in a DAG) | Google, Amazon | [Link](https://leetcode.com/problems/parallel-courses-iii/) | 🔲 TODO - not built yet (62_longest_path_in_dag.py) |
+| 3 | Course Schedule IV (Condensation Graph / Reachability) | Amazon, Meta | [Link](https://leetcode.com/problems/course-schedule-iv/) | 🔲 TODO - not built yet (63_course_schedule_iv_condensation.py) |
+
+---------
+
+### Concepts Set 11 (Do in order) - Tree Diameter, LCA, Rerooting
+| # | Problem | Companies | GFG | Solution |
+|---|---------|-----------|-----|----------|
+| 1 | Diameter of Binary Tree | Amazon, Microsoft, Google | [Link](https://leetcode.com/problems/diameter-of-binary-tree/) | 🔲 TODO - not built yet (64_diameter_of_binary_tree.py) |
+| 2 | Diameter of N-ary Tree | Google, Amazon | [Link](https://www.geeksforgeeks.org/problems/diameter-of-n-ary-tree/1) | 🔲 TODO - not built yet (65_diameter_of_n_ary_tree.py) |
+| 3 | Lowest Common Ancestor (Basic, then re-solve with Binary Lifting) | Google, Amazon, Meta | [Link](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | 🔲 TODO - not built yet (66_lca_binary_lifting.py) |
+| 4 | Kth Ancestor of a Tree Node (Binary Lifting) | Google, Amazon | [Link](https://leetcode.com/problems/kth-ancestor-of-a-tree-node/) | 🔲 TODO - not built yet (67_kth_ancestor_binary_lifting.py) |
+| 5 | Sum of Distances in Tree (Rerooting) | Google | [Link](https://leetcode.com/problems/sum-of-distances-in-tree/) | 🔲 TODO - not built yet (68_sum_of_distances_in_tree_rerooting.py) |
+
+---------
+
+### Concepts Set 12 (Optional / Lower Priority) - Johnson's, A*, 2-SAT
+- Lower interview frequency than everything above - only worth doing once Sets 1-11 are solid
+| # | Problem | Companies | GFG | Solution |
+|---|---------|-----------|-----|----------|
+| 1 | A* Search on Shortest Path in Binary Matrix | Google | [Link](https://leetcode.com/problems/shortest-path-in-binary-matrix/description/) | 🔲 TODO - not built yet (69_a_star_search.py) |
+| 2 | Johnson's Algorithm (All Pairs Shortest Path) | - | [Link](https://www.geeksforgeeks.org/dsa/johnsons-algorithm/) | 🔲 TODO - not built yet (70_johnsons_algorithm.py) |
+| 3 | 2-SAT (Two Sets) | - | [Link](https://codeforces.com/problemset/problem/468/B) | 🔲 TODO - not built yet (71_two_sat.py) |
 
 ---------
 
