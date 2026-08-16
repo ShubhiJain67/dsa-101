@@ -64,28 +64,28 @@
 ### Concept Set 1 (Do in order) - XOR Fundamentals
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | Single Number | Amazon, Microsoft, Google, Meta | [LeetCode 136](https://leetcode.com/problems/single-number/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/bit-manipulation/01_single_number.py) |
+| 1 | Single Number | Amazon, Microsoft, Google, Meta | [LeetCode 136](https://leetcode.com/problems/single-number/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/bit-manipulation/01_single_number.py) |
 
 ### Questions
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | Single Number II | Amazon, Microsoft | [LeetCode 137](https://leetcode.com/problems/single-number-ii/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/bit-manipulation/02_single_number_ii.py) |
-| 2 | Single Number III | Amazon, Microsoft, Google | [LeetCode 260](https://leetcode.com/problems/single-number-iii/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/bit-manipulation/03_single_number_iii.py) |
-| 3 | Missing Number (XOR Approach) | Amazon, Microsoft | [LeetCode 268](https://leetcode.com/problems/missing-number/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/bit-manipulation/04_missing_number_xor.py) |
+| 1 | Single Number II | Amazon, Microsoft | [LeetCode 137](https://leetcode.com/problems/single-number-ii/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/bit-manipulation/02_single_number_ii.py) |
+| 2 | Single Number III | Amazon, Microsoft, Google | [LeetCode 260](https://leetcode.com/problems/single-number-iii/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/bit-manipulation/03_single_number_iii.py) |
+| 3 | Missing Number (XOR Approach) | Amazon, Microsoft | [LeetCode 268](https://leetcode.com/problems/missing-number/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/bit-manipulation/04_missing_number_xor.py) |
 
 -------
 
 ### Concept Set 2 (Do in order) - Bit Counting & Checks
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | Number of 1 Bits | Amazon, Microsoft, Google | [LeetCode 191](https://leetcode.com/problems/number-of-1-bits/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/bit-manipulation/05_number_of_1_bits.py) |
+| 1 | Number of 1 Bits | Amazon, Microsoft, Google | [LeetCode 191](https://leetcode.com/problems/number-of-1-bits/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/bit-manipulation/05_number_of_1_bits.py) |
 
 ### Questions
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | Counting Bits | Amazon, Microsoft, Google | [LeetCode 338](https://leetcode.com/problems/counting-bits/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/bit-manipulation/06_counting_bits.py) |
-| 2 | Power of Two | Amazon, Microsoft | [LeetCode 231](https://leetcode.com/problems/power-of-two/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/bit-manipulation/07_power_of_two.py) |
-| 3 | Power of Four | Amazon, Microsoft | [LeetCode 342](https://leetcode.com/problems/power-of-four/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/bit-manipulation/08_power_of_four.py) |
+| 1 | Counting Bits | Amazon, Microsoft, Google | [LeetCode 338](https://leetcode.com/problems/counting-bits/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/bit-manipulation/06_counting_bits.py) |
+| 2 | Power of Two | Amazon, Microsoft | [LeetCode 231](https://leetcode.com/problems/power-of-two/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/bit-manipulation/07_power_of_two.py) |
+| 3 | Power of Four | Amazon, Microsoft | [LeetCode 342](https://leetcode.com/problems/power-of-four/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/bit-manipulation/08_power_of_four.py) |
 
 -------
 
@@ -97,8 +97,8 @@
 ### Questions
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | Reverse Bits | Amazon, Microsoft | [LeetCode 190](https://leetcode.com/problems/reverse-bits/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/bit-manipulation/10_reverse_bits.py) |
-| 2 | Bitwise AND of Numbers Range | Amazon, Microsoft | [LeetCode 201](https://leetcode.com/problems/bitwise-and-of-numbers-range/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/bit-manipulation/11_bitwise_and_of_numbers_range.py) |
+| 1 | Reverse Bits | Amazon, Microsoft | [LeetCode 190](https://leetcode.com/problems/reverse-bits/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/bit-manipulation/10_reverse_bits.py) |
+| 2 | Bitwise AND of Numbers Range | Amazon, Microsoft | [LeetCode 201](https://leetcode.com/problems/bitwise-and-of-numbers-range/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/bit-manipulation/11_bitwise_and_of_numbers_range.py) |
 
 ---------
 

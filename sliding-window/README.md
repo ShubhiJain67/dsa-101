@@ -64,28 +64,28 @@
 ### Concept Set 1 (Do in order) - Fixed-Size Window
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | Maximum Average Subarray I | Amazon, Microsoft | [LeetCode 643](https://leetcode.com/problems/maximum-average-subarray-i/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/tree/main/sliding-window) |
+| 1 | Maximum Average Subarray I | Amazon, Microsoft | [LeetCode 643](https://leetcode.com/problems/maximum-average-subarray-i/) | [Python](https://github.com/ShubhiJain67/dsa-101/tree/main/sliding-window) |
 
 ### Questions
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | Permutation in String | Amazon, Microsoft, Google | [LeetCode 567](https://leetcode.com/problems/permutation-in-string/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/sliding-window/02_permutation_in_string.py) |
-| 2 | Find All Anagrams in a String | Amazon, Microsoft, Google, Meta | [LeetCode 438](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/sliding-window/03_find_all_anagrams_in_a_string.py) |
+| 1 | Permutation in String | Amazon, Microsoft, Google | [LeetCode 567](https://leetcode.com/problems/permutation-in-string/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/sliding-window/02_permutation_in_string.py) |
+| 2 | Find All Anagrams in a String | Amazon, Microsoft, Google, Meta | [LeetCode 438](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/sliding-window/03_find_all_anagrams_in_a_string.py) |
 
 -------
 
 ### Concept Set 2 (Do in order) - Variable-Size Window
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | Longest Substring Without Repeating Characters | Amazon, Microsoft, Google, Meta | [LeetCode 3](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/sliding-window/04_longest_substring_without_repeating_characters.py) |
+| 1 | Longest Substring Without Repeating Characters | Amazon, Microsoft, Google, Meta | [LeetCode 3](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/sliding-window/04_longest_substring_without_repeating_characters.py) |
 
 ### Questions
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
 | 1 | Longest Repeating Character Replacement | Amazon, Microsoft, Google | [LeetCode 424](https://leetcode.com/problems/longest-repeating-character-replacement/) | 🔲 TODO - not built yet (05_longest_repeating_character_replacement.py) |
-| 2 | Fruit Into Baskets | Amazon, Google | [LeetCode 904](https://leetcode.com/problems/fruit-into-baskets/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/sliding-window/06_fruit_into_baskets.py) |
+| 2 | Fruit Into Baskets | Amazon, Google | [LeetCode 904](https://leetcode.com/problems/fruit-into-baskets/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/sliding-window/06_fruit_into_baskets.py) |
 | 3 | Longest Substring with At Most K Distinct Characters | Amazon, Google, Meta | [LeetCode 340](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/) | 🔲 TODO - not built yet (07_longest_substring_at_most_k_distinct.py) |
-| 4 | Minimum Size Subarray Sum | Amazon, Microsoft, Google | [LeetCode 209](https://leetcode.com/problems/minimum-size-subarray-sum/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/sliding-window/08_minimum_size_subarray_sum.py) |
+| 4 | Minimum Size Subarray Sum | Amazon, Microsoft, Google | [LeetCode 209](https://leetcode.com/problems/minimum-size-subarray-sum/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/sliding-window/08_minimum_size_subarray_sum.py) |
 
 -------
 

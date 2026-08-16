@@ -153,98 +153,98 @@
 ### Concept Set 1 (Do in order) - Traversals
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | Binary Tree Inorder Traversal (Recursive + Iterative) | Amazon, Microsoft, Google, Meta | [LeetCode 94](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/trees/01_binary_tree_inorder_traversal.py) |
-| 2 | Binary Tree Level Order Traversal | Amazon, Microsoft, Google, Meta | [LeetCode 102](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/trees/04_binary_tree_level_order_traversal.py) |
+| 1 | Binary Tree Inorder Traversal (Recursive + Iterative) | Amazon, Microsoft, Google, Meta | [LeetCode 94](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/trees/01_binary_tree_inorder_traversal.py) |
+| 2 | Binary Tree Level Order Traversal | Amazon, Microsoft, Google, Meta | [LeetCode 102](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/trees/04_binary_tree_level_order_traversal.py) |
 | 3 | Morris Inorder Traversal (O(1) Space) | Amazon, Microsoft, Google | [GFG](https://www.geeksforgeeks.org/dsa/morris-traversal-for-preorder/) | 🔲 TODO - not built yet (05_morris_inorder_traversal.py) |
 
 ### Questions
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | Binary Tree Preorder Traversal | Amazon, Microsoft | [LeetCode 144](https://leetcode.com/problems/binary-tree-preorder-traversal/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/trees/02_binary_tree_preorder_traversal.py) |
-| 2 | Binary Tree Postorder Traversal | Amazon, Microsoft | [LeetCode 145](https://leetcode.com/problems/binary-tree-postorder-traversal/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/trees/03_binary_tree_postorder_traversal.py) |
-| 3 | N-ary Tree Preorder Traversal | Amazon, Google | [LeetCode 589](https://leetcode.com/problems/n-ary-tree-preorder-traversal/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/trees/37_n_ary_tree_preorder_traversal.py) |
-| 4 | Maximum Depth of N-ary Tree | Amazon, Google | [LeetCode 559](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/trees/38_max_depth_of_n_ary_tree.py) |
+| 1 | Binary Tree Preorder Traversal | Amazon, Microsoft | [LeetCode 144](https://leetcode.com/problems/binary-tree-preorder-traversal/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/trees/02_binary_tree_preorder_traversal.py) |
+| 2 | Binary Tree Postorder Traversal | Amazon, Microsoft | [LeetCode 145](https://leetcode.com/problems/binary-tree-postorder-traversal/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/trees/03_binary_tree_postorder_traversal.py) |
+| 3 | N-ary Tree Preorder Traversal | Amazon, Google | [LeetCode 589](https://leetcode.com/problems/n-ary-tree-preorder-traversal/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/trees/37_n_ary_tree_preorder_traversal.py) |
+| 4 | Maximum Depth of N-ary Tree | Amazon, Google | [LeetCode 559](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/trees/38_max_depth_of_n_ary_tree.py) |
 
 -------
 
 ### Concept Set 2 (Do in order) - Binary Search Tree
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | Validate Binary Search Tree | Amazon, Microsoft, Google, Meta | [LeetCode 98](https://leetcode.com/problems/validate-binary-search-tree/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/trees/06_validate_bst.py) |
+| 1 | Validate Binary Search Tree | Amazon, Microsoft, Google, Meta | [LeetCode 98](https://leetcode.com/problems/validate-binary-search-tree/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/trees/06_validate_bst.py) |
 
 ### Questions
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | Insert into a Binary Search Tree | Amazon, Microsoft | [LeetCode 701](https://leetcode.com/problems/insert-into-a-binary-search-tree/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/trees/07_insert_into_bst.py) |
-| 2 | Delete Node in a BST | Amazon, Microsoft, Google | [LeetCode 450](https://leetcode.com/problems/delete-node-in-a-bst/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/trees/08_delete_node_in_bst.py) |
-| 3 | Kth Smallest Element in a BST | Amazon, Microsoft, Google | [LeetCode 230](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/trees/09_kth_smallest_in_bst.py) |
+| 1 | Insert into a Binary Search Tree | Amazon, Microsoft | [LeetCode 701](https://leetcode.com/problems/insert-into-a-binary-search-tree/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/trees/07_insert_into_bst.py) |
+| 2 | Delete Node in a BST | Amazon, Microsoft, Google | [LeetCode 450](https://leetcode.com/problems/delete-node-in-a-bst/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/trees/08_delete_node_in_bst.py) |
+| 3 | Kth Smallest Element in a BST | Amazon, Microsoft, Google | [LeetCode 230](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/trees/09_kth_smallest_in_bst.py) |
 | 4 | Convert BST to Sorted Doubly Linked List | Amazon, Google, Microsoft | [LeetCode 426](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/) | 🔲 TODO - not built yet (10_bst_to_sorted_doubly_linked_list.py) |
-| 5 | Lowest Common Ancestor of a BST | Amazon, Microsoft, Google | [LeetCode 235](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/trees/34_lca_of_bst.py) |
+| 5 | Lowest Common Ancestor of a BST | Amazon, Microsoft, Google | [LeetCode 235](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/trees/34_lca_of_bst.py) |
 
 -------
 
 ### Concept Set 3 (Do in order) - Tree Construction
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | Construct Binary Tree from Preorder and Inorder Traversal | Amazon, Microsoft, Google, Meta | [LeetCode 105](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/trees/11_construct_tree_from_preorder_inorder.py) |
+| 1 | Construct Binary Tree from Preorder and Inorder Traversal | Amazon, Microsoft, Google, Meta | [LeetCode 105](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/trees/11_construct_tree_from_preorder_inorder.py) |
 | 2 | Serialize and Deserialize Binary Tree | Amazon, Microsoft, Google, Meta | [LeetCode 297](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | 🔲 TODO - not built yet (13_serialize_deserialize_binary_tree.py) |
 
 ### Questions
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | Construct Binary Tree from Postorder and Inorder Traversal | Amazon, Microsoft | [LeetCode 106](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/trees/12_construct_tree_from_postorder_inorder.py) |
+| 1 | Construct Binary Tree from Postorder and Inorder Traversal | Amazon, Microsoft | [LeetCode 106](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/trees/12_construct_tree_from_postorder_inorder.py) |
 
 -------
 
 ### Concept Set 4 (Do in order) - Path Sum
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | Path Sum | Amazon, Microsoft, Google | [LeetCode 112](https://leetcode.com/problems/path-sum/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/trees/14_path_sum.py) |
+| 1 | Path Sum | Amazon, Microsoft, Google | [LeetCode 112](https://leetcode.com/problems/path-sum/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/trees/14_path_sum.py) |
 
 ### Questions
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | Path Sum II | Amazon, Microsoft, Google | [LeetCode 113](https://leetcode.com/problems/path-sum-ii/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/trees/15_path_sum_ii.py) |
-| 2 | Path Sum III | Amazon, Microsoft, Google, Meta | [LeetCode 437](https://leetcode.com/problems/path-sum-iii/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/trees/16_path_sum_iii.py) |
-| 3 | Sum Root to Leaf Numbers | Amazon, Microsoft | [LeetCode 129](https://leetcode.com/problems/sum-root-to-leaf-numbers/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/trees/17_sum_root_to_leaf_numbers.py) |
+| 1 | Path Sum II | Amazon, Microsoft, Google | [LeetCode 113](https://leetcode.com/problems/path-sum-ii/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/trees/15_path_sum_ii.py) |
+| 2 | Path Sum III | Amazon, Microsoft, Google, Meta | [LeetCode 437](https://leetcode.com/problems/path-sum-iii/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/trees/16_path_sum_iii.py) |
+| 3 | Sum Root to Leaf Numbers | Amazon, Microsoft | [LeetCode 129](https://leetcode.com/problems/sum-root-to-leaf-numbers/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/trees/17_sum_root_to_leaf_numbers.py) |
 
 -------
 
 ### Concept Set 5 (Do in order) - Structural Comparison
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | Invert Binary Tree | Amazon, Google, Microsoft | [LeetCode 226](https://leetcode.com/problems/invert-binary-tree/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/trees/18_invert_binary_tree.py) |
-| 2 | Balanced Binary Tree | Amazon, Microsoft, Google | [LeetCode 110](https://leetcode.com/problems/balanced-binary-tree/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/trees/22_balanced_binary_tree.py) |
+| 1 | Invert Binary Tree | Amazon, Google, Microsoft | [LeetCode 226](https://leetcode.com/problems/invert-binary-tree/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/trees/18_invert_binary_tree.py) |
+| 2 | Balanced Binary Tree | Amazon, Microsoft, Google | [LeetCode 110](https://leetcode.com/problems/balanced-binary-tree/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/trees/22_balanced_binary_tree.py) |
 
 ### Questions
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | Same Tree | Amazon, Microsoft | [LeetCode 100](https://leetcode.com/problems/same-tree/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/trees/20_same_tree.py) |
-| 2 | Symmetric Tree | Amazon, Microsoft, Google | [LeetCode 101](https://leetcode.com/problems/symmetric-tree/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/trees/19_symmetric_tree.py) |
-| 3 | Subtree of Another Tree | Amazon, Microsoft, Google | [LeetCode 572](https://leetcode.com/problems/subtree-of-another-tree/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/trees/21_subtree_of_another_tree.py) |
-| 4 | Lowest Common Ancestor of a Binary Tree | Amazon, Microsoft, Google, Meta | [LeetCode 236](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/trees/35_lca_of_binary_tree.py) |
+| 1 | Same Tree | Amazon, Microsoft | [LeetCode 100](https://leetcode.com/problems/same-tree/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/trees/20_same_tree.py) |
+| 2 | Symmetric Tree | Amazon, Microsoft, Google | [LeetCode 101](https://leetcode.com/problems/symmetric-tree/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/trees/19_symmetric_tree.py) |
+| 3 | Subtree of Another Tree | Amazon, Microsoft, Google | [LeetCode 572](https://leetcode.com/problems/subtree-of-another-tree/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/trees/21_subtree_of_another_tree.py) |
+| 4 | Lowest Common Ancestor of a Binary Tree | Amazon, Microsoft, Google, Meta | [LeetCode 236](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/trees/35_lca_of_binary_tree.py) |
 
 -------
 
 ### Concept Set 6 (Do in order) - Views & Projections
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | Top View of Binary Tree | Amazon, Microsoft | [GFG](https://www.geeksforgeeks.org/problems/top-view-of-binary-tree/1) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/trees/23_top_view_of_binary_tree.py) |
-| 2 | Vertical Order Traversal of a Binary Tree | Amazon, Microsoft, Google | [LeetCode 987](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/trees/27_vertical_order_traversal.py) |
+| 1 | Top View of Binary Tree | Amazon, Microsoft | [GFG](https://www.geeksforgeeks.org/problems/top-view-of-binary-tree/1) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/trees/23_top_view_of_binary_tree.py) |
+| 2 | Vertical Order Traversal of a Binary Tree | Amazon, Microsoft, Google | [LeetCode 987](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/trees/27_vertical_order_traversal.py) |
 
 ### Questions
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | Bottom View of Binary Tree | Amazon, Microsoft | [GFG](https://www.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/trees/24_bottom_view_of_binary_tree.py) |
-| 2 | Binary Tree Left Side View (also covers Right View) | Amazon, Microsoft, Google, Meta | [LeetCode 199](https://leetcode.com/problems/binary-tree-right-side-view/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/trees/26_right_view_of_binary_tree.py) |
-| 3 | Boundary Traversal of Binary Tree | Amazon, Microsoft | [GFG](https://www.geeksforgeeks.org/problems/boundary-traversal-of-binary-tree/1) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/trees/28_boundary_traversal.py) |
+| 1 | Bottom View of Binary Tree | Amazon, Microsoft | [GFG](https://www.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/trees/24_bottom_view_of_binary_tree.py) |
+| 2 | Binary Tree Left Side View (also covers Right View) | Amazon, Microsoft, Google, Meta | [LeetCode 199](https://leetcode.com/problems/binary-tree-right-side-view/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/trees/26_right_view_of_binary_tree.py) |
+| 3 | Boundary Traversal of Binary Tree | Amazon, Microsoft | [GFG](https://www.geeksforgeeks.org/problems/boundary-traversal-of-binary-tree/1) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/trees/28_boundary_traversal.py) |
 
 -------
 
 ### Concept Set 7 (Do in order) - Trie
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | Implement Trie (Prefix Tree) | Amazon, Microsoft, Google, Meta | [LeetCode 208](https://leetcode.com/problems/implement-trie-prefix-tree/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/trees/29_implement_trie.py) |
+| 1 | Implement Trie (Prefix Tree) | Amazon, Microsoft, Google, Meta | [LeetCode 208](https://leetcode.com/problems/implement-trie-prefix-tree/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/trees/29_implement_trie.py) |
 
 ### Questions
 | # | Problem | Companies | Question | Solution |

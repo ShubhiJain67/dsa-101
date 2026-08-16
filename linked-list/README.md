@@ -113,39 +113,39 @@
 ### Concept Set 1 (Do in order) - Reversal
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | Reverse Linked List | Amazon, Microsoft, Google, Meta | [LeetCode 206](https://leetcode.com/problems/reverse-linked-list/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/linked-list/01_reverse_linked_list.py) |
+| 1 | Reverse Linked List | Amazon, Microsoft, Google, Meta | [LeetCode 206](https://leetcode.com/problems/reverse-linked-list/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/linked-list/01_reverse_linked_list.py) |
 
 ### Questions
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
 | 1 | Reverse Linked List II (Between Positions) | Amazon, Microsoft | [LeetCode 92](https://leetcode.com/problems/reverse-linked-list-ii/) | 🔲 TODO - not built yet (02_reverse_linked_list_ii_between_positions.py) |
-| 2 | Reverse Nodes in K-Group | Amazon, Microsoft, Google | [LeetCode 25](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/linked-list/03_reverse_nodes_in_k_group.py) |
-| 3 | Swap Nodes in Pairs | Amazon, Microsoft | [LeetCode 24](https://leetcode.com/problems/swap-nodes-in-pairs/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/linked-list/16_swap_nodes_in_pairs.py) |
+| 2 | Reverse Nodes in K-Group | Amazon, Microsoft, Google | [LeetCode 25](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/linked-list/03_reverse_nodes_in_k_group.py) |
+| 3 | Swap Nodes in Pairs | Amazon, Microsoft | [LeetCode 24](https://leetcode.com/problems/swap-nodes-in-pairs/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/linked-list/16_swap_nodes_in_pairs.py) |
 
 -------
 
 ### Concept Set 2 (Do in order) - Fast & Slow Pointers
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | Linked List Cycle (Detect) (Floyd's Algorithm) | Amazon, Microsoft, Google, Meta | [LeetCode 141](https://leetcode.com/problems/linked-list-cycle/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/linked-list/04_detect_cycle_floyds.py) |
-| 2 | Linked List Cycle II (Find Start) | Amazon, Microsoft, Google | [LeetCode 142](https://leetcode.com/problems/linked-list-cycle-ii/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/linked-list/05_detect_cycle_ii_find_start.py) |
-| 3 | Middle of the Linked List | Amazon, Microsoft | [LeetCode 876](https://leetcode.com/problems/middle-of-the-linked-list/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/linked-list/06_middle_of_linked_list.py) |
+| 1 | Linked List Cycle (Detect) (Floyd's Algorithm) | Amazon, Microsoft, Google, Meta | [LeetCode 141](https://leetcode.com/problems/linked-list-cycle/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/linked-list/04_detect_cycle_floyds.py) |
+| 2 | Linked List Cycle II (Find Start) | Amazon, Microsoft, Google | [LeetCode 142](https://leetcode.com/problems/linked-list-cycle-ii/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/linked-list/05_detect_cycle_ii_find_start.py) |
+| 3 | Middle of the Linked List | Amazon, Microsoft | [LeetCode 876](https://leetcode.com/problems/middle-of-the-linked-list/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/linked-list/06_middle_of_linked_list.py) |
 
 ### Questions
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | Remove Nth Node From End of List | Amazon, Microsoft, Meta | [LeetCode 19](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/linked-list/09_remove_nth_node_from_end.py) |
+| 1 | Remove Nth Node From End of List | Amazon, Microsoft, Meta | [LeetCode 19](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/linked-list/09_remove_nth_node_from_end.py) |
 | 2 | Palindrome Linked List | Amazon, Microsoft, Google | [LeetCode 234](https://leetcode.com/problems/palindrome-linked-list/) | 🔲 TODO - not built yet (10_palindrome_linked_list.py) |
-| 3 | Intersection of Two Linked Lists | Amazon, Microsoft, Google | [LeetCode 160](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/linked-list/11_intersection_of_two_linked_lists.py) |
-| 4 | Reorder List | Amazon, Google, Meta | [LeetCode 143](https://leetcode.com/problems/reorder-list/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/linked-list/12_reorder_list.py) |
+| 3 | Intersection of Two Linked Lists | Amazon, Microsoft, Google | [LeetCode 160](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/linked-list/11_intersection_of_two_linked_lists.py) |
+| 4 | Reorder List | Amazon, Google, Meta | [LeetCode 143](https://leetcode.com/problems/reorder-list/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/linked-list/12_reorder_list.py) |
 
 -------
 
 ### Concept Set 3 (Do in order) - Merging
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | Merge Two Sorted Lists | Amazon, Microsoft, Google, Meta | [LeetCode 21](https://leetcode.com/problems/merge-two-sorted-lists/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/linked-list/07_merge_two_sorted_lists.py) |
-| 2 | Merge K Sorted Lists | Amazon, Microsoft, Google | [LeetCode 23](https://leetcode.com/problems/merge-k-sorted-lists/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/linked-list/08_merge_k_sorted_lists.py) |
+| 1 | Merge Two Sorted Lists | Amazon, Microsoft, Google, Meta | [LeetCode 21](https://leetcode.com/problems/merge-two-sorted-lists/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/linked-list/07_merge_two_sorted_lists.py) |
+| 2 | Merge K Sorted Lists | Amazon, Microsoft, Google | [LeetCode 23](https://leetcode.com/problems/merge-k-sorted-lists/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/linked-list/08_merge_k_sorted_lists.py) |
 
 ### Questions
 | # | Problem | Companies | Question | Solution |

@@ -227,36 +227,36 @@ Choice - for each pair of indices (i, j), does s1[i] match s2[j] or not
 ### Concept
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | 0-1 KnapSack | - | [Link](https://www.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/dynamic-programming/01_01_knapsack.py) |
+| 1 | 0-1 KnapSack | - | [Link](https://www.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/dynamic-programming/01_01_knapsack.py) |
 
 
 ### Questions
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | Is Subset Sum | Amazon, Microsoft | [Link](https://www.geeksforgeeks.org/problems/subset-sum-problem-1611555638/1) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/dynamic-programming/02_is_subset_sum.py) |
-| 2 | Equal Sum Partition Problem | Amazon, Google | [Link](https://www.geeksforgeeks.org/problems/subset-sum-problem2014/1) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/dynamic-programming/03_equal_sum_partition_problem.py) |
-| 3 | Perfect Sum Problem | Amazon, Microsoft, Tesco | [Link](https://www.geeksforgeeks.org/problems/perfect-sum-problem5633/1) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/dynamic-programming/04_perfect_sum_problem.py) |
-| 4 | Minimum Subset Sum Difference | Amazon, Samsung | [Link](https://www.geeksforgeeks.org/problems/minimum-sum-partition3317/1) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/dynamic-programming/05_minimum_subset_sum_difference.py) |
-| 5 | Count of Subsets with given Difference | NPCI | [Link](https://www.geeksforgeeks.org/problems/partitions-with-given-difference/1) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/dynamic-programming/06_count_of_subsets_with_given_diff.py) |
-| 6 | Target Sum Problem | - | [Link](https://leetcode.com/problems/target-sum/description/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/dynamic-programming/07_target_sum.py) |
+| 1 | Is Subset Sum | Amazon, Microsoft | [Link](https://www.geeksforgeeks.org/problems/subset-sum-problem-1611555638/1) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/dynamic-programming/02_is_subset_sum.py) |
+| 2 | Equal Sum Partition Problem | Amazon, Google | [Link](https://www.geeksforgeeks.org/problems/subset-sum-problem2014/1) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/dynamic-programming/03_equal_sum_partition_problem.py) |
+| 3 | Perfect Sum Problem | Amazon, Microsoft, Tesco | [Link](https://www.geeksforgeeks.org/problems/perfect-sum-problem5633/1) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/dynamic-programming/04_perfect_sum_problem.py) |
+| 4 | Minimum Subset Sum Difference | Amazon, Samsung | [Link](https://www.geeksforgeeks.org/problems/minimum-sum-partition3317/1) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/dynamic-programming/05_minimum_subset_sum_difference.py) |
+| 5 | Count of Subsets with given Difference | NPCI | [Link](https://www.geeksforgeeks.org/problems/partitions-with-given-difference/1) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/dynamic-programming/06_count_of_subsets_with_given_diff.py) |
+| 6 | Target Sum Problem | - | [Link](https://leetcode.com/problems/target-sum/description/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/dynamic-programming/07_target_sum.py) |
 
 -------
 
 ### Concept
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | Unbounded KnapSack | - | [Link](https://www.geeksforgeeks.org/problems/knapsack-with-duplicate-items4201/1) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/dynamic-programming/08_unbounded_knapsack.py) |
+| 1 | Unbounded KnapSack | - | [Link](https://www.geeksforgeeks.org/problems/knapsack-with-duplicate-items4201/1) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/dynamic-programming/08_unbounded_knapsack.py) |
 
 
 ### Questions
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | Rod Cutting Problem | - | [Link](https://www.geeksforgeeks.org/problems/rod-cutting0840/1) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/dynamic-programming/09_rod_cutting_problem.py) |
-| 2 | Coin Change - Number of Ways | - | [Link](https://leetcode.com/problems/coin-change-ii/description/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/dynamic-programming/10_coin_change_number_of_ways.py) |
-| 3 | Coin Change - Using Minimum Number of Coins | - | [Link](https://leetcode.com/problems/coin-change/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/dynamic-programming/11_coin_change_minimum_number_of_coins.py) |
-| 4 | Combination Sum | Generate All Combinations (Backtracking + Unbounded Choice) | [Link](https://leetcode.com/problems/combination-sum/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/dynamic-programming/12_combination_sum.py) |
-| 5 | Combination Sum IV | Count Permutations (Order Matters) | [Link](https://leetcode.com/problems/combination-sum-iv/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/dynamic-programming/13_combination_sum_iv.py) |
-| 6 | Form Largest Integer With Digits That Add up to Target | Lexicographical Optimization + Reconstruction | [Link](https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/dynamic-programming/14_form_largest_integer_with_digits_that_add_up_to_target.py) |
+| 1 | Rod Cutting Problem | - | [Link](https://www.geeksforgeeks.org/problems/rod-cutting0840/1) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/dynamic-programming/09_rod_cutting_problem.py) |
+| 2 | Coin Change - Number of Ways | - | [Link](https://leetcode.com/problems/coin-change-ii/description/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/dynamic-programming/10_coin_change_number_of_ways.py) |
+| 3 | Coin Change - Using Minimum Number of Coins | - | [Link](https://leetcode.com/problems/coin-change/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/dynamic-programming/11_coin_change_minimum_number_of_coins.py) |
+| 4 | Combination Sum | Generate All Combinations (Backtracking + Unbounded Choice) | [Link](https://leetcode.com/problems/combination-sum/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/dynamic-programming/12_combination_sum.py) |
+| 5 | Combination Sum IV | Count Permutations (Order Matters) | [Link](https://leetcode.com/problems/combination-sum-iv/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/dynamic-programming/13_combination_sum_iv.py) |
+| 6 | Form Largest Integer With Digits That Add up to Target | Lexicographical Optimization + Reconstruction | [Link](https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/dynamic-programming/14_form_largest_integer_with_digits_that_add_up_to_target.py) |
 
 
 -------
@@ -264,18 +264,18 @@ Choice - for each pair of indices (i, j), does s1[i] match s2[j] or not
 ### Concept
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | Longest Common Subsequence | Amazon, Microsoft, Google | [GFG](https://www.geeksforgeeks.org/problems/longest-common-subsequence-1587115620/1) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/dynamic-programming/15_longest_common_subsequence.py) |
-| 2 | Longest Common Substring | Amazon, Microsoft | [GFG](https://www.geeksforgeeks.org/problems/longest-common-substring1452/1) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/dynamic-programming/16_longest_common_substring.py) |
+| 1 | Longest Common Subsequence | Amazon, Microsoft, Google | [GFG](https://www.geeksforgeeks.org/problems/longest-common-subsequence-1587115620/1) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/dynamic-programming/15_longest_common_subsequence.py) |
+| 2 | Longest Common Substring | Amazon, Microsoft | [GFG](https://www.geeksforgeeks.org/problems/longest-common-substring1452/1) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/dynamic-programming/16_longest_common_substring.py) |
 
 
 
 ### Questions
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|--------------|----------|
-| 1 | Print Longest Common Subsequence | Amazon | [Naukri](https://www.naukri.com/code360/problems/print-longest-common-subsequence_8416383) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/dynamic-programming/17_print_longest_common_subsequence.py) |
-| 2 | Shortest Common Supersequence | Amazon, Google | [LeetCode 1092](https://leetcode.com/problems/shortest-common-supersequence/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/dynamic-programming/18_shortest_common_supersequence.py) |
-| 3 | Minimum Insertions & Deletions to Convert String A to B | Amazon | [GFG](https://www.geeksforgeeks.org/problems/minimum-number-of-deletions-and-insertions0209/1) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/dynamic-programming/19_min_insertions_deletions_to_convert_string.py) |
-| 4 | Longest Repeating Subsequence | Microsoft | [GFG](https://www.geeksforgeeks.org/problems/longest-repeating-subsequence2004/1) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/dynamic-programming/20_longest_repeating_subsequence.py) |
+| 1 | Print Longest Common Subsequence | Amazon | [Naukri](https://www.naukri.com/code360/problems/print-longest-common-subsequence_8416383) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/dynamic-programming/17_print_longest_common_subsequence.py) |
+| 2 | Shortest Common Supersequence | Amazon, Google | [LeetCode 1092](https://leetcode.com/problems/shortest-common-supersequence/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/dynamic-programming/18_shortest_common_supersequence.py) |
+| 3 | Minimum Insertions & Deletions to Convert String A to B | Amazon | [GFG](https://www.geeksforgeeks.org/problems/minimum-number-of-deletions-and-insertions0209/1) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/dynamic-programming/19_min_insertions_deletions_to_convert_string.py) |
+| 4 | Longest Repeating Subsequence | Microsoft | [GFG](https://www.geeksforgeeks.org/problems/longest-repeating-subsequence2004/1) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/dynamic-programming/20_longest_repeating_subsequence.py) |
 | 5 | Sequence Pattern Matching | Amazon | [Leetcode](https://leetcode.com/problems/substring-matching-pattern/description/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/dynamic-programming/21_sequence_pattern_matching.py) |
 | 6 | Distinct Subsequences | Google, Meta | [LeetCode 115](https://leetcode.com/problems/distinct-subsequences/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/dynamic-programming/22_distinct_subsequences.py) |
 | 7 | Longest Palindromic Subsequence | Amazon, Microsoft | [LeetCode 516](https://leetcode.com/problems/longest-palindromic-subsequence/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/dynamic-programming/23_longest_palindromic_subsequence.py) |
@@ -289,22 +289,22 @@ Choice - for each pair of indices (i, j), does s1[i] match s2[j] or not
 ### Concept (Linear DP / Fibonacci Pattern)
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | Climbing Stairs | Amazon, Adobe | [LeetCode 70](https://leetcode.com/problems/climbing-stairs/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/dynamic-programming/28_climbing_stairs.py) |
+| 1 | Climbing Stairs | Amazon, Adobe | [LeetCode 70](https://leetcode.com/problems/climbing-stairs/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/dynamic-programming/28_climbing_stairs.py) |
 
 ### Questions
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | House Robber | Amazon, Google, Microsoft | [LeetCode 198](https://leetcode.com/problems/house-robber/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/dynamic-programming/29_house_robber.py) |
-| 2 | House Robber II (Circular) | Amazon, Google | [LeetCode 213](https://leetcode.com/problems/house-robber-ii/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/dynamic-programming/30_house_robber_ii_circular.py) |
-| 3 | Decode Ways | Meta, Amazon | [LeetCode 91](https://leetcode.com/problems/decode-ways/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/dynamic-programming/31_decode_ways.py) |
-| 4 | Min Cost Climbing Stairs | Amazon | [LeetCode 746](https://leetcode.com/problems/min-cost-climbing-stairs/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/dynamic-programming/32_min_cost_climbing_stairs.py) |
+| 1 | House Robber | Amazon, Google, Microsoft | [LeetCode 198](https://leetcode.com/problems/house-robber/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/dynamic-programming/29_house_robber.py) |
+| 2 | House Robber II (Circular) | Amazon, Google | [LeetCode 213](https://leetcode.com/problems/house-robber-ii/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/dynamic-programming/30_house_robber_ii_circular.py) |
+| 3 | Decode Ways | Meta, Amazon | [LeetCode 91](https://leetcode.com/problems/decode-ways/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/dynamic-programming/31_decode_ways.py) |
+| 4 | Min Cost Climbing Stairs | Amazon | [LeetCode 746](https://leetcode.com/problems/min-cost-climbing-stairs/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/dynamic-programming/32_min_cost_climbing_stairs.py) |
 
 -------
 
 ### Concept (LIS)
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | Longest Increasing Subsequence (O(n^2) DP) | Amazon, Microsoft, Google | [LeetCode 300](https://leetcode.com/problems/longest-increasing-subsequence/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/dynamic-programming/33_longest_increasing_subsequence.py) |
+| 1 | Longest Increasing Subsequence (O(n^2) DP) | Amazon, Microsoft, Google | [LeetCode 300](https://leetcode.com/problems/longest-increasing-subsequence/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/dynamic-programming/33_longest_increasing_subsequence.py) |
 | 2 | Longest Increasing Subsequence (O(n log n) Binary Search) | Amazon, Microsoft, Google | [LeetCode 300](https://leetcode.com/problems/longest-increasing-subsequence/) | 🔲 TODO - not built yet (34_longest_increasing_subsequence_binary_search.py) |
 
 ### Questions
@@ -359,14 +359,14 @@ Choice - for each pair of indices (i, j), does s1[i] match s2[j] or not
 ### Concept (DP on Grid)
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | Unique Paths | Amazon, Microsoft, Google | [LeetCode 62](https://leetcode.com/problems/unique-paths/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/dynamic-programming/48_unique_path.py) |
-| 2 | Minimum Path Sum | Amazon, Microsoft | [LeetCode 64](https://leetcode.com/problems/minimum-path-sum/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/dynamic-programming/49_min_path_sum.py) |
+| 1 | Unique Paths | Amazon, Microsoft, Google | [LeetCode 62](https://leetcode.com/problems/unique-paths/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/dynamic-programming/48_unique_path.py) |
+| 2 | Minimum Path Sum | Amazon, Microsoft | [LeetCode 64](https://leetcode.com/problems/minimum-path-sum/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/dynamic-programming/49_min_path_sum.py) |
 
 ### Questions
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | Unique Paths II (With Obstacles) | Amazon, Microsoft | [LeetCode 63](https://leetcode.com/problems/unique-paths-ii/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/dynamic-programming/50_unique_paths_ii_with_obstacles.py) |
-| 2 | Triangle (Min Path Sum) | Amazon, Microsoft | [LeetCode 120](https://leetcode.com/problems/triangle/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/dynamic-programming/51_triangle_min_path_sum.py) |
+| 1 | Unique Paths II (With Obstacles) | Amazon, Microsoft | [LeetCode 63](https://leetcode.com/problems/unique-paths-ii/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/dynamic-programming/50_unique_paths_ii_with_obstacles.py) |
+| 2 | Triangle (Min Path Sum) | Amazon, Microsoft | [LeetCode 120](https://leetcode.com/problems/triangle/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/dynamic-programming/51_triangle_min_path_sum.py) |
 | 3 | Cherry Pickup | Google | [LeetCode 741](https://leetcode.com/problems/cherry-pickup/) | 🔲 TODO - not built yet (52_cherry_pickup.py) |
 | 4 | Dungeon Game | Microsoft, Amazon | [LeetCode 174](https://leetcode.com/problems/dungeon-game/) | 🔲 TODO - not built yet (53_dungeon_game.py) |
 

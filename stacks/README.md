@@ -92,8 +92,8 @@
 ### Concept Set 1 (Do in order) - Stack Matching & Min Stack
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | Valid Parentheses | Amazon, Microsoft, Google, Meta | [LeetCode 20](https://leetcode.com/problems/valid-parentheses/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/stacks/01_valid_parentheses.py) |
-| 2 | Min Stack | Amazon, Microsoft, Google, Meta | [LeetCode 155](https://leetcode.com/problems/min-stack/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/stacks/02_min_stack.py) |
+| 1 | Valid Parentheses | Amazon, Microsoft, Google, Meta | [LeetCode 20](https://leetcode.com/problems/valid-parentheses/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/stacks/01_valid_parentheses.py) |
+| 2 | Min Stack | Amazon, Microsoft, Google, Meta | [LeetCode 155](https://leetcode.com/problems/min-stack/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/stacks/02_min_stack.py) |
 
 -------
 

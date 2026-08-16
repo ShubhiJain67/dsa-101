@@ -75,43 +75,43 @@
 ### Concept Set 1 (Do in order) - Subsets, Permutations, Combinations
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | Subsets | Amazon, Microsoft, Google, Meta | [LeetCode 78](https://leetcode.com/problems/subsets/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/backtracking/01_subsets.py) |
-| 2 | Permutations | Amazon, Microsoft, Google, Meta | [LeetCode 46](https://leetcode.com/problems/permutations/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/backtracking/03_permutations.py) |
+| 1 | Subsets | Amazon, Microsoft, Google, Meta | [LeetCode 78](https://leetcode.com/problems/subsets/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/backtracking/01_subsets.py) |
+| 2 | Permutations | Amazon, Microsoft, Google, Meta | [LeetCode 46](https://leetcode.com/problems/permutations/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/backtracking/03_permutations.py) |
 
 ### Questions
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | Subsets II (With Duplicates) | Amazon, Microsoft | [LeetCode 90](https://leetcode.com/problems/subsets-ii/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/backtracking/02_subsets_ii_with_duplicates.py) |
+| 1 | Subsets II (With Duplicates) | Amazon, Microsoft | [LeetCode 90](https://leetcode.com/problems/subsets-ii/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/backtracking/02_subsets_ii_with_duplicates.py) |
 | 2 | Permutations II (With Duplicates) | Amazon, Microsoft | [LeetCode 47](https://leetcode.com/problems/permutations-ii/) | 🔲 TODO - not built yet (04_permutations_ii_with_duplicates.py) |
-| 3 | Combinations | Amazon, Microsoft | [LeetCode 77](https://leetcode.com/problems/combinations/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/backtracking/05_combinations.py) |
-| 4 | Combination Sum | Amazon, Microsoft, Google, Meta | [LeetCode 39](https://leetcode.com/problems/combination-sum/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/backtracking/06_combination_sum.py) |
+| 3 | Combinations | Amazon, Microsoft | [LeetCode 77](https://leetcode.com/problems/combinations/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/backtracking/05_combinations.py) |
+| 4 | Combination Sum | Amazon, Microsoft, Google, Meta | [LeetCode 39](https://leetcode.com/problems/combination-sum/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/backtracking/06_combination_sum.py) |
 
 -------
 
 ### Concept Set 2 (Do in order) - Constraint Satisfaction
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | N-Queens | Amazon, Microsoft, Google, Meta | [LeetCode 51](https://leetcode.com/problems/n-queens/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/backtracking/07_n_queens.py) |
+| 1 | N-Queens | Amazon, Microsoft, Google, Meta | [LeetCode 51](https://leetcode.com/problems/n-queens/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/backtracking/07_n_queens.py) |
 
 ### Questions
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | N-Queens II (Count Only) | Amazon, Microsoft | [LeetCode 52](https://leetcode.com/problems/n-queens-ii/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/backtracking/08_n_queens_ii_count.py) |
-| 2 | Sudoku Solver | Amazon, Microsoft, Google | [LeetCode 37](https://leetcode.com/problems/sudoku-solver/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/backtracking/09_sudoku_solver.py) |
+| 1 | N-Queens II (Count Only) | Amazon, Microsoft | [LeetCode 52](https://leetcode.com/problems/n-queens-ii/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/backtracking/08_n_queens_ii_count.py) |
+| 2 | Sudoku Solver | Amazon, Microsoft, Google | [LeetCode 37](https://leetcode.com/problems/sudoku-solver/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/backtracking/09_sudoku_solver.py) |
 
 -------
 
 ### Concept Set 3 (Do in order) - Grid & String Backtracking
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | Word Search | Amazon, Microsoft, Google, Meta | [LeetCode 79](https://leetcode.com/problems/word-search/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/backtracking/10_word_search.py) |
-| 2 | Generate Parentheses | Amazon, Microsoft, Google, Meta | [LeetCode 22](https://leetcode.com/problems/generate-parentheses/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/backtracking/12_generate_parentheses.py) |
+| 1 | Word Search | Amazon, Microsoft, Google, Meta | [LeetCode 79](https://leetcode.com/problems/word-search/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/backtracking/10_word_search.py) |
+| 2 | Generate Parentheses | Amazon, Microsoft, Google, Meta | [LeetCode 22](https://leetcode.com/problems/generate-parentheses/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/backtracking/12_generate_parentheses.py) |
 
 ### Questions
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
 | 1 | Palindrome Partitioning | Amazon, Microsoft, Google, Meta | [LeetCode 131](https://leetcode.com/problems/palindrome-partitioning/) | [Python]((https://github.com/ShubhiJain67/dsa-101/blob/main/backtracking/11_palindrome_partitioning.py)) |
-| 2 | Restore IP Addresses | Amazon, Microsoft | [LeetCode 93](https://leetcode.com/problems/restore-ip-addresses/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/backtracking/13_restore_ip_addresses.py) |
+| 2 | Restore IP Addresses | Amazon, Microsoft | [LeetCode 93](https://leetcode.com/problems/restore-ip-addresses/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/backtracking/13_restore_ip_addresses.py) |
 
 ---------
 

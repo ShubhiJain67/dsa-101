@@ -106,51 +106,51 @@
 ### Concept Set 1 (Do in order) - Two Pointers (Opposite Ends)
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | Two Sum II - Input Array Is Sorted | Amazon, Microsoft, Google | [LeetCode 167](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/arrays-two-pointers/01_two_sum_ii_sorted.py) |
-| 2 | Container With Most Water | Amazon, Microsoft, Google, Meta | [LeetCode 11](https://leetcode.com/problems/container-with-most-water/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/arrays-two-pointers/02_container_with_most_water.py) |
+| 1 | Two Sum II - Input Array Is Sorted | Amazon, Microsoft, Google | [LeetCode 167](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/arrays-two-pointers/01_two_sum_ii_sorted.py) |
+| 2 | Container With Most Water | Amazon, Microsoft, Google, Meta | [LeetCode 11](https://leetcode.com/problems/container-with-most-water/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/arrays-two-pointers/02_container_with_most_water.py) |
 
 ### Questions
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | 3Sum | Amazon, Microsoft, Google, Meta | [LeetCode 15](https://leetcode.com/problems/3sum/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/tree/main/arrays-two-pointers) |
-| 2 | 3Sum Closest | Amazon, Microsoft | [LeetCode 16](https://leetcode.com/problems/3sum-closest/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/arrays-two-pointers/04_3sum_closest.py) |
-| 3 | 4Sum | Amazon, Microsoft | [LeetCode 18](https://leetcode.com/problems/4sum/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/arrays-two-pointers/05_4sum.py) |
-| 4 | Trapping Rain Water (Two-Pointer Approach) | Amazon, Microsoft, Google, Meta | [LeetCode 42](https://leetcode.com/problems/trapping-rain-water/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/arrays-two-pointers/06_trapping_rain_water_two_pointer.py) |
-| 5 | Valid Palindrome | Amazon, Microsoft, Meta | [LeetCode 125](https://leetcode.com/problems/valid-palindrome/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/arrays-two-pointers/07_valid_palindrome.py) |
+| 1 | 3Sum | Amazon, Microsoft, Google, Meta | [LeetCode 15](https://leetcode.com/problems/3sum/) | [Python](https://github.com/ShubhiJain67/dsa-101/tree/main/arrays-two-pointers) |
+| 2 | 3Sum Closest | Amazon, Microsoft | [LeetCode 16](https://leetcode.com/problems/3sum-closest/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/arrays-two-pointers/04_3sum_closest.py) |
+| 3 | 4Sum | Amazon, Microsoft | [LeetCode 18](https://leetcode.com/problems/4sum/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/arrays-two-pointers/05_4sum.py) |
+| 4 | Trapping Rain Water (Two-Pointer Approach) | Amazon, Microsoft, Google, Meta | [LeetCode 42](https://leetcode.com/problems/trapping-rain-water/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/arrays-two-pointers/06_trapping_rain_water_two_pointer.py) |
+| 5 | Valid Palindrome | Amazon, Microsoft, Meta | [LeetCode 125](https://leetcode.com/problems/valid-palindrome/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/arrays-two-pointers/07_valid_palindrome.py) |
 
 -------
 
 ### Concept Set 2 (Do in order) - In-Place Manipulation
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | Remove Duplicates from Sorted Array | Amazon, Microsoft | [LeetCode 26](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/arrays-two-pointers/08_remove_duplicates_from_sorted_array.py) |
-| 2 | Sort Colors (Dutch National Flag) | Amazon, Microsoft, Google, Meta | [LeetCode 75](https://leetcode.com/problems/sort-colors/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/arrays-two-pointers/10_sort_colors_dutch_flag.py) |
+| 1 | Remove Duplicates from Sorted Array | Amazon, Microsoft | [LeetCode 26](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/arrays-two-pointers/08_remove_duplicates_from_sorted_array.py) |
+| 2 | Sort Colors (Dutch National Flag) | Amazon, Microsoft, Google, Meta | [LeetCode 75](https://leetcode.com/problems/sort-colors/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/arrays-two-pointers/10_sort_colors_dutch_flag.py) |
 
 ### Questions
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | Move Zeroes | Amazon, Microsoft, Google, Meta | [LeetCode 283](https://leetcode.com/problems/move-zeroes/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/arrays-two-pointers/09_move_zeroes.py) |
-| 2 | Next Permutation | Amazon, Microsoft, Google, Meta | [LeetCode 31](https://leetcode.com/problems/next-permutation/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/arrays-two-pointers/11_next_permutation.py) |
+| 1 | Move Zeroes | Amazon, Microsoft, Google, Meta | [LeetCode 283](https://leetcode.com/problems/move-zeroes/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/arrays-two-pointers/09_move_zeroes.py) |
+| 2 | Next Permutation | Amazon, Microsoft, Google, Meta | [LeetCode 31](https://leetcode.com/problems/next-permutation/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/arrays-two-pointers/11_next_permutation.py) |
 
 -------
 
 ### Concept Set 3 (Do in order) - Prefix Sum
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | 1-D prefix sum | Amazon, Microsoft, Google, Meta | [GFG](https://www.geeksforgeeks.org/problems/1-d-prefix-sum/1) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/arrays-two-pointers/21_1d_prefix_sum.py) |
-| 2 | 2D Submatrix Sum Queries | Amazon, Microsoft, Google, Meta | [GFG](https://www.geeksforgeeks.org/problems/2d-submatrix-sum-queries/1) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/arrays-two-pointers/22_2d_matrix_sum_queries.py) |
-| 3 | Range Sum Query 2D - Immutable | Amazon, Microsoft, Google, Meta | [LeetCode 304](https://leetcode.com/problems/range-sum-query-2d-immutable/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/arrays-two-pointers/23_range_sum_query_2d_immutable.py) |
+| 1 | 1-D prefix sum | Amazon, Microsoft, Google, Meta | [GFG](https://www.geeksforgeeks.org/problems/1-d-prefix-sum/1) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/arrays-two-pointers/21_1d_prefix_sum.py) |
+| 2 | 2D Submatrix Sum Queries | Amazon, Microsoft, Google, Meta | [GFG](https://www.geeksforgeeks.org/problems/2d-submatrix-sum-queries/1) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/arrays-two-pointers/22_2d_matrix_sum_queries.py) |
+| 3 | Range Sum Query 2D - Immutable | Amazon, Microsoft, Google, Meta | [LeetCode 304](https://leetcode.com/problems/range-sum-query-2d-immutable/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/arrays-two-pointers/23_range_sum_query_2d_immutable.py) |
 
 ### Questions
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | Subarray Sum Equals K | Amazon, Microsoft, Google, Meta | [LeetCode 560](https://leetcode.com/problems/subarray-sum-equals-k/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/arrays-two-pointers/12_subarray_sum_equals_k.py) |
-| 2 | Product of Array Except Self | Amazon, Microsoft, Google, Meta | [LeetCode 238](https://leetcode.com/problems/product-of-array-except-self/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/arrays-two-pointers/13_product_of_array_except_self.py) |
-| 3 | Continuous Subarray Sum | Amazon, Google | [LeetCode 523](https://leetcode.com/problems/continuous-subarray-sum/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/arrays-two-pointers/14_continuous_subarray_sum.py) |
-| 4 | Range Sum Query - Immutable | Amazon, Microsoft | [LeetCode 303](https://leetcode.com/problems/range-sum-query-immutable/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/arrays-two-pointers/15_range_sum_query_immutable.py) |
-| 5 | Matrix Block Sum | Amazon, Google | [LeetCode 1314](https://leetcode.com/problems/matrix-block-sum/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/arrays-two-pointers/24_matrix_block_sum.py) |
-| 6 | Number of Submatrices That Sum to Target | Amazon, Google | [LeetCode 1074](https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/arrays-two-pointers/25_number_of_submatrices_that_sum_to_target.py) |
-| 7 | Max Sum of Rectangle No Larger Than K | Amazon, Google | [LeetCode 363](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/) | 🔲 TODO - not built yet (26_max_sum_of_rectangle_no_larger_than_k.py) |
+| 1 | Subarray Sum Equals K | Amazon, Microsoft, Google, Meta | [LeetCode 560](https://leetcode.com/problems/subarray-sum-equals-k/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/arrays-two-pointers/12_subarray_sum_equals_k.py) |
+| 2 | Product of Array Except Self | Amazon, Microsoft, Google, Meta | [LeetCode 238](https://leetcode.com/problems/product-of-array-except-self/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/arrays-two-pointers/13_product_of_array_except_self.py) |
+| 3 | Continuous Subarray Sum | Amazon, Google | [LeetCode 523](https://leetcode.com/problems/continuous-subarray-sum/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/arrays-two-pointers/14_continuous_subarray_sum.py) |
+| 4 | Range Sum Query - Immutable | Amazon, Microsoft | [LeetCode 303](https://leetcode.com/problems/range-sum-query-immutable/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/arrays-two-pointers/15_range_sum_query_immutable.py) |
+| 5 | Matrix Block Sum | Amazon, Google | [LeetCode 1314](https://leetcode.com/problems/matrix-block-sum/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/arrays-two-pointers/24_matrix_block_sum.py) |
+| 6 | Number of Submatrices That Sum to Target | Amazon, Google | [LeetCode 1074](https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/arrays-two-pointers/25_number_of_submatrices_that_sum_to_target.py) |
+| 7 | Max Sum of Rectangle No Larger Than K | Amazon, Google | [LeetCode 363](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/arrays-two-pointers/26_max_sum_of_rectangle_no_larger_than_k.py) |
 
 -------
 
@@ -163,7 +163,7 @@
 ### Questions
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | Find the Duplicate Number | Amazon, Microsoft, Google | [LeetCode 287](https://leetcode.com/problems/find-the-duplicate-number/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/arrays-two-pointers/16_find_the_duplicate_number.py) |
+| 1 | Find the Duplicate Number | Amazon, Microsoft, Google | [LeetCode 287](https://leetcode.com/problems/find-the-duplicate-number/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/arrays-two-pointers/16_find_the_duplicate_number.py) |
 | 2 | Missing Number | Amazon, Microsoft | [LeetCode 268](https://leetcode.com/problems/missing-number/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/arrays-two-pointers/18_missing_number.py) |
 | 3 | Find All Duplicates in an Array | Amazon, Microsoft | [LeetCode 442](https://leetcode.com/problems/find-all-duplicates-in-an-array/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/arrays-two-pointers/19_find_all_duplicates_in_an_array.py) |
 | 4 | First Missing Positive | Amazon, Microsoft, Google, Meta | [LeetCode 41](https://leetcode.com/problems/first-missing-positive/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/arrays-two-pointers/17_first_missing_positive.py) |

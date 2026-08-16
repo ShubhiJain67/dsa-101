@@ -91,28 +91,28 @@
 ### Concept Set 1 (Do in order) - Classic & Boundary Search
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | Binary Search | Amazon, Microsoft, Google | [LeetCode 704](https://leetcode.com/problems/binary-search/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/binary-search/01_binary_search.py) |
-| 2 | Find First and Last Position of Element in Sorted Array | Amazon, Microsoft, Google, Meta | [LeetCode 34](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/binary-search/02_find_first_last_position.py) |
+| 1 | Binary Search | Amazon, Microsoft, Google | [LeetCode 704](https://leetcode.com/problems/binary-search/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/binary-search/01_binary_search.py) |
+| 2 | Find First and Last Position of Element in Sorted Array | Amazon, Microsoft, Google, Meta | [LeetCode 34](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/binary-search/02_find_first_last_position.py) |
 
 ### Questions
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | Search Insert Position | Amazon, Microsoft | [LeetCode 35](https://leetcode.com/problems/search-insert-position/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/binary-search/03_search_insert_position.py) |
-| 2 | Search a 2D Matrix | Amazon, Microsoft, Google | [LeetCode 74](https://leetcode.com/problems/search-a-2d-matrix/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/binary-search/04_search_a_2d_matrix.py) |
+| 1 | Search Insert Position | Amazon, Microsoft | [LeetCode 35](https://leetcode.com/problems/search-insert-position/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/binary-search/03_search_insert_position.py) |
+| 2 | Search a 2D Matrix | Amazon, Microsoft, Google | [LeetCode 74](https://leetcode.com/problems/search-a-2d-matrix/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/binary-search/04_search_a_2d_matrix.py) |
 
 -------
 
 ### Concept Set 2 (Do in order) - Rotated Array
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | Search in Rotated Sorted Array | Amazon, Microsoft, Google, Meta | [LeetCode 33](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/binary-search/05_search_in_rotated_sorted_array.py) |
+| 1 | Search in Rotated Sorted Array | Amazon, Microsoft, Google, Meta | [LeetCode 33](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/binary-search/05_search_in_rotated_sorted_array.py) |
 
 ### Questions
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | Search in Rotated Sorted Array II (With Duplicates) | Amazon, Microsoft | [LeetCode 81](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) | [Pyhton](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/binary-search/06_search_in_rotated_sorted_array_ii.py) |
-| 2 | Find Minimum in Rotated Sorted Array | Amazon, Microsoft, Google | [LeetCode 153](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/tree/main/binary-search) |
-| 3 | Find Peak Element | Amazon, Microsoft, Google | [LeetCode 162](https://leetcode.com/problems/find-peak-element/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/binary-search/08_find_peak_element.py) |
+| 1 | Search in Rotated Sorted Array II (With Duplicates) | Amazon, Microsoft | [LeetCode 81](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) | [Pyhton](https://github.com/ShubhiJain67/dsa-101/blob/main/binary-search/06_search_in_rotated_sorted_array_ii.py) |
+| 2 | Find Minimum in Rotated Sorted Array | Amazon, Microsoft, Google | [LeetCode 153](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [Python](https://github.com/ShubhiJain67/dsa-101/tree/main/binary-search) |
+| 3 | Find Peak Element | Amazon, Microsoft, Google | [LeetCode 162](https://leetcode.com/problems/find-peak-element/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/binary-search/08_find_peak_element.py) |
 
 -------
 

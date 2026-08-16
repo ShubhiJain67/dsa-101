@@ -59,13 +59,13 @@
 ### Concept Set 1 (Do in order) - Interval Scheduling
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | Merge Intervals | Amazon, Microsoft, Google, Meta | [LeetCode 56](https://leetcode.com/problems/merge-intervals/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/greedy/01_merge_intervals.py) |
+| 1 | Merge Intervals | Amazon, Microsoft, Google, Meta | [LeetCode 56](https://leetcode.com/problems/merge-intervals/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/greedy/01_merge_intervals.py) |
 | 2 | Non-overlapping Intervals | Amazon, Microsoft, Google | [LeetCode 435](https://leetcode.com/problems/non-overlapping-intervals/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/greedy/03_non_overlapping_intervals.py) |
 
 ### Questions
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | Insert Interval | Amazon, Microsoft, Google, Meta | [LeetCode 57](https://leetcode.com/problems/insert-interval/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/greedy/02_insert_interval.py) |
+| 1 | Insert Interval | Amazon, Microsoft, Google, Meta | [LeetCode 57](https://leetcode.com/problems/insert-interval/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/greedy/02_insert_interval.py) |
 | 2 | Meeting Rooms (Can Attend All) | Amazon, Microsoft, Meta | [LeetCode 252](https://leetcode.com/problems/meeting-rooms/) | 🔲 TODO - not built yet (04_meeting_rooms.py) |
 
 -------
@@ -73,12 +73,12 @@
 ### Concept Set 2 (Do in order) - Reachability & Jump Greedy
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | Jump Game | Amazon, Microsoft, Google, Meta | [LeetCode 55](https://leetcode.com/problems/jump-game/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/greedy/05_jump_game.py) |
+| 1 | Jump Game | Amazon, Microsoft, Google, Meta | [LeetCode 55](https://leetcode.com/problems/jump-game/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/greedy/05_jump_game.py) |
 
 ### Questions
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | Jump Game II | Amazon, Microsoft, Google, Meta | [LeetCode 45](https://leetcode.com/problems/jump-game-ii/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/greedy/06_jump_game_ii.py) |
+| 1 | Jump Game II | Amazon, Microsoft, Google, Meta | [LeetCode 45](https://leetcode.com/problems/jump-game-ii/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/greedy/06_jump_game_ii.py) |
 | 2 | Gas Station | Amazon, Microsoft, Google | [LeetCode 134](https://leetcode.com/problems/gas-station/) | 🔲 TODO - not built yet (07_gas_station.py) |
 
 -------
@@ -86,7 +86,7 @@
 ### Concept Set 3 (Do in order) - Sorting-Based Greedy
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | Assign Cookies | Amazon, Microsoft | [LeetCode 455](https://leetcode.com/problems/assign-cookies/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/greedy/08_assign_cookies.py) |
+| 1 | Assign Cookies | Amazon, Microsoft | [LeetCode 455](https://leetcode.com/problems/assign-cookies/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/greedy/08_assign_cookies.py) |
 | 2 | Partition Labels | Amazon, Microsoft, Google | [LeetCode 763](https://leetcode.com/problems/partition-labels/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/greedy/10_partition_labels.py) |
 
 ### Questions

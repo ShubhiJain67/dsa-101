@@ -88,7 +88,7 @@
 ### Concept Set 1 (Do in order) - Top-K Pattern
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | Kth Largest Element in an Array | Amazon, Microsoft, Google, Meta | [LeetCode 215](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [Python](https://github.com/ShubhiJain67/interview-prepration-101/blob/main/heaps/01_kth_largest_element_in_array.py) |
+| 1 | Kth Largest Element in an Array | Amazon, Microsoft, Google, Meta | [LeetCode 215](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/heaps/01_kth_largest_element_in_array.py) |
 
 ### Questions
 | # | Problem | Companies | Question | Solution |
