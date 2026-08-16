@@ -583,7 +583,6 @@ graph -       spanning trees -
 | # | Problem | Companies | GFG | Solution |
 |---|---------|-----------|-----|----------|
 | 1 | Valid Arrangement of Pairs | - | [Link](https://leetcode.com/problems/valid-arrangement-of-pairs) | 🔲 TODO - not built yet (48_valid_arrangement_of_pairs_euler.py) |
-| 2 | Find Minimum Diameter After Merging Two Trees | - | [Link](https://leetcode.com/problems/find-minimum-diameter-after-merging-two-trees/description/) | 🔲 TODO - not built yet (49_minimum_diameter_after_merging_2_trees.py) |
 
 ---------
 
@@ -647,6 +646,11 @@ graph -       spanning trees -
 | 3 | Lowest Common Ancestor (Basic, then re-solve with Binary Lifting) | Google, Amazon, Meta | [Link](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | 🔲 TODO - not built yet (66_lca_binary_lifting.py) |
 | 4 | Kth Ancestor of a Tree Node (Binary Lifting) | Google, Amazon | [Link](https://leetcode.com/problems/kth-ancestor-of-a-tree-node/) | 🔲 TODO - not built yet (67_kth_ancestor_binary_lifting.py) |
 | 5 | Sum of Distances in Tree (Rerooting) | Google | [Link](https://leetcode.com/problems/sum-of-distances-in-tree/) | 🔲 TODO - not built yet (68_sum_of_distances_in_tree_rerooting.py) |
+
+### Practice Set 11
+| # | Problem | Companies | GFG | Solution |
+|---|---------|-----------|-----|----------|
+| 1 | Find Minimum Diameter After Merging Two Trees | - | [Link](https://leetcode.com/problems/find-minimum-diameter-after-merging-two-trees/description/) | 🔲 TODO - not built yet (49_minimum_diameter_after_merging_2_trees.py) |
 
 ---------
 

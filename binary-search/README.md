@@ -110,9 +110,8 @@
 ### Questions
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | Search in Rotated Sorted Array II (With Duplicates) | Amazon, Microsoft | [LeetCode 81](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) | [Pyhton](https://github.com/ShubhiJain67/dsa-101/blob/main/binary-search/06_search_in_rotated_sorted_array_ii.py) |
+| 1 | Search in Rotated Sorted Array II (With Duplicates) | Amazon, Microsoft | [LeetCode 81](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/binary-search/06_search_in_rotated_sorted_array_ii.py) |
 | 2 | Find Minimum in Rotated Sorted Array | Amazon, Microsoft, Google | [LeetCode 153](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [Python](https://github.com/ShubhiJain67/dsa-101/tree/main/binary-search) |
-| 3 | Find Peak Element | Amazon, Microsoft, Google | [LeetCode 162](https://leetcode.com/problems/find-peak-element/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/binary-search/08_find_peak_element.py) |
 
 -------
 
@@ -127,7 +126,20 @@
 | 1 | Capacity To Ship Packages Within D Days | Amazon, Microsoft, Google | [LeetCode 1011](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/binary-search/10_capacity_to_ship_packages.py) |
 | 2 | Split Array Largest Sum | Amazon, Google | [LeetCode 410](https://leetcode.com/problems/split-array-largest-sum/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/binary-search/11_split_array_largest_sum.py) |
 | 3 | Minimum Number of Days to Make m Bouquets | Amazon, Google | [LeetCode 1482](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/binary-search/12_minimum_days_to_make_bouquets.py) |
-| 4 | Median of Two Sorted Arrays (Hard) | Amazon, Microsoft, Google, Meta | [LeetCode 4](https://leetcode.com/problems/median-of-two-sorted-arrays/) | 🔲 TODO - not built yet (13_median_of_two_sorted_arrays.py) |
+
+-------
+
+### Concept Set 4 (Do in order) - Peak Finding (Slope-Direction Search)
+| # | Problem | Companies | Question | Solution |
+|---|---------|-----------|-----|----------|
+| 1 | Find Peak Element | Amazon, Microsoft, Google | [LeetCode 162](https://leetcode.com/problems/find-peak-element/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/binary-search/08_find_peak_element.py) |
+
+-------
+
+### Concept Set 5 (Do in order) - Partition-Based Binary Search (Hard)
+| # | Problem | Companies | Question | Solution |
+|---|---------|-----------|-----|----------|
+| 1 | Median of Two Sorted Arrays (Hard) | Amazon, Microsoft, Google, Meta | [LeetCode 4](https://leetcode.com/problems/median-of-two-sorted-arrays/) | 🔲 TODO - not built yet (13_median_of_two_sorted_arrays.py) |
 
 ---------
 

@@ -101,6 +101,11 @@
 - **Balanced Binary Tree check**: at each node, the height difference between left and right subtrees must be <= 1, AND both subtrees must themselves be balanced - compute height and check balance in the SAME postorder pass (return -1 as a sentinel the moment imbalance is found, to short-circuit instead of wastefully continuing)
 - KEYWORDS - "same tree", "mirror/symmetric tree", "subtree of another tree", "is this tree height-balanced"
 
+### Ancestor Queries (Basic)
+- **Lowest Common Ancestor (recursive, single query)**: DFS from the root - if the current node IS one of the 2 targets, return it immediately (don't look further down that branch). Otherwise recurse into both children; if BOTH sides return a non-null result, the current node IS the LCA (the 2 targets are in different subtrees); if only 1 side returns non-null, propagate that result up
+- This is NOT the same as the graph-theory LCA techniques (Binary Lifting, Euler Tour + Sparse Table) - those are for REPEATED queries on a static tree at scale, see graphs/README.md - Tree-on-Graph Techniques for those
+- KEYWORDS - "lowest common ancestor", single/one-off query on a general binary tree
+
 ### Views of a Binary Tree
 - **Top View / Bottom View**: assign each node a horizontal distance (HD) relative to root (`root = 0`, `left child = HD-1`, `right child = HD+1`), do a level-order (BFS) traversal, and for each HD keep only the FIRST node seen (top view) or the LAST node seen (bottom view)
 - **Left View / Right View**: level-order traversal, keep only the FIRST node (left view) or LAST node (right view) encountered AT EACH DEPTH/level
@@ -223,7 +228,6 @@
 | 1 | Same Tree | Amazon, Microsoft | [LeetCode 100](https://leetcode.com/problems/same-tree/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/trees/20_same_tree.py) |
 | 2 | Symmetric Tree | Amazon, Microsoft, Google | [LeetCode 101](https://leetcode.com/problems/symmetric-tree/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/trees/19_symmetric_tree.py) |
 | 3 | Subtree of Another Tree | Amazon, Microsoft, Google | [LeetCode 572](https://leetcode.com/problems/subtree-of-another-tree/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/trees/21_subtree_of_another_tree.py) |
-| 4 | Lowest Common Ancestor of a Binary Tree | Amazon, Microsoft, Google, Meta | [LeetCode 236](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/trees/35_lca_of_binary_tree.py) |
 
 -------
 
@@ -271,6 +275,14 @@
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
 | 1 | Minimum Time to Burn a Binary Tree from a Given Node | Amazon, Google, Microsoft | [GFG](https://www.geeksforgeeks.org/problems/burning-tree/1) | 🔲 TODO - not built yet (40_minimum_time_to_burn_binary_tree.py) |
+
+---------
+
+### Concept Set 10 (Do in order) - Ancestor Queries (Basic)
+- This is the BASIC recursive LCA - for the advanced binary-lifting / sparse-table version (needed for repeated queries at scale), see graphs/README.md - Tree-on-Graph Techniques
+| # | Problem | Companies | Question | Solution |
+|---|---------|-----------|-----|----------|
+| 1 | Lowest Common Ancestor of a Binary Tree | Amazon, Microsoft, Google, Meta | [LeetCode 236](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/trees/35_lca_of_binary_tree.py) |
 
 ---------
 

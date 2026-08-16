@@ -52,6 +52,11 @@
 - **Task Scheduler / Reorganize String**: these are greedy IN COMBINATION with a heap (always place the currently-most-frequent remaining item first) - see heaps/README.md for the full mechanic, listed here as a cross-reference since the core idea ("greedily use up the most constrained resource first") is a greedy principle even though the implementation needs a heap
 - KEYWORDS - "assign/match to minimize/maximize satisfaction", "candy distribution by rating", "partition into as many parts as possible"
 
+### Deadline Scheduling
+- Different from Interval Scheduling above - here each job has a PROFIT and a DEADLINE (not a start/end time), and the goal is to pick the subset of jobs that maximizes total profit while respecting deadlines, at most 1 job per time slot
+- **Job Sequencing**: sort jobs by profit DESCENDING (greedily prefer the most valuable jobs first), then for each job try to place it in the LATEST available free slot at or before its deadline (scanning from `deadline` down to 1) - placing late keeps earlier slots open for jobs with tighter deadlines. A DSU over slots (with path compression) speeds up "find latest free slot" to near O(1) instead of a linear scan
+- KEYWORDS - "jobs with profit and deadline", "maximize profit, 1 job per time slot", "schedule to maximize total value"
+
 ---------
 
 ## Practice Questions
@@ -68,7 +73,6 @@
 | 1 | Insert Interval | Amazon, Microsoft, Google, Meta | [LeetCode 57](https://leetcode.com/problems/insert-interval/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/greedy/02_insert_interval.py) |
 | 2 | Meeting Rooms (Can Attend All) | Amazon, Microsoft, Meta | [LeetCode 252](https://leetcode.com/problems/meeting-rooms/) | 🔲 TODO - not built yet (04_meeting_rooms.py) |
 | 3 | Minimum Number of Platforms Required | Amazon, Microsoft, Ola | [GFG](https://www.geeksforgeeks.org/problems/minimum-platforms-1587115620/1) | 🔲 TODO - not built yet (11_minimum_platforms.py) |
-| 4 | Job Sequencing Problem | Amazon, Microsoft, Google | [GFG](https://www.geeksforgeeks.org/problems/job-sequencing-problem-1587115620/1) | 🔲 TODO - not built yet (12_job_sequencing.py) |
 
 -------
 
@@ -96,6 +100,13 @@
 |---|---------|-----------|-----|----------|
 | 1 | Candy | Amazon, Microsoft, Google | [LeetCode 135](https://leetcode.com/problems/candy/) | 🔲 TODO - not built yet (09_candy.py) |
 | 2 | Task Scheduler (cross-ref: Greedy + Heap) | Amazon, Meta, Google | [LeetCode 621](https://leetcode.com/problems/task-scheduler/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/heaps/07_task_scheduler.py) |
+
+-------
+
+### Concept Set 4 (Do in order) - Deadline Scheduling
+| # | Problem | Companies | Question | Solution |
+|---|---------|-----------|-----|----------|
+| 1 | Job Sequencing Problem | Amazon, Microsoft, Google | [GFG](https://www.geeksforgeeks.org/problems/job-sequencing-problem-1587115620/1) | 🔲 TODO - not built yet (12_job_sequencing.py) |
 
 ---------
 

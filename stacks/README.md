@@ -126,7 +126,6 @@
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
 | 1 | Evaluate Reverse Polish Notation | Amazon, Microsoft, Google | [LeetCode 150](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/stacks/18_evaluate_reverse_polish_notation.py) |
-| 2 | Decode String | Amazon, Microsoft, Google, Meta | [LeetCode 394](https://leetcode.com/problems/decode-string/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/stacks/11_decode_string.py) |
 
 -------
 
@@ -140,6 +139,13 @@
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
 | 1 | Implement Stack using Queues | Amazon, Microsoft | [LeetCode 225](https://leetcode.com/problems/implement-stack-using-queues/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/stacks/17_implement_stack_using_queues.py) |
+
+-------
+
+### Concept Set 5 (Do in order) - Nested Encoded Strings
+| # | Problem | Companies | Question | Solution |
+|---|---------|-----------|-----|----------|
+| 1 | Decode String | Amazon, Microsoft, Google, Meta | [LeetCode 394](https://leetcode.com/problems/decode-string/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/stacks/11_decode_string.py) |
 
 ---------
 
