@@ -603,9 +603,9 @@ graph -       spanning trees -
 ### Concepts Set 7 (Do in order) - Bidirectional BFS, Implicit Graph BFS, Weighted DSU
 | # | Problem | Companies | GFG | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | Word Ladder (BFS) | Amazon, Google, Meta | [Link](https://leetcode.com/problems/word-ladder/) | 🔲 TODO - not built yet (54_word_ladder_bfs.py) |
+| 1 | Word Ladder (BFS) | Amazon, Google, Meta | [Link](https://leetcode.com/problems/word-ladder/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/graphs/54_word_ladder_bfs.py) |
 | 2 | Word Ladder (Bidirectional BFS) | Amazon, Google, Meta | [Link](https://leetcode.com/problems/word-ladder/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/graphs/55_word_ladder_bidirectional_bfs.py) |
-| 3 | Evaluate Division (Weighted DSU) | Google, Amazon | [Link](https://leetcode.com/problems/evaluate-division/) | 🔲 TODO - not built yet (56_evaluate_division_weighted_dsu.py) |
+| 3 | Evaluate Division (Weighted DSU) | Google, Amazon | [Link](https://leetcode.com/problems/evaluate-division/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/graphs/56_evaluate_division_weighted_dsu.py) |
 
 ---------
 

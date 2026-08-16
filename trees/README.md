@@ -183,9 +183,9 @@
 | 1 | Insert into a Binary Search Tree | Amazon, Microsoft | [LeetCode 701](https://leetcode.com/problems/insert-into-a-binary-search-tree/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/trees/07_insert_into_bst.py) |
 | 2 | Delete Node in a BST | Amazon, Microsoft, Google | [LeetCode 450](https://leetcode.com/problems/delete-node-in-a-bst/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/trees/08_delete_node_in_bst.py) |
 | 3 | Kth Smallest Element in a BST | Amazon, Microsoft, Google | [LeetCode 230](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/trees/09_kth_smallest_in_bst.py) |
-| 4 | Convert BST to Sorted Doubly Linked List | Amazon, Google, Microsoft | [LeetCode 426](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/) | 🔲 TODO - not built yet (10_bst_to_sorted_doubly_linked_list.py) |
+| 4 | Convert BST to Sorted Doubly Linked List | Amazon, Google, Microsoft | [LeetCode 426](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/trees/10_bst_to_sorted_doubly_linked_list.py) |
 | 5 | Lowest Common Ancestor of a BST | Amazon, Microsoft, Google | [LeetCode 235](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/trees/34_lca_of_bst.py) |
-| 6 | Largest BST in Binary Tree | Amazon, Google, Microsoft | [GFG](https://www.geeksforgeeks.org/problems/largest-bst/1) | 🔲 TODO - not built yet (39_largest_bst_in_binary_tree.py) |
+| 6 | Largest BST in Binary Tree | Amazon, Google, Microsoft | [GFG](https://www.geeksforgeeks.org/problems/largest-bst/1) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/trees/39_largest_bst_in_binary_tree.py) |
 
 -------
 
@@ -254,7 +254,7 @@
 ### Questions
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | Word Search II (Trie + Backtracking) | Amazon, Microsoft, Google, Meta | [LeetCode 212](https://leetcode.com/problems/word-search-ii/) | 🔲 TODO - not built yet (30_word_search_ii_trie_backtracking.py) |
+| 1 | Word Search II (Trie + Backtracking) | Amazon, Microsoft, Google, Meta | [LeetCode 212](https://leetcode.com/problems/word-search-ii/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/trees/30_word_search_ii_trie_backtracking.py) |
 | 2 | Longest Word in Dictionary | Amazon, Google | [LeetCode 720](https://leetcode.com/problems/longest-word-in-dictionary/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/trees/31_longest_word_in_dictionary.py) |
 
 -------
@@ -274,7 +274,7 @@
 ### Concept Set 9 (Do in order) - Multi-Source BFS on Trees
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | Minimum Time to Burn a Binary Tree from a Given Node | Amazon, Google, Microsoft | [GFG](https://www.geeksforgeeks.org/problems/burning-tree/1) | 🔲 TODO - not built yet (40_minimum_time_to_burn_binary_tree.py) |
+| 1 | Minimum Time to Burn a Binary Tree from a Given Node | Amazon, Google, Microsoft | [GFG](https://www.geeksforgeeks.org/problems/burning-tree/1) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/trees/40_minimum_time_to_burn_binary_tree.py) |
 
 ---------
 
