@@ -84,7 +84,7 @@
 |---|---------|-----------|-----|----------|
 | 1 | Longest Repeating Character Replacement | Amazon, Microsoft, Google | [LeetCode 424](https://leetcode.com/problems/longest-repeating-character-replacement/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/sliding-window/05_longest_repeating_character_replacement.py) |
 | 2 | Fruit Into Baskets | Amazon, Google | [LeetCode 904](https://leetcode.com/problems/fruit-into-baskets/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/sliding-window/06_fruit_into_baskets.py) |
-| 3 | Longest Substring with At Most K Distinct Characters | Amazon, Google, Meta | [LeetCode 340](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/) | 🔲 TODO - not built yet (07_longest_substring_at_most_k_distinct.py) |
+| 3 | Longest Substring with At Most K Distinct Characters | Amazon, Google, Meta | [LeetCode 340](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/sliding-window/07_longest_substring_at_most_k_distinct.py) |
 | 4 | Minimum Size Subarray Sum | Amazon, Microsoft, Google | [LeetCode 209](https://leetcode.com/problems/minimum-size-subarray-sum/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/sliding-window/08_minimum_size_subarray_sum.py) |
 
 -------
@@ -97,7 +97,7 @@
 ### Questions
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | Substring with Concatenation of All Words | Amazon, Microsoft, Google | [LeetCode 30](https://leetcode.com/problems/substring-with-concatenation-of-all-words/) | 🔲 TODO - not built yet (10_substring_concatenation_of_all_words.py) |
+| 1 | Substring with Concatenation of All Words | Amazon, Microsoft, Google | [LeetCode 30](https://leetcode.com/problems/substring-with-concatenation-of-all-words/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/sliding-window/10_substring_concatenation_of_all_words.py) |
 | 2 | Sliding Window Maximum (cross-ref: Monotonic Deque, not pure window) | Amazon, Google, Meta | [LeetCode 239](https://leetcode.com/problems/sliding-window-maximum/) | see heaps/README.md and stacks/README.md |
 | 3 | Sliding Window Median (cross-ref: Two Heaps) | Google, Amazon | [LeetCode 480](https://leetcode.com/problems/sliding-window-median/) | see heaps/README.md |
 

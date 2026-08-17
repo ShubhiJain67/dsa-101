@@ -111,7 +111,7 @@
 | 2 | Trapping Rain Water (Stack Approach) | Amazon, Microsoft, Google, Meta | [LeetCode 42](https://leetcode.com/problems/trapping-rain-water/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/stacks/07_trapping_rain_water_stack.py) |
 | 3 | Stock Span Problem | Amazon, Microsoft | [GFG](https://www.geeksforgeeks.org/problems/stock-span-problem-1587115621/1) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/stacks/08_stock_span_problem.py) |
 | 4 | Remove K Digits | Amazon, Google | [LeetCode 402](https://leetcode.com/problems/remove-k-digits/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/stacks/14_remove_k_digits.py) |
-| 5 | Remove Duplicate Letters | Amazon, Google, Microsoft | [LeetCode 316](https://leetcode.com/problems/remove-duplicate-letters/) | 🔲 TODO - not built yet (15_remove_duplicate_letters.py) |
+| 5 | Remove Duplicate Letters | Amazon, Google, Microsoft | [LeetCode 316](https://leetcode.com/problems/remove-duplicate-letters/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/stacks/15_remove_duplicate_letters.py) |
 | 6 | Asteroid Collision | Amazon, Google | [LeetCode 735](https://leetcode.com/problems/asteroid-collision/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/stacks/13_asteroid_collision.py) |
 
 -------

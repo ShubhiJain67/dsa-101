@@ -335,7 +335,7 @@ Choice - for each pair of indices (i, j), does s1[i] match s2[j] or not
 ### Questions
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | Binary Tree Maximum Path Sum | Amazon, Microsoft, Meta | [LeetCode 124](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | 🔲 TODO - not built yet (47_binary_tree_maximum_path_sum.py) |
+| 1 | Binary Tree Maximum Path Sum | Amazon, Microsoft, Meta | [LeetCode 124](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/dynamic-programming/47_binary_tree_maximum_path_sum.py) |
 
 -------
 
