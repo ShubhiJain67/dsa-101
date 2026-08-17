@@ -85,7 +85,7 @@
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
 | 1 | Jump Game II | Amazon, Microsoft, Google, Meta | [LeetCode 45](https://leetcode.com/problems/jump-game-ii/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/greedy/06_jump_game_ii.py) |
-| 2 | Gas Station | Amazon, Microsoft, Google | [LeetCode 134](https://leetcode.com/problems/gas-station/) | 🔲 TODO - not built yet (07_gas_station.py) |
+| 2 | Gas Station | Amazon, Microsoft, Google | [LeetCode 134](https://leetcode.com/problems/gas-station/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/greedy/07_gas_station.py) |
 
 -------
 
