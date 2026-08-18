@@ -98,7 +98,7 @@
 ### Questions
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | Candy | Amazon, Microsoft, Google | [LeetCode 135](https://leetcode.com/problems/candy/) | 🔲 TODO - not built yet (09_candy.py) |
+| 1 | Candy | Amazon, Microsoft, Google | [LeetCode 135](https://leetcode.com/problems/candy/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/greedy/09_candy.py) |
 | 2 | Task Scheduler (cross-ref: Greedy + Heap) | Amazon, Meta, Google | [LeetCode 621](https://leetcode.com/problems/task-scheduler/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/heaps/07_task_scheduler.py) |
 
 -------
@@ -106,7 +106,7 @@
 ### Concept Set 4 (Do in order) - Deadline Scheduling
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | Job Sequencing Problem | Amazon, Microsoft, Google | [GFG](https://www.geeksforgeeks.org/problems/job-sequencing-problem-1587115620/1) | 🔲 TODO - not built yet (12_job_sequencing.py) |
+| 1 | Job Sequencing Problem | Amazon, Microsoft, Google | [GFG](https://www.geeksforgeeks.org/problems/job-sequencing-problem-1587115620/1) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/greedy/12_job_sequencing.py) |
 
 ---------
 

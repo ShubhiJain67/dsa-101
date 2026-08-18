@@ -120,7 +120,7 @@
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
 | 1 | Basic Calculator | Amazon, Microsoft, Google | [LeetCode 224](https://leetcode.com/problems/basic-calculator/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/stacks/09_basic_calculator_i.py) |
-| 2 | Basic Calculator II | Amazon, Microsoft, Google | [LeetCode 227](https://leetcode.com/problems/basic-calculator-ii/) | 🔲 TODO - not built yet (10_basic_calculator_ii.py) |
+| 2 | Basic Calculator II | Amazon, Microsoft, Google | [LeetCode 227](https://leetcode.com/problems/basic-calculator-ii/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/stacks/10_basic_calculator_ii.py) |
 
 ### Questions
 | # | Problem | Companies | Question | Solution |

@@ -135,7 +135,7 @@
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
 | 1 | Remove Nth Node From End of List | Amazon, Microsoft, Meta | [LeetCode 19](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/linked-list/09_remove_nth_node_from_end.py) |
-| 2 | Palindrome Linked List | Amazon, Microsoft, Google | [LeetCode 234](https://leetcode.com/problems/palindrome-linked-list/) | 🔲 TODO - not built yet (10_palindrome_linked_list.py) |
+| 2 | Palindrome Linked List | Amazon, Microsoft, Google | [LeetCode 234](https://leetcode.com/problems/palindrome-linked-list/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/linked-list/10_palindrome_linked_list.py) |
 | 3 | Intersection of Two Linked Lists | Amazon, Microsoft, Google | [LeetCode 160](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/linked-list/11_intersection_of_two_linked_lists.py) |
 | 4 | Reorder List | Amazon, Google, Meta | [LeetCode 143](https://leetcode.com/problems/reorder-list/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/linked-list/12_reorder_list.py) |
 
@@ -152,7 +152,7 @@
 |---|---------|-----------|-----|----------|
 | 1 | Sort List | Amazon, Microsoft, Google | [LeetCode 148](https://leetcode.com/problems/sort-list/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/linked-list/18_sort_list.py) |
 | 2 | Odd Even Linked List | Amazon, Microsoft | [LeetCode 328](https://leetcode.com/problems/odd-even-linked-list/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/linked-list/13_odd_even_linked_list.py) |
-| 3 | Partition List | Amazon, Microsoft | [LeetCode 86](https://leetcode.com/problems/partition-list/) | 🔲 TODO - not built yet (14_partition_list.py) |
+| 3 | Partition List | Amazon, Microsoft | [LeetCode 86](https://leetcode.com/problems/partition-list/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/linked-list/14_partition_list.py) |
 | 4 | Rotate List | Amazon, Microsoft | [LeetCode 61](https://leetcode.com/problems/rotate-list/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/linked-list/15_rotate_list.py) |
 | 5 | Add Two Numbers | Amazon, Microsoft, Google, Meta | [LeetCode 2](https://leetcode.com/problems/add-two-numbers/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/linked-list/17_add_two_numbers.py) |
 
@@ -167,7 +167,7 @@
 ### Questions
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | LFU Cache | Amazon, Google | [LeetCode 460](https://leetcode.com/problems/lfu-cache/) | 🔲 TODO - not built yet (20_lfu_cache.py) |
+| 1 | LFU Cache | Amazon, Google | [LeetCode 460](https://leetcode.com/problems/lfu-cache/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/linked-list/20_lfu_cache.py) |
 | 2 | Flatten a Multilevel Doubly Linked List | Amazon, Microsoft, Google | [LeetCode 430](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/linked-list/22_flatten_multilevel_doubly_linked_list.py) |
 
 ---------
