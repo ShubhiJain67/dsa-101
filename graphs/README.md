@@ -641,9 +641,9 @@ graph -       spanning trees -
 ### Concepts Set 11 (Do in order) - Tree Diameter, LCA, Rerooting
 | # | Problem | Companies | GFG | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | Diameter of Binary Tree | Amazon, Microsoft, Google | [Link](https://leetcode.com/problems/diameter-of-binary-tree/) | 🔲 TODO - not built yet (64_diameter_of_binary_tree.py) |
-| 2 | Diameter of N-ary Tree | Google, Amazon | [Link](https://www.geeksforgeeks.org/problems/diameter-of-n-ary-tree/1) | 🔲 TODO - not built yet (65_diameter_of_n_ary_tree.py) |
-| 3 | Lowest Common Ancestor (Basic, then re-solve with Binary Lifting) | Google, Amazon, Meta | [Link](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | 🔲 TODO - not built yet (66_lca_binary_lifting.py) |
+| 1 | Diameter of Binary Tree | Amazon, Microsoft, Google | [Link](https://leetcode.com/problems/diameter-of-binary-tree/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/graphs/64_diameter_of_binary_tree.py) |
+| 2 | Diameter of N-ary Tree | Google, Amazon | [Link](https://leetcode.com/problems/diameter-of-n-ary-tree/description/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/graphs/65_diameter_of_n_ary_tree.py) |
+| 3 | Lowest Common Ancestor (Basic, then re-solve with Binary Lifting) | Google, Amazon, Meta | [Link](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/graphs/66_lca_binary_lifting.py) |
 | 4 | Kth Ancestor of a Tree Node (Binary Lifting) | Google, Amazon | [Link](https://leetcode.com/problems/kth-ancestor-of-a-tree-node/) | 🔲 TODO - not built yet (67_kth_ancestor_binary_lifting.py) |
 | 5 | Sum of Distances in Tree (Rerooting) | Google | [Link](https://leetcode.com/problems/sum-of-distances-in-tree/) | 🔲 TODO - not built yet (68_sum_of_distances_in_tree_rerooting.py) |
 

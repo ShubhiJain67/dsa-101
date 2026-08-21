@@ -315,22 +315,21 @@ Choice - for each pair of indices (i, j), does s1[i] match s2[j] or not
 ### Concept (Interval DP / Matrix Chain Multiplication / Partition DP)
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | Matrix Chain Multiplication | Amazon, Microsoft | [GFG](https://www.geeksforgeeks.org/problems/matrix-chain-multiplication0303/1) | 🔲 TODO - not built yet (41_matrix_chain_multiplication.py) |
+| 1 | Matrix Chain Multiplication | Amazon, Microsoft | [GFG](https://www.geeksforgeeks.org/problems/matrix-chain-multiplication0303/1) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/dynamic-programming/41_matrix_chain_multiplication.py) |
 
 ### Questions
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
 | 1 | Palindrome Partitioning II (Min Cuts) | Amazon, Google | [LeetCode 132](https://leetcode.com/problems/palindrome-partitioning-ii/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/dynamic-programming/42_palindrome_partitioning_ii_min_cuts.py) |
-| 2 | Burst Balloons | Google, Amazon | [LeetCode 312](https://leetcode.com/problems/burst-balloons/) | 🔲 TODO - not built yet (43_burst_balloons.py) |
-| 3 | Boolean Parenthesization | Amazon, Microsoft | [GFG](https://www.geeksforgeeks.org/problems/boolean-parenthesization5610/1) | 🔲 TODO - not built yet (44_boolean_parenthesization.py) |
-| 4 | Evaluate Expression to True (Ways to Parenthesize) | Amazon | [GFG](https://www.geeksforgeeks.org/problems/count-the-number-of-ways-to-evaluate-a-boolean-expression-to-true/1) | 🔲 TODO - not built yet (45_evaluate_expression_to_true.py) |
+| 2 | Burst Balloons | Google, Amazon | [LeetCode 312](https://leetcode.com/problems/burst-balloons/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/dynamic-programming/43_burst_balloons.py) |
+| 3 | Boolean Parenthesization | Amazon, Microsoft | [GFG](https://www.geeksforgeeks.org/problems/boolean-parenthesization5610/1) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/dynamic-programming/44_boolean_parenthesization.py) |
 
 -------
 
 ### Concept (DP on Trees)
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | House Robber III (Tree) | Amazon, Microsoft, Google | [LeetCode 337](https://leetcode.com/problems/house-robber-iii/) | [Python(https://github.com/ShubhiJain67/dsa-101/blob/main/dynamic-programming/46_house_robber_iii_tree.py)] |
+| 1 | House Robber III (Tree) | Amazon, Microsoft, Google | [LeetCode 337](https://leetcode.com/problems/house-robber-iii/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/dynamic-programming/46_house_robber_iii_tree.py) |
 
 ### Questions
 | # | Problem | Companies | Question | Solution |
