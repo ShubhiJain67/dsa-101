@@ -6,7 +6,8 @@ class Solution:
         # memo = [[None]*len(arr) for _ in range(len(arr))]
         # return self.minOpMemo(arr, 0, len(arr) - 1, memo)
         
-        return self.minOpDP(arr)
+        # return self.minOpDP(arr)
+        return self.minOpDPV2(arr)
 
     def minOp(self, arr, low, high):
         if low + 1 == high:
@@ -60,6 +61,27 @@ class Solution:
             
                         minOperations = min(minOperations, cost)
                 memo[low][high] = minOperations
+        print(memo)
         return memo[0][len(arr)-1]
         
-          
+    def minOpDPV2(self, arr):
+        memo = [[0]*len(arr) for size in range(len(arr))]
+        for length in range(2, len(arr)):
+            for low in range(len(arr) - length):
+                high = low + length
+                minOperations = math.inf
+                if low + 1 == high:
+                    minOperations = 0
+                else:
+                    for part in range(low+1, high):
+                        cost = (
+                            memo[low][part]
+                            + memo[part][high]
+                            + arr[low] * arr[part] * arr[high]
+                        )
+            
+                        minOperations = min(minOperations, cost)
+                memo[low][high] = minOperations
+        return memo[0][len(arr)-1]
+        
+        
