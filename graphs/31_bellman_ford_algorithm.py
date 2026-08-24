@@ -3,10 +3,14 @@ class Solution:
     def bellmanFord(self, V, edges, src):
         minDist = [math.inf] * V
         minDist[src] = 0
-        for i in range(V - 1):
+        for _ in range(V - 1):
+            updated = False
             for start, end, weight in edges:
-                if weight + minDist[start] < minDist[end]:
-                    minDist[end] = weight + minDist[start]
+                if minDist[start] + weight < minDist[end]:
+                    minDist[end] = minDist[start] + weight
+                    updated = True
+                if not updated:
+                    break
         for start, end, weight in edges:
             if weight + minDist[start] < minDist[end]:
                 return [-1]

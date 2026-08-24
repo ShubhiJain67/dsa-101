@@ -265,7 +265,7 @@ Choice - for each pair of indices (i, j), does s1[i] match s2[j] or not
 | 8 | Longest Palindromic Substring | Amazon, Microsoft | [LeetCode 5](https://leetcode.com/problems/longest-palindromic-substring/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/dynamic-programming/24_longest_palindromic_substring.py) |
 | 9 | Count Palindromic Substrings | Amazon | [LeetCode 647](https://leetcode.com/problems/palindromic-substrings/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/dynamic-programming/25_count_palindromic_substrings.py) |
 | 10 | Minimum Deletions to Make a String Palindrome | Microsoft | [GFG](https://www.geeksforgeeks.org/problems/minimum-deletitions1648/1) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/dynamic-programming/26_min_deletions_to_make_palindrome.py) |
-| 11 | Minimum Insertions to Make a String Palindrome | Google | [LeetCode 1312](https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/) | 🔲 TODO - not built yet (27_min_insertions_to_make_palindrome.py) |
+| 11 | Minimum Insertions to Make a String Palindrome | Google | [LeetCode 1312](https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/dynamic-programming/27_min_insertions_to_make_palindrome.py) |
 
 -------
 
@@ -288,7 +288,7 @@ Choice - for each pair of indices (i, j), does s1[i] match s2[j] or not
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
 | 1 | Longest Increasing Subsequence (O(n^2) DP) | Amazon, Microsoft, Google | [LeetCode 300](https://leetcode.com/problems/longest-increasing-subsequence/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/dynamic-programming/33_longest_increasing_subsequence.py) |
-| 2 | Longest Increasing Subsequence (O(n log n) Binary Search) | Amazon, Microsoft, Google | [LeetCode 300](https://leetcode.com/problems/longest-increasing-subsequence/) | 🔲 TODO - not built yet (34_longest_increasing_subsequence_binary_search.py) |
+| 2 | Longest Increasing Subsequence (O(n log n) Binary Search) | Amazon, Microsoft, Google | [LeetCode 300](https://leetcode.com/problems/longest-increasing-subsequence/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/dynamic-programming/36_maximum_sum_increasing_subsequence.py) |
 
 ### Questions
 | # | Problem | Companies | Question | Solution |
