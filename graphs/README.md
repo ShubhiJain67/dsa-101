@@ -589,7 +589,7 @@ graph -       spanning trees -
 ### Concepts Set 6 (Do in order) - Bridges, Articulation Points, Tarjan's SCC
 | # | Problem | Companies | GFG | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | Bridges in Graph | Google, Amazon | [Link](https://www.geeksforgeeks.org/problems/bridge-edge-in-graph/1) | 🔲 TODO - not built yet (50_bridges_in_graph.py) |
+| 1 | Bridges in Graph | Google, Amazon | [Link](https://www.geeksforgeeks.org/problems/bridge-edge-in-graph/1) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/graphs/50_bridges_in_graph.py) |
 | 2 | Articulation Points | Google, Amazon, Microsoft | [Link](https://www.geeksforgeeks.org/problems/articulation-point-1/1) | 🔲 TODO - not built yet (51_articulation_points.py) |
 | 3 | Strongly Connected Components (Tarjan's Algorithm) | Google, Amazon | [Link](https://www.geeksforgeeks.org/problems/strongly-connected-components-kosarajus-algo/1) | 🔲 TODO - not built yet (52_scc_tarjans_algorithm.py) |
 
