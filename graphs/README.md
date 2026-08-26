@@ -633,8 +633,8 @@ graph -       spanning trees -
 | # | Problem | Companies | GFG | Solution |
 |---|---------|-----------|-----|----------|
 | 1 | Shortest Path in Directed Acyclic Graph | Amazon, Microsoft | [Link](https://www.geeksforgeeks.org/problems/shortest-path-in-undirected-graph/1) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/graphs/61_shortest_path_in_dag.py) |
-| 2 | Parallel Courses III (Longest Path in a DAG) | Google, Amazon | [Link](https://leetcode.com/problems/parallel-courses-iii/) | 🔲 TODO - not built yet (62_longest_path_in_dag.py) |
-| 3 | Course Schedule IV (Condensation Graph / Reachability) | Amazon, Meta | [Link](https://leetcode.com/problems/course-schedule-iv/) | 🔲 TODO - not built yet (63_course_schedule_iv_condensation.py) |
+| 2 | Parallel Courses III (Longest Path in a DAG) | Google, Amazon | [Link](https://leetcode.com/problems/parallel-courses-iii/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/graphs/62_longest_path_in_dag.py) |
+| 3 | Course Schedule IV (Condensation Graph / Reachability) | Amazon, Meta | [Link](https://leetcode.com/problems/course-schedule-iv/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/graphs/63_course_schedule_iv_condensation.py) |
 
 ---------
 

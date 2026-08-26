@@ -193,7 +193,7 @@
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
 | 1 | Construct Binary Tree from Preorder and Inorder Traversal | Amazon, Microsoft, Google, Meta | [LeetCode 105](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/trees/11_construct_tree_from_preorder_inorder.py) |
-| 2 | Serialize and Deserialize Binary Tree | Amazon, Microsoft, Google, Meta | [LeetCode 297](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | 🔲 TODO - not built yet (13_serialize_deserialize_binary_tree.py) |
+| 2 | Serialize and Deserialize Binary Tree | Amazon, Microsoft, Google, Meta | [LeetCode 297](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/trees/13_serialize_deserialize_binary_tree.py) |
 
 ### Questions
 | # | Problem | Companies | Question | Solution |

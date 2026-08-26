@@ -294,8 +294,7 @@ Choice - for each pair of indices (i, j), does s1[i] match s2[j] or not
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
 | 1 | Longest Bitonic Subsequence | Amazon, Microsoft | [GFG](https://www.geeksforgeeks.org/problems/longest-bitonic-subsequence0824/1) | 🔲 TODO - not built yet (35_longest_bitonic_subsequence.py) |
-| 2 | Maximum Sum Increasing Subsequence | Amazon | [GFG](https://www.geeksforgeeks.org/problems/maximum-sum-increasing-subsequence4749/1) | 🔲 TODO - not built yet (36_maximum_sum_increasing_subsequence.py) |
-| 3 | Russian Doll Envelopes | Google, Amazon | [LeetCode 354](https://leetcode.com/problems/russian-doll-envelopes/) | 🔲 TODO - not built yet (37_russian_doll_envelopes.py) |
+| 2 | Russian Doll Envelopes | Google, Amazon | [LeetCode 354](https://leetcode.com/problems/russian-doll-envelopes/) | 🔲 TODO - not built yet (37_russian_doll_envelopes.py) |
 
 -------
 
