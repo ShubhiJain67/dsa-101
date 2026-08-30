@@ -110,7 +110,7 @@
 ### Questions
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | Palindrome Partitioning | Amazon, Microsoft, Google, Meta | [LeetCode 131](https://leetcode.com/problems/palindrome-partitioning/) | [Python]((https://github.com/ShubhiJain67/dsa-101/blob/main/backtracking/11_palindrome_partitioning.py)) |
+| 1 | Palindrome Partitioning | Amazon, Microsoft, Google, Meta | [LeetCode 131](https://leetcode.com/problems/palindrome-partitioning/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/backtracking/11_palindrome_partitioning.py) |
 | 2 | Restore IP Addresses | Amazon, Microsoft | [LeetCode 93](https://leetcode.com/problems/restore-ip-addresses/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/backtracking/13_restore_ip_addresses.py) |
 
 ---------

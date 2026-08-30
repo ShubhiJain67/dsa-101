@@ -625,7 +625,7 @@ graph -       spanning trees -
 ### Concepts Set 9 (Do in order) - Hamiltonian Path/Cycle
 | # | Problem | Companies | GFG | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | Traveling Salesman Problem (Bitmask DP) | Amazon, Google | [Link](https://www.geeksforgeeks.org/problems/tsp-problem/1) | 🔲 TODO - not built yet (60_tsp_bitmask_dp.py) |
+| 1 | Traveling Salesman Problem (Bitmask DP) | Amazon, Google | [LeetCode 847](https://leetcode.com/problems/shortest-path-visiting-all-nodes/) | 🔲 TODO - not built yet (60_tsp_bitmask_dp.py) |
 
 ---------
 

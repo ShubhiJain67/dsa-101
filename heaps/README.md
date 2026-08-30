@@ -117,7 +117,7 @@
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
 | 1 | Reorganize String | Amazon, Google | [LeetCode 767](https://leetcode.com/problems/reorganize-string/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/heaps/08_reorganize_string.py) |
-| 2 | Ugly Number II | Amazon, Microsoft | `[LeetCode 264](https://leetcode.com/problems/ugly-number-ii/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/heaps/09_ugly_number_ii.py) |
+| 2 | Ugly Number II | Amazon, Microsoft | [LeetCode 264](https://leetcode.com/problems/ugly-number-ii/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/heaps/09_ugly_number_ii.py) |
 | 3 | Meeting Rooms II | Amazon, Microsoft, Google, Meta | [LeetCode 253](https://leetcode.com/problems/meeting-rooms-ii/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/heaps/11_meeting_rooms_ii.py) |
 | 4 | Smallest Range Covering Elements from K Lists | Google, Amazon | [LeetCode 632](https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/heaps/12_smallest_range_covering_elements_from_k_lists.py) |
 | 5 | Sliding Window Maximum (Monotonic Deque, contrast with heap) | Amazon, Google, Meta | [LeetCode 239](https://leetcode.com/problems/sliding-window-maximum/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/heaps/13_sliding_window_maximum_deque.py) |

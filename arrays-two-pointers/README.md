@@ -112,7 +112,7 @@
 ### Questions
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | 3Sum | Amazon, Microsoft, Google, Meta | [LeetCode 15](https://leetcode.com/problems/3sum/) | [Python](https://github.com/ShubhiJain67/dsa-101/tree/main/arrays-two-pointers) |
+| 1 | 3Sum | Amazon, Microsoft, Google, Meta | [LeetCode 15](https://leetcode.com/problems/3sum/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/arrays-two-pointers/03_3sum.py) |
 | 2 | 3Sum Closest | Amazon, Microsoft | [LeetCode 16](https://leetcode.com/problems/3sum-closest/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/arrays-two-pointers/04_3sum_closest.py) |
 | 3 | 4Sum | Amazon, Microsoft | [LeetCode 18](https://leetcode.com/problems/4sum/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/arrays-two-pointers/05_4sum.py) |
 | 4 | Trapping Rain Water (Two-Pointer Approach) | Amazon, Microsoft, Google, Meta | [LeetCode 42](https://leetcode.com/problems/trapping-rain-water/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/arrays-two-pointers/06_trapping_rain_water_two_pointer.py) |

@@ -111,7 +111,7 @@
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
 | 1 | Search in Rotated Sorted Array II (With Duplicates) | Amazon, Microsoft | [LeetCode 81](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/binary-search/06_search_in_rotated_sorted_array_ii.py) |
-| 2 | Find Minimum in Rotated Sorted Array | Amazon, Microsoft, Google | [LeetCode 153](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [Python](https://github.com/ShubhiJain67/dsa-101/tree/main/binary-search) |
+| 2 | Find Minimum in Rotated Sorted Array | Amazon, Microsoft, Google | [LeetCode 153](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/binary-search/07_find_minimum_in_rotated_sorted_array.py) |
 
 -------
 

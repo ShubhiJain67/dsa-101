@@ -64,7 +64,7 @@
 ### Concept Set 1 (Do in order) - Fixed-Size Window
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | Maximum Average Subarray I | Amazon, Microsoft | [LeetCode 643](https://leetcode.com/problems/maximum-average-subarray-i/) | [Python](https://github.com/ShubhiJain67/dsa-101/tree/main/sliding-window) |
+| 1 | Maximum Average Subarray I | Amazon, Microsoft | [LeetCode 643](https://leetcode.com/problems/maximum-average-subarray-i/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/sliding-window/01_maximum_average_subarray.py) |
 
 ### Questions
 | # | Problem | Companies | Question | Solution |
