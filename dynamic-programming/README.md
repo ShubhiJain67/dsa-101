@@ -387,10 +387,10 @@ Choice - for each pair of indices (i, j), does s1[i] match s2[j] or not
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
 | 1 | Best Time to Buy and Sell Stock II (Unlimited Transactions) | Amazon, Microsoft | [LeetCode 122](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/dynamic-programming/59_best_time_to_buy_sell_stock_ii.py) |
-| 2 | Best Time to Buy and Sell Stock III (At Most 2 Transactions) | Amazon, Google | [LeetCode 123](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) | 🔲 TODO - not built yet (60_best_time_to_buy_sell_stock_iii.py) |
-| 3 | Best Time to Buy and Sell Stock IV (At Most K Transactions) | Google, Amazon | [LeetCode 188](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) | 🔲 TODO - not built yet (61_best_time_to_buy_sell_stock_iv.py) |
-| 4 | Best Time to Buy and Sell Stock With Cooldown | Amazon, Google | [LeetCode 309](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | 🔲 TODO - not built yet (62_best_time_to_buy_sell_stock_with_cooldown.py) |
-| 5 | Best Time to Buy and Sell Stock With Transaction Fee | Amazon, Microsoft | [LeetCode 714](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) | 🔲 TODO - not built yet (63_best_time_to_buy_sell_stock_with_fee.py) |
+| 2 | Best Time to Buy and Sell Stock III (At Most 2 Transactions) | Amazon, Google | [LeetCode 123](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/dynamic-programming/60_best_time_to_buy_sell_stock_iii.py) |
+| 3 | Best Time to Buy and Sell Stock IV (At Most K Transactions) | Google, Amazon | [LeetCode 188](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/dynamic-programming/61_best_time_to_buy_sell_stock_iv.py) |
+| 4 | Best Time to Buy and Sell Stock With Cooldown | Amazon, Google | [LeetCode 309](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/dynamic-programming/62_best_time_to_buy_sell_stock_with_cooldown.py) |
+| 5 | Best Time to Buy and Sell Stock With Transaction Fee | Amazon, Microsoft | [LeetCode 714](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/dynamic-programming/63_best_time_to_buy_sell_stock_with_fee.py) |
 
 -------
 
@@ -402,7 +402,7 @@ Choice - for each pair of indices (i, j), does s1[i] match s2[j] or not
 ### Questions
 | # | Problem | Companies | Question | Solution |
 |---|---------|-----------|-----|----------|
-| 1 | Regular Expression Matching | Amazon, Google, Microsoft | [LeetCode 10](https://leetcode.com/problems/regular-expression-matching/) | 🔲 TODO - not built yet (65_regular_expression_matching.py) |
+| 1 | Regular Expression Matching | Amazon, Google, Microsoft | [LeetCode 10](https://leetcode.com/problems/regular-expression-matching/) | [Python](https://github.com/ShubhiJain67/dsa-101/blob/main/dynamic-programming/65_regular_expression_matching.py) |
 
 -------
 
